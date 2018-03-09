@@ -1,7 +1,21 @@
 #include <vector>
+#include <map>
 #include <boost/pending/disjoint_sets.hpp>
 
 using namespace std;
+
+template <class T>
+class AffinityGraphCompare{
+    private:
+        const T * mEdgeWeightArray;
+    public:
+        AffinityGraphCompare(const T * EdgeWeightArray){
+            mEdgeWeightArray = EdgeWeightArray;
+        }
+        bool operator() (const int& ind1, const int& ind2) const {
+            return (mEdgeWeightArray[ind1] > mEdgeWeightArray[ind2]);
+        }
+};
 
 void connected_components_cpp(const int nVert,
                const int nEdge, const uint64_t* node1, const uint64_t* node2, const int* edgeWeight,

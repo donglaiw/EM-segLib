@@ -74,8 +74,8 @@ long *CppForceConnectivity(long *segmentation, long zres, long yres, long xres)
   // create the queue of labels
   std::queue<unsigned long> pixels = std::queue<unsigned long>();
 
-  long current_index = 0;
-  long current_label = 1;
+ unsigned long current_index = 0;
+ unsigned long current_label = 1;
 
   while (current_index < nentries) {
     // set this component and add to the queue
@@ -114,8 +114,8 @@ long *CppForceConnectivity(long *segmentation, long zres, long yres, long xres)
   }
 
   // create a list of mappings
-  long max_segment = 0;
-  long max_component = 0;
+  unsigned long max_segment = 0;
+  unsigned long max_component = 0;
   for (unsigned long iv = 0; iv < nentries; ++iv) {
     if (segmentation[iv] > max_segment) max_segment = segmentation[iv];
     if (components[iv] > max_component) max_component = components[iv];
@@ -124,11 +124,11 @@ long *CppForceConnectivity(long *segmentation, long zres, long yres, long xres)
   max_component++;
 
   std::set<long> *seg2comp = new std::set<long>[max_segment];
-  for (long iv = 0; iv < max_segment; ++iv)
+  for (unsigned long iv = 0; iv < max_segment; ++iv)
     seg2comp[iv] = std::set<long>();
 
   // see if any segments have multiple components
-  for (long iv = 0; iv < nentries; ++iv) {
+  for (unsigned long iv = 0; iv < nentries; ++iv) {
     seg2comp[segmentation[iv]].insert(components[iv]);
   }
 

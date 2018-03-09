@@ -4,7 +4,7 @@ cimport numpy as np
 import ctypes
 import numpy as np
 
-cdef extern from 'cpp/dist/cpp-distance.h':
+cdef extern from 'cpp/seg_dist/cpp-distance.h':
     float *CppTwoDimensionalDistanceTransform(long *segmentation, long resolution[3])
     long *CppDilateData(long *data, long resolution[3], float distance)
 

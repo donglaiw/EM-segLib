@@ -532,13 +532,13 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__segLib__eval
-#define __PYX_HAVE_API__segLib__eval
+#define __PYX_HAVE__segLib__seg_eval
+#define __PYX_HAVE_API__segLib__seg_eval
 #include <string.h>
 #include <stdio.h>
 #include "numpy/arrayobject.h"
 #include "numpy/ufuncobject.h"
-#include "cpp/eval/cpp-comparestacks.h"
+#include "cpp/seg_eval/cpp-comparestacks.h"
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */
@@ -764,7 +764,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "segLib/eval.pyx",
+  "segLib/seg_eval.pyx",
   "__init__.pxd",
   "type.pxd",
 };
@@ -1608,13 +1608,13 @@ static PyTypeObject *__pyx_ptype_5numpy_ndarray = 0;
 static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;
 static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, char *, char *, int *); /*proto*/
 
-/* Module declarations from 'segLib.eval' */
+/* Module declarations from 'segLib.seg_eval' */
 static __Pyx_TypeInfo __Pyx_TypeInfo_long = { "long", NULL, sizeof(long), { 0 }, 0, IS_UNSIGNED(long) ? 'U' : 'I', IS_UNSIGNED(long), 0 };
-#define __Pyx_MODULE_NAME "segLib.eval"
-extern int __pyx_module_is_main_segLib__eval;
-int __pyx_module_is_main_segLib__eval = 0;
+#define __Pyx_MODULE_NAME "segLib.seg_eval"
+extern int __pyx_module_is_main_segLib__seg_eval;
+int __pyx_module_is_main_segLib__seg_eval = 0;
 
-/* Implementation of 'segLib.eval' */
+/* Implementation of 'segLib.seg_eval' */
 static PyObject *__pyx_builtin_map;
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_range;
@@ -1708,12 +1708,9 @@ static const char __pyx_k_csc_matrix[] = "csc_matrix";
 static const char __pyx_k_csr_matrix[] = "csr_matrix";
 static const char __pyx_k_filtersize[] = "filtersize";
 static const char __pyx_k_ignore_seg[] = "ignore_seg";
-static const char __pyx_k_segLib_seg[] = "segLib.seg";
 static const char __pyx_k_ImportError[] = "ImportError";
 static const char __pyx_k_divide_rows[] = "divide_rows";
 static const char __pyx_k_groundtruth[] = "groundtruth";
-static const char __pyx_k_segLib_dist[] = "segLib.dist";
-static const char __pyx_k_segLib_eval[] = "segLib.eval";
 static const char __pyx_k_RuntimeError[] = "RuntimeError";
 static const char __pyx_k_row_repeated[] = "row_repeated";
 static const char __pyx_k_scipy_sparse[] = "scipy.sparse";
@@ -1724,7 +1721,9 @@ static const char __pyx_k_convert_to_csr[] = "convert_to_csr";
 static const char __pyx_k_divide_columns[] = "divide_columns";
 static const char __pyx_k_reconstruction[] = "reconstruction";
 static const char __pyx_k_column_repeated[] = "column_repeated";
-static const char __pyx_k_segLib_eval_pyx[] = "segLib/eval.pyx";
+static const char __pyx_k_segLib_seg_core[] = "segLib.seg_core";
+static const char __pyx_k_segLib_seg_dist[] = "segLib.seg_dist";
+static const char __pyx_k_segLib_seg_eval[] = "segLib.seg_eval";
 static const char __pyx_k_cpp_segmentation[] = "cpp_segmentation";
 static const char __pyx_k_PrincetonEvaluate[] = "PrincetonEvaluate";
 static const char __pyx_k_ascontiguousarray[] = "ascontiguousarray";
@@ -1733,6 +1732,7 @@ static const char __pyx_k_mask_ground_truth[] = "mask_ground_truth";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_ignore_groundtruth[] = "ignore_groundtruth";
 static const char __pyx_k_dilate_ground_truth[] = "dilate_ground_truth";
+static const char __pyx_k_segLib_seg_eval_pyx[] = "segLib/seg_eval.pyx";
 static const char __pyx_k_ignore_reconstruction[] = "ignore_reconstruction";
 static const char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous";
 static const char __pyx_k_Variation_of_Information_Full[] = "Variation of Information Full: {}";
@@ -1844,10 +1844,10 @@ static PyObject *__pyx_n_s_row;
 static PyObject *__pyx_n_s_row_repeated;
 static PyObject *__pyx_n_s_scipy_sparse;
 static PyObject *__pyx_n_s_seg;
-static PyObject *__pyx_n_s_segLib_dist;
-static PyObject *__pyx_n_s_segLib_eval;
-static PyObject *__pyx_kp_s_segLib_eval_pyx;
-static PyObject *__pyx_n_s_segLib_seg;
+static PyObject *__pyx_n_s_segLib_seg_core;
+static PyObject *__pyx_n_s_segLib_seg_dist;
+static PyObject *__pyx_n_s_segLib_seg_eval;
+static PyObject *__pyx_kp_s_segLib_seg_eval_pyx;
 static PyObject *__pyx_n_s_segmentation;
 static PyObject *__pyx_n_s_segr;
 static PyObject *__pyx_n_s_shape;
@@ -1872,15 +1872,15 @@ static PyObject *__pyx_n_s_yres;
 static PyObject *__pyx_n_s_z;
 static PyObject *__pyx_n_s_zeros;
 static PyObject *__pyx_n_s_zres;
-static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize); /* proto */
-static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize); /* proto */
-static PyObject *__pyx_pf_6segLib_4eval_4voi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_reconstruction, PyObject *__pyx_v_groundtruth, PyObject *__pyx_v_ignore_reconstruction, PyObject *__pyx_v_ignore_groundtruth); /* proto */
-static PyObject *__pyx_pf_6segLib_4eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y); /* proto */
-static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y); /* proto */
-static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_seg, PyObject *__pyx_v_gt, PyObject *__pyx_v_ignore_seg, PyObject *__pyx_v_ignore_gt, PyObject *__pyx_v_norm); /* proto */
-static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_row, PyObject *__pyx_v_in_place); /* proto */
-static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_column, PyObject *__pyx_v_in_place); /* proto */
-static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_out, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize); /* proto */
+static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize); /* proto */
+static PyObject *__pyx_pf_6segLib_8seg_eval_4voi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_reconstruction, PyObject *__pyx_v_groundtruth, PyObject *__pyx_v_ignore_reconstruction, PyObject *__pyx_v_ignore_groundtruth); /* proto */
+static PyObject *__pyx_pf_6segLib_8seg_eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y); /* proto */
+static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y); /* proto */
+static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_seg, PyObject *__pyx_v_gt, PyObject *__pyx_v_ignore_seg, PyObject *__pyx_v_ignore_gt, PyObject *__pyx_v_norm); /* proto */
+static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_row, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_column, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_out, PyObject *__pyx_v_in_place); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
 static PyObject *__pyx_int_0;
@@ -1925,7 +1925,7 @@ static PyObject *__pyx_codeobj__37;
 static PyObject *__pyx_codeobj__39;
 static PyObject *__pyx_codeobj__41;
 
-/* "segLib/eval.pyx":14
+/* "segLib/seg_eval.pyx":14
  *     void CppEvaluate(long *segmentation, long *gold, long resolution[3], unsigned char mask_ground_truth)
  * 
  * def PrincetonEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
@@ -1934,9 +1934,9 @@ static PyObject *__pyx_codeobj__41;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_4eval_1PrincetonEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_6segLib_4eval_1PrincetonEvaluate = {"PrincetonEvaluate", (PyCFunction)__pyx_pw_6segLib_4eval_1PrincetonEvaluate, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_6segLib_4eval_1PrincetonEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_6segLib_8seg_eval_1PrincetonEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_6segLib_8seg_eval_1PrincetonEvaluate = {"PrincetonEvaluate", (PyCFunction)__pyx_pw_6segLib_8seg_eval_1PrincetonEvaluate, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_6segLib_8seg_eval_1PrincetonEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_segmentation = 0;
   PyObject *__pyx_v_gold = 0;
   PyObject *__pyx_v_dilate_ground_truth = 0;
@@ -2025,18 +2025,18 @@ static PyObject *__pyx_pw_6segLib_4eval_1PrincetonEvaluate(PyObject *__pyx_self,
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("PrincetonEvaluate", 0, 2, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 14, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.eval.PrincetonEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.PrincetonEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_4eval_PrincetonEvaluate(__pyx_self, __pyx_v_segmentation, __pyx_v_gold, __pyx_v_dilate_ground_truth, __pyx_v_mask_ground_truth, __pyx_v_filtersize);
+  __pyx_r = __pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(__pyx_self, __pyx_v_segmentation, __pyx_v_gold, __pyx_v_dilate_ground_truth, __pyx_v_mask_ground_truth, __pyx_v_filtersize);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize) {
+static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize) {
   PyArrayObject *__pyx_v_cpp_segmentation = 0;
   PyArrayObject *__pyx_v_cpp_gold = 0;
   PyObject *__pyx_v_zres = NULL;
@@ -2084,7 +2084,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
   __pyx_pybuffernd_cpp_gold.data = NULL;
   __pyx_pybuffernd_cpp_gold.rcbuffer = &__pyx_pybuffer_cpp_gold;
 
-  /* "segLib/eval.pyx":16
+  /* "segLib/seg_eval.pyx":16
  * def PrincetonEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):
  *     # make sure these elements are the same size
  *     assert (segmentation.shape == gold.shape)             # <<<<<<<<<<<<<<
@@ -2109,7 +2109,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
   }
   #endif
 
-  /* "segLib/eval.pyx":19
+  /* "segLib/seg_eval.pyx":19
  * 
  *     # remove all small connected components
  *     if filtersize > 0:             # <<<<<<<<<<<<<<
@@ -2121,7 +2121,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_4) {
 
-    /* "segLib/eval.pyx":20
+    /* "segLib/seg_eval.pyx":20
  *     # remove all small connected components
  *     if filtersize > 0:
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)             # <<<<<<<<<<<<<<
@@ -2178,7 +2178,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
     __Pyx_DECREF_SET(__pyx_v_segmentation, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":21
+    /* "segLib/seg_eval.pyx":21
  *     if filtersize > 0:
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)             # <<<<<<<<<<<<<<
@@ -2235,7 +2235,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
     __Pyx_DECREF_SET(__pyx_v_gold, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":19
+    /* "segLib/seg_eval.pyx":19
  * 
  *     # remove all small connected components
  *     if filtersize > 0:             # <<<<<<<<<<<<<<
@@ -2244,7 +2244,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
  */
   }
 
-  /* "segLib/eval.pyx":22
+  /* "segLib/seg_eval.pyx":22
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)
  *     if dilate_ground_truth > 0:             # <<<<<<<<<<<<<<
@@ -2256,7 +2256,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_4) {
 
-    /* "segLib/eval.pyx":23
+    /* "segLib/seg_eval.pyx":23
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)
  *     if dilate_ground_truth > 0:
  *         gold = DilateData(gold, dilate_ground_truth)             # <<<<<<<<<<<<<<
@@ -2313,7 +2313,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
     __Pyx_DECREF_SET(__pyx_v_gold, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":22
+    /* "segLib/seg_eval.pyx":22
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)
  *     if dilate_ground_truth > 0:             # <<<<<<<<<<<<<<
@@ -2322,7 +2322,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
  */
   }
 
-  /* "segLib/eval.pyx":27
+  /* "segLib/seg_eval.pyx":27
  *     # convert to c++ arrays
  *     cdef np.ndarray[long, ndim=3, mode='c'] cpp_segmentation
  *     cpp_segmentation = np.ascontiguousarray(segmentation, dtype=ctypes.c_int64)             # <<<<<<<<<<<<<<
@@ -2376,7 +2376,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
   __pyx_v_cpp_segmentation = ((PyArrayObject *)__pyx_t_7);
   __pyx_t_7 = 0;
 
-  /* "segLib/eval.pyx":30
+  /* "segLib/seg_eval.pyx":30
  * 
  *     cdef np.ndarray[long, ndim=3, mode='c'] cpp_gold
  *     cpp_gold = np.ascontiguousarray(gold, dtype=ctypes.c_int64)             # <<<<<<<<<<<<<<
@@ -2430,7 +2430,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
   __pyx_v_cpp_gold = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "segLib/eval.pyx":32
+  /* "segLib/seg_eval.pyx":32
  *     cpp_gold = np.ascontiguousarray(gold, dtype=ctypes.c_int64)
  * 
  *     zres, yres, xres = segmentation.shape             # <<<<<<<<<<<<<<
@@ -2503,7 +2503,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
   __pyx_v_xres = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "segLib/eval.pyx":33
+  /* "segLib/seg_eval.pyx":33
  * 
  *     zres, yres, xres = segmentation.shape
  *     CppEvaluate(&(cpp_segmentation[0,0,0]), &(cpp_gold[0,0,0]), [zres, yres, xres], mask_ground_truth)             # <<<<<<<<<<<<<<
@@ -2559,7 +2559,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
   __pyx_t_24 = __Pyx_PyInt_As_unsigned_char(__pyx_v_mask_ground_truth); if (unlikely((__pyx_t_24 == (unsigned char)-1) && PyErr_Occurred())) __PYX_ERR(0, 33, __pyx_L1_error)
   CppEvaluate((&(*__Pyx_BufPtrCContig3d(long *, __pyx_pybuffernd_cpp_segmentation.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_cpp_segmentation.diminfo[0].strides, __pyx_t_15, __pyx_pybuffernd_cpp_segmentation.diminfo[1].strides, __pyx_t_16, __pyx_pybuffernd_cpp_segmentation.diminfo[2].strides))), (&(*__Pyx_BufPtrCContig3d(long *, __pyx_pybuffernd_cpp_gold.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_cpp_gold.diminfo[0].strides, __pyx_t_18, __pyx_pybuffernd_cpp_gold.diminfo[1].strides, __pyx_t_19, __pyx_pybuffernd_cpp_gold.diminfo[2].strides))), __pyx_t_23, __pyx_t_24);
 
-  /* "segLib/eval.pyx":14
+  /* "segLib/seg_eval.pyx":14
  *     void CppEvaluate(long *segmentation, long *gold, long resolution[3], unsigned char mask_ground_truth)
  * 
  * def PrincetonEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
@@ -2583,7 +2583,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_cpp_gold.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_cpp_segmentation.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("segLib.eval.PrincetonEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.PrincetonEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -2602,7 +2602,7 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
   return __pyx_r;
 }
 
-/* "segLib/eval.pyx":36
+/* "segLib/seg_eval.pyx":36
  * 
  * 
  * def CremiEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
@@ -2611,9 +2611,9 @@ static PyObject *__pyx_pf_6segLib_4eval_PrincetonEvaluate(CYTHON_UNUSED PyObject
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_4eval_3CremiEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_6segLib_4eval_3CremiEvaluate = {"CremiEvaluate", (PyCFunction)__pyx_pw_6segLib_4eval_3CremiEvaluate, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_6segLib_4eval_3CremiEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_6segLib_8seg_eval_3CremiEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_6segLib_8seg_eval_3CremiEvaluate = {"CremiEvaluate", (PyCFunction)__pyx_pw_6segLib_8seg_eval_3CremiEvaluate, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_6segLib_8seg_eval_3CremiEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_segmentation = 0;
   PyObject *__pyx_v_gold = 0;
   PyObject *__pyx_v_dilate_ground_truth = 0;
@@ -2702,18 +2702,18 @@ static PyObject *__pyx_pw_6segLib_4eval_3CremiEvaluate(PyObject *__pyx_self, PyO
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("CremiEvaluate", 0, 2, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 36, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.eval.CremiEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.CremiEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_4eval_2CremiEvaluate(__pyx_self, __pyx_v_segmentation, __pyx_v_gold, __pyx_v_dilate_ground_truth, __pyx_v_mask_ground_truth, __pyx_v_filtersize);
+  __pyx_r = __pyx_pf_6segLib_8seg_eval_2CremiEvaluate(__pyx_self, __pyx_v_segmentation, __pyx_v_gold, __pyx_v_dilate_ground_truth, __pyx_v_mask_ground_truth, __pyx_v_filtersize);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize) {
+static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize) {
   PyObject *__pyx_v_vi_split = NULL;
   PyObject *__pyx_v_vi_merge = NULL;
   PyObject *__pyx_r = NULL;
@@ -2731,7 +2731,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
   __Pyx_INCREF(__pyx_v_segmentation);
   __Pyx_INCREF(__pyx_v_gold);
 
-  /* "segLib/eval.pyx":38
+  /* "segLib/seg_eval.pyx":38
  * def CremiEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):
  *     # make sure these elements are the same size
  *     assert (segmentation.shape == gold.shape)             # <<<<<<<<<<<<<<
@@ -2756,7 +2756,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
   }
   #endif
 
-  /* "segLib/eval.pyx":41
+  /* "segLib/seg_eval.pyx":41
  * 
  *     # remove all small connected components
  *     if filtersize > 0:             # <<<<<<<<<<<<<<
@@ -2768,7 +2768,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_4) {
 
-    /* "segLib/eval.pyx":42
+    /* "segLib/seg_eval.pyx":42
  *     # remove all small connected components
  *     if filtersize > 0:
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)             # <<<<<<<<<<<<<<
@@ -2825,7 +2825,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
     __Pyx_DECREF_SET(__pyx_v_segmentation, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":43
+    /* "segLib/seg_eval.pyx":43
  *     if filtersize > 0:
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)             # <<<<<<<<<<<<<<
@@ -2882,7 +2882,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
     __Pyx_DECREF_SET(__pyx_v_gold, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":41
+    /* "segLib/seg_eval.pyx":41
  * 
  *     # remove all small connected components
  *     if filtersize > 0:             # <<<<<<<<<<<<<<
@@ -2891,7 +2891,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
  */
   }
 
-  /* "segLib/eval.pyx":44
+  /* "segLib/seg_eval.pyx":44
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)
  *     if dilate_ground_truth > 0:             # <<<<<<<<<<<<<<
@@ -2903,7 +2903,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_4) {
 
-    /* "segLib/eval.pyx":45
+    /* "segLib/seg_eval.pyx":45
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)
  *     if dilate_ground_truth > 0:
  *         gold = DilateData(gold, dilate_ground_truth)             # <<<<<<<<<<<<<<
@@ -2960,7 +2960,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
     __Pyx_DECREF_SET(__pyx_v_gold, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":44
+    /* "segLib/seg_eval.pyx":44
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)
  *     if dilate_ground_truth > 0:             # <<<<<<<<<<<<<<
@@ -2969,7 +2969,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
  */
   }
 
-  /* "segLib/eval.pyx":48
+  /* "segLib/seg_eval.pyx":48
  * 
  *     # run the cremi variation of information algorithm
  *     if mask_ground_truth:             # <<<<<<<<<<<<<<
@@ -2979,7 +2979,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
   __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_mask_ground_truth); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 48, __pyx_L1_error)
   if (__pyx_t_4) {
 
-    /* "segLib/eval.pyx":49
+    /* "segLib/seg_eval.pyx":49
  *     # run the cremi variation of information algorithm
  *     if mask_ground_truth:
  *         vi_split, vi_merge = voi(segmentation, gold, [], [0])             # <<<<<<<<<<<<<<
@@ -3105,7 +3105,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
     __pyx_v_vi_merge = __pyx_t_8;
     __pyx_t_8 = 0;
 
-    /* "segLib/eval.pyx":50
+    /* "segLib/seg_eval.pyx":50
  *     if mask_ground_truth:
  *         vi_split, vi_merge = voi(segmentation, gold, [], [0])
  *         print 'Variation of Information Full: {}'.format(vi_split + vi_merge)             # <<<<<<<<<<<<<<
@@ -3165,7 +3165,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
     if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":51
+    /* "segLib/seg_eval.pyx":51
  *         vi_split, vi_merge = voi(segmentation, gold, [], [0])
  *         print 'Variation of Information Full: {}'.format(vi_split + vi_merge)
  *         print 'Variation of Information Merge: {}'.format(vi_merge)             # <<<<<<<<<<<<<<
@@ -3220,7 +3220,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
     if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 51, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":52
+    /* "segLib/seg_eval.pyx":52
  *         print 'Variation of Information Full: {}'.format(vi_split + vi_merge)
  *         print 'Variation of Information Merge: {}'.format(vi_merge)
  *         print 'Variation of Information Split: {}'.format(vi_split)             # <<<<<<<<<<<<<<
@@ -3275,7 +3275,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
     if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 52, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":48
+    /* "segLib/seg_eval.pyx":48
  * 
  *     # run the cremi variation of information algorithm
  *     if mask_ground_truth:             # <<<<<<<<<<<<<<
@@ -3285,7 +3285,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
     goto __pyx_L5;
   }
 
-  /* "segLib/eval.pyx":54
+  /* "segLib/seg_eval.pyx":54
  *         print 'Variation of Information Split: {}'.format(vi_split)
  *     else:
  *         vi_split, vi_merge = voi(segmentation, gold, [], [])             # <<<<<<<<<<<<<<
@@ -3409,7 +3409,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
     __pyx_v_vi_merge = __pyx_t_7;
     __pyx_t_7 = 0;
 
-    /* "segLib/eval.pyx":55
+    /* "segLib/seg_eval.pyx":55
  *     else:
  *         vi_split, vi_merge = voi(segmentation, gold, [], [])
  *         print 'Variation of Information Full: {}'.format(vi_split + vi_merge)             # <<<<<<<<<<<<<<
@@ -3469,7 +3469,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
     if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 55, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":56
+    /* "segLib/seg_eval.pyx":56
  *         vi_split, vi_merge = voi(segmentation, gold, [], [])
  *         print 'Variation of Information Full: {}'.format(vi_split + vi_merge)
  *         print 'Variation of Information Merge: {}'.format(vi_merge)             # <<<<<<<<<<<<<<
@@ -3524,7 +3524,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
     if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 56, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":57
+    /* "segLib/seg_eval.pyx":57
  *         print 'Variation of Information Full: {}'.format(vi_split + vi_merge)
  *         print 'Variation of Information Merge: {}'.format(vi_merge)
  *         print 'Variation of Information Split: {}'.format(vi_split)             # <<<<<<<<<<<<<<
@@ -3581,7 +3581,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
   }
   __pyx_L5:;
 
-  /* "segLib/eval.pyx":36
+  /* "segLib/seg_eval.pyx":36
  * 
  * 
  * def CremiEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
@@ -3599,7 +3599,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("segLib.eval.CremiEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.CremiEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_vi_split);
@@ -3611,7 +3611,7 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
   return __pyx_r;
 }
 
-/* "segLib/eval.pyx":62
+/* "segLib/seg_eval.pyx":62
  * # Evaluation code courtesy of Juan Nunez-Iglesias, taken from
  * # https://github.com/janelia-flyem/gala/blob/master/gala/evaluate.py
  * def voi(reconstruction, groundtruth, ignore_reconstruction=[], ignore_groundtruth=[0]):             # <<<<<<<<<<<<<<
@@ -3620,10 +3620,10 @@ static PyObject *__pyx_pf_6segLib_4eval_2CremiEvaluate(CYTHON_UNUSED PyObject *_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_4eval_5voi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_4eval_4voi[] = "Return the conditional entropies of the variation of information metric. [1]\n\n    Let X be a reconstruction, and Y a ground truth labelling. The variation of \n    information between the two is the sum of two conditional entropies:\n\n        VI(X, Y) = H(X|Y) + H(Y|X).\n\n    The first one, H(X|Y), is a measure of oversegmentation, the second one, \n    H(Y|X), a measure of undersegmentation. These measures are referred to as \n    the variation of information split or merge error, respectively.\n\n    Parameters\n    ----------\n    seg : np.ndarray, int type, arbitrary shape\n        A candidate segmentation.\n    gt : np.ndarray, int type, same shape as `seg`\n        The ground truth segmentation.\n    ignore_seg, ignore_gt : list of int, optional\n        Any points having a label in this list are ignored in the evaluation.\n        By default, only the label 0 in the ground truth will be ignored.\n\n    Returns\n    -------\n    (split, merge) : float\n        The variation of information split and merge error, i.e., H(X|Y) and H(Y|X)\n\n    References\n    ----------\n    [1] Meila, M. (2007). Comparing clusterings - an information based \n    distance. Journal of Multivariate Analysis 98, 873-895.\n    ";
-static PyMethodDef __pyx_mdef_6segLib_4eval_5voi = {"voi", (PyCFunction)__pyx_pw_6segLib_4eval_5voi, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_4eval_4voi};
-static PyObject *__pyx_pw_6segLib_4eval_5voi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_6segLib_8seg_eval_5voi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_6segLib_8seg_eval_4voi[] = "Return the conditional entropies of the variation of information metric. [1]\n\n    Let X be a reconstruction, and Y a ground truth labelling. The variation of \n    information between the two is the sum of two conditional entropies:\n\n        VI(X, Y) = H(X|Y) + H(Y|X).\n\n    The first one, H(X|Y), is a measure of oversegmentation, the second one, \n    H(Y|X), a measure of undersegmentation. These measures are referred to as \n    the variation of information split or merge error, respectively.\n\n    Parameters\n    ----------\n    seg : np.ndarray, int type, arbitrary shape\n        A candidate segmentation.\n    gt : np.ndarray, int type, same shape as `seg`\n        The ground truth segmentation.\n    ignore_seg, ignore_gt : list of int, optional\n        Any points having a label in this list are ignored in the evaluation.\n        By default, only the label 0 in the ground truth will be ignored.\n\n    Returns\n    -------\n    (split, merge) : float\n        The variation of information split and merge error, i.e., H(X|Y) and H(Y|X)\n\n    References\n    ----------\n    [1] Meila, M. (2007). Comparing clusterings - an information based \n    distance. Journal of Multivariate Analysis 98, 873-895.\n    ";
+static PyMethodDef __pyx_mdef_6segLib_8seg_eval_5voi = {"voi", (PyCFunction)__pyx_pw_6segLib_8seg_eval_5voi, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_4voi};
+static PyObject *__pyx_pw_6segLib_8seg_eval_5voi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_reconstruction = 0;
   PyObject *__pyx_v_groundtruth = 0;
   PyObject *__pyx_v_ignore_reconstruction = 0;
@@ -3699,18 +3699,18 @@ static PyObject *__pyx_pw_6segLib_4eval_5voi(PyObject *__pyx_self, PyObject *__p
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("voi", 0, 2, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 62, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.eval.voi", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.voi", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_4eval_4voi(__pyx_self, __pyx_v_reconstruction, __pyx_v_groundtruth, __pyx_v_ignore_reconstruction, __pyx_v_ignore_groundtruth);
+  __pyx_r = __pyx_pf_6segLib_8seg_eval_4voi(__pyx_self, __pyx_v_reconstruction, __pyx_v_groundtruth, __pyx_v_ignore_reconstruction, __pyx_v_ignore_groundtruth);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_4eval_4voi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_reconstruction, PyObject *__pyx_v_groundtruth, PyObject *__pyx_v_ignore_reconstruction, PyObject *__pyx_v_ignore_groundtruth) {
+static PyObject *__pyx_pf_6segLib_8seg_eval_4voi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_reconstruction, PyObject *__pyx_v_groundtruth, PyObject *__pyx_v_ignore_reconstruction, PyObject *__pyx_v_ignore_groundtruth) {
   PyObject *__pyx_v_hyxg = NULL;
   PyObject *__pyx_v_hxgy = NULL;
   PyObject *__pyx_r = NULL;
@@ -3723,7 +3723,7 @@ static PyObject *__pyx_pf_6segLib_4eval_4voi(CYTHON_UNUSED PyObject *__pyx_self,
   PyObject *(*__pyx_t_6)(PyObject *);
   __Pyx_RefNannySetupContext("voi", 0);
 
-  /* "segLib/eval.pyx":94
+  /* "segLib/seg_eval.pyx":94
  *     distance. Journal of Multivariate Analysis 98, 873-895.
  *     """
  *     (hyxg, hxgy) = split_vi(reconstruction, groundtruth, ignore_reconstruction, ignore_groundtruth)             # <<<<<<<<<<<<<<
@@ -3838,7 +3838,7 @@ static PyObject *__pyx_pf_6segLib_4eval_4voi(CYTHON_UNUSED PyObject *__pyx_self,
   __pyx_v_hxgy = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "segLib/eval.pyx":95
+  /* "segLib/seg_eval.pyx":95
  *     """
  *     (hyxg, hxgy) = split_vi(reconstruction, groundtruth, ignore_reconstruction, ignore_groundtruth)
  *     return (hxgy, hyxg)             # <<<<<<<<<<<<<<
@@ -3858,7 +3858,7 @@ static PyObject *__pyx_pf_6segLib_4eval_4voi(CYTHON_UNUSED PyObject *__pyx_self,
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "segLib/eval.pyx":62
+  /* "segLib/seg_eval.pyx":62
  * # Evaluation code courtesy of Juan Nunez-Iglesias, taken from
  * # https://github.com/janelia-flyem/gala/blob/master/gala/evaluate.py
  * def voi(reconstruction, groundtruth, ignore_reconstruction=[], ignore_groundtruth=[0]):             # <<<<<<<<<<<<<<
@@ -3872,7 +3872,7 @@ static PyObject *__pyx_pf_6segLib_4eval_4voi(CYTHON_UNUSED PyObject *__pyx_self,
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("segLib.eval.voi", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.voi", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_hyxg);
@@ -3882,7 +3882,7 @@ static PyObject *__pyx_pf_6segLib_4eval_4voi(CYTHON_UNUSED PyObject *__pyx_self,
   return __pyx_r;
 }
 
-/* "segLib/eval.pyx":97
+/* "segLib/seg_eval.pyx":97
  *     return (hxgy, hyxg)
  * 
  * def split_vi(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -3891,10 +3891,10 @@ static PyObject *__pyx_pf_6segLib_4eval_4voi(CYTHON_UNUSED PyObject *__pyx_self,
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_4eval_7split_vi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_4eval_6split_vi[] = "Return the symmetric conditional entropies associated with the VI.\n\n    The variation of information is defined as VI(X,Y) = H(X|Y) + H(Y|X).\n    If Y is the ground-truth segmentation, then H(Y|X) can be interpreted\n    as the amount of under-segmentation of Y and H(X|Y) is then the amount\n    of over-segmentation.  In other words, a perfect over-segmentation\n    will have H(Y|X)=0 and a perfect under-segmentation will have H(X|Y)=0.\n\n    If y is None, x is assumed to be a contingency table.\n\n    Parameters\n    ----------\n    x : np.ndarray\n        Label field (int type) or contingency table (float). `x` is\n        interpreted as a contingency table (summing to 1.0) if and only if `y`\n        is not provided.\n    y : np.ndarray of int, same shape as x, optional\n        A label field to compare to `x`.\n    ignore_x, ignore_y : list of int, optional\n        Any points having a label in this list are ignored in the evaluation.\n        Ignore 0-labeled points by default.\n\n    Returns\n    -------\n    sv : np.ndarray of float, shape (2,)\n        The conditional entropies of Y|X and X|Y.\n\n    See Also\n    --------\n    vi\n    ";
-static PyMethodDef __pyx_mdef_6segLib_4eval_7split_vi = {"split_vi", (PyCFunction)__pyx_pw_6segLib_4eval_7split_vi, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_4eval_6split_vi};
-static PyObject *__pyx_pw_6segLib_4eval_7split_vi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_6segLib_8seg_eval_7split_vi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_6segLib_8seg_eval_6split_vi[] = "Return the symmetric conditional entropies associated with the VI.\n\n    The variation of information is defined as VI(X,Y) = H(X|Y) + H(Y|X).\n    If Y is the ground-truth segmentation, then H(Y|X) can be interpreted\n    as the amount of under-segmentation of Y and H(X|Y) is then the amount\n    of over-segmentation.  In other words, a perfect over-segmentation\n    will have H(Y|X)=0 and a perfect under-segmentation will have H(X|Y)=0.\n\n    If y is None, x is assumed to be a contingency table.\n\n    Parameters\n    ----------\n    x : np.ndarray\n        Label field (int type) or contingency table (float). `x` is\n        interpreted as a contingency table (summing to 1.0) if and only if `y`\n        is not provided.\n    y : np.ndarray of int, same shape as x, optional\n        A label field to compare to `x`.\n    ignore_x, ignore_y : list of int, optional\n        Any points having a label in this list are ignored in the evaluation.\n        Ignore 0-labeled points by default.\n\n    Returns\n    -------\n    sv : np.ndarray of float, shape (2,)\n        The conditional entropies of Y|X and X|Y.\n\n    See Also\n    --------\n    vi\n    ";
+static PyMethodDef __pyx_mdef_6segLib_8seg_eval_7split_vi = {"split_vi", (PyCFunction)__pyx_pw_6segLib_8seg_eval_7split_vi, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_6split_vi};
+static PyObject *__pyx_pw_6segLib_8seg_eval_7split_vi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_x = 0;
   PyObject *__pyx_v_y = 0;
   PyObject *__pyx_v_ignore_x = 0;
@@ -3972,18 +3972,18 @@ static PyObject *__pyx_pw_6segLib_4eval_7split_vi(PyObject *__pyx_self, PyObject
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("split_vi", 0, 1, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 97, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.eval.split_vi", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.split_vi", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_4eval_6split_vi(__pyx_self, __pyx_v_x, __pyx_v_y, __pyx_v_ignore_x, __pyx_v_ignore_y);
+  __pyx_r = __pyx_pf_6segLib_8seg_eval_6split_vi(__pyx_self, __pyx_v_x, __pyx_v_y, __pyx_v_ignore_x, __pyx_v_ignore_y);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_4eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y) {
+static PyObject *__pyx_pf_6segLib_8seg_eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y) {
   CYTHON_UNUSED PyObject *__pyx_v__ = NULL;
   PyObject *__pyx_v_hxgy = NULL;
   PyObject *__pyx_v_hygx = NULL;
@@ -4002,7 +4002,7 @@ static PyObject *__pyx_pf_6segLib_4eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_
   PyObject *(*__pyx_t_11)(PyObject *);
   __Pyx_RefNannySetupContext("split_vi", 0);
 
-  /* "segLib/eval.pyx":129
+  /* "segLib/seg_eval.pyx":129
  *     vi
  *     """
  *     _, _, _ , hxgy, hygx, _, _ = vi_tables(x, y, ignore_x, ignore_y)             # <<<<<<<<<<<<<<
@@ -4149,7 +4149,7 @@ static PyObject *__pyx_pf_6segLib_4eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_
   __Pyx_DECREF_SET(__pyx_v__, __pyx_t_9);
   __pyx_t_9 = 0;
 
-  /* "segLib/eval.pyx":131
+  /* "segLib/seg_eval.pyx":131
  *     _, _, _ , hxgy, hygx, _, _ = vi_tables(x, y, ignore_x, ignore_y)
  *     # false merges, false splits
  *     return np.array([hygx.sum(), hxgy.sum()])             # <<<<<<<<<<<<<<
@@ -4260,7 +4260,7 @@ static PyObject *__pyx_pf_6segLib_4eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "segLib/eval.pyx":97
+  /* "segLib/seg_eval.pyx":97
  *     return (hxgy, hyxg)
  * 
  * def split_vi(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -4279,7 +4279,7 @@ static PyObject *__pyx_pf_6segLib_4eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_AddTraceback("segLib.eval.split_vi", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.split_vi", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v__);
@@ -4290,7 +4290,7 @@ static PyObject *__pyx_pf_6segLib_4eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_
   return __pyx_r;
 }
 
-/* "segLib/eval.pyx":133
+/* "segLib/seg_eval.pyx":133
  *     return np.array([hygx.sum(), hxgy.sum()])
  * 
  * def vi_tables(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -4299,10 +4299,10 @@ static PyObject *__pyx_pf_6segLib_4eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_4eval_9vi_tables(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_4eval_8vi_tables[] = "Return probability tables used for calculating VI.\n\n    If y is None, x is assumed to be a contingency table.\n\n    Parameters\n    ----------\n    x, y : np.ndarray\n        Either x and y are provided as equal-shaped np.ndarray label fields\n        (int type), or y is not provided and x is a contingency table\n        (sparse.csc_matrix) that may or may not sum to 1.\n    ignore_x, ignore_y : list of int, optional\n        Rows and columns (respectively) to ignore in the contingency table.\n        These are labels that are not counted when evaluating VI.\n\n    Returns\n    -------\n    pxy : sparse.csc_matrix of float\n        The normalized contingency table.\n    px, py, hxgy, hygx, lpygx, lpxgy : np.ndarray of float\n        The proportions of each label in `x` and `y` (`px`, `py`), the\n        per-segment conditional entropies of `x` given `y` and vice-versa, the\n        per-segment conditional probability p log p.\n    ";
-static PyMethodDef __pyx_mdef_6segLib_4eval_9vi_tables = {"vi_tables", (PyCFunction)__pyx_pw_6segLib_4eval_9vi_tables, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_4eval_8vi_tables};
-static PyObject *__pyx_pw_6segLib_4eval_9vi_tables(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_6segLib_8seg_eval_9vi_tables(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_6segLib_8seg_eval_8vi_tables[] = "Return probability tables used for calculating VI.\n\n    If y is None, x is assumed to be a contingency table.\n\n    Parameters\n    ----------\n    x, y : np.ndarray\n        Either x and y are provided as equal-shaped np.ndarray label fields\n        (int type), or y is not provided and x is a contingency table\n        (sparse.csc_matrix) that may or may not sum to 1.\n    ignore_x, ignore_y : list of int, optional\n        Rows and columns (respectively) to ignore in the contingency table.\n        These are labels that are not counted when evaluating VI.\n\n    Returns\n    -------\n    pxy : sparse.csc_matrix of float\n        The normalized contingency table.\n    px, py, hxgy, hygx, lpygx, lpxgy : np.ndarray of float\n        The proportions of each label in `x` and `y` (`px`, `py`), the\n        per-segment conditional entropies of `x` given `y` and vice-versa, the\n        per-segment conditional probability p log p.\n    ";
+static PyMethodDef __pyx_mdef_6segLib_8seg_eval_9vi_tables = {"vi_tables", (PyCFunction)__pyx_pw_6segLib_8seg_eval_9vi_tables, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_8vi_tables};
+static PyObject *__pyx_pw_6segLib_8seg_eval_9vi_tables(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_x = 0;
   PyObject *__pyx_v_y = 0;
   PyObject *__pyx_v_ignore_x = 0;
@@ -4380,18 +4380,18 @@ static PyObject *__pyx_pw_6segLib_4eval_9vi_tables(PyObject *__pyx_self, PyObjec
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("vi_tables", 0, 1, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 133, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.eval.vi_tables", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.vi_tables", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_4eval_8vi_tables(__pyx_self, __pyx_v_x, __pyx_v_y, __pyx_v_ignore_x, __pyx_v_ignore_y);
+  __pyx_r = __pyx_pf_6segLib_8seg_eval_8vi_tables(__pyx_self, __pyx_v_x, __pyx_v_y, __pyx_v_ignore_x, __pyx_v_ignore_y);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y) {
+static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y) {
   PyObject *__pyx_v_pxy = NULL;
   PyObject *__pyx_v_cont = NULL;
   double __pyx_v_total;
@@ -4421,7 +4421,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   PyObject *__pyx_t_11 = NULL;
   __Pyx_RefNannySetupContext("vi_tables", 0);
 
-  /* "segLib/eval.pyx":157
+  /* "segLib/seg_eval.pyx":157
  *         per-segment conditional probability p log p.
  *     """
  *     if y is not None:             # <<<<<<<<<<<<<<
@@ -4432,7 +4432,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "segLib/eval.pyx":158
+    /* "segLib/seg_eval.pyx":158
  *     """
  *     if y is not None:
  *         pxy = contingency_table(x, y, ignore_x, ignore_y)             # <<<<<<<<<<<<<<
@@ -4495,7 +4495,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
     __pyx_v_pxy = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":157
+    /* "segLib/seg_eval.pyx":157
  *         per-segment conditional probability p log p.
  *     """
  *     if y is not None:             # <<<<<<<<<<<<<<
@@ -4505,7 +4505,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
     goto __pyx_L3;
   }
 
-  /* "segLib/eval.pyx":160
+  /* "segLib/seg_eval.pyx":160
  *         pxy = contingency_table(x, y, ignore_x, ignore_y)
  *     else:
  *         cont = x             # <<<<<<<<<<<<<<
@@ -4516,7 +4516,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
     __Pyx_INCREF(__pyx_v_x);
     __pyx_v_cont = __pyx_v_x;
 
-    /* "segLib/eval.pyx":161
+    /* "segLib/seg_eval.pyx":161
  *     else:
  *         cont = x
  *         total = float(cont.sum())             # <<<<<<<<<<<<<<
@@ -4547,7 +4547,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_v_total = __pyx_t_8;
 
-    /* "segLib/eval.pyx":163
+    /* "segLib/seg_eval.pyx":163
  *         total = float(cont.sum())
  *         # normalize, since it is an identity op if already done
  *         pxy = cont / total             # <<<<<<<<<<<<<<
@@ -4564,7 +4564,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   }
   __pyx_L3:;
 
-  /* "segLib/eval.pyx":166
+  /* "segLib/seg_eval.pyx":166
  * 
  *     # Calculate probabilities
  *     px = np.array(pxy.sum(axis=1)).ravel()             # <<<<<<<<<<<<<<
@@ -4655,7 +4655,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_px = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "segLib/eval.pyx":167
+  /* "segLib/seg_eval.pyx":167
  *     # Calculate probabilities
  *     px = np.array(pxy.sum(axis=1)).ravel()
  *     py = np.array(pxy.sum(axis=0)).ravel()             # <<<<<<<<<<<<<<
@@ -4746,7 +4746,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_py = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "segLib/eval.pyx":169
+  /* "segLib/seg_eval.pyx":169
  *     py = np.array(pxy.sum(axis=0)).ravel()
  *     # Remove zero rows/cols
  *     nzx = px.nonzero()[0]             # <<<<<<<<<<<<<<
@@ -4779,7 +4779,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_nzx = __pyx_t_7;
   __pyx_t_7 = 0;
 
-  /* "segLib/eval.pyx":170
+  /* "segLib/seg_eval.pyx":170
  *     # Remove zero rows/cols
  *     nzx = px.nonzero()[0]
  *     nzy = py.nonzero()[0]             # <<<<<<<<<<<<<<
@@ -4812,7 +4812,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_nzy = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "segLib/eval.pyx":171
+  /* "segLib/seg_eval.pyx":171
  *     nzx = px.nonzero()[0]
  *     nzy = py.nonzero()[0]
  *     nzpx = px[nzx]             # <<<<<<<<<<<<<<
@@ -4824,7 +4824,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_nzpx = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "segLib/eval.pyx":172
+  /* "segLib/seg_eval.pyx":172
  *     nzy = py.nonzero()[0]
  *     nzpx = px[nzx]
  *     nzpy = py[nzy]             # <<<<<<<<<<<<<<
@@ -4836,7 +4836,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_nzpy = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "segLib/eval.pyx":173
+  /* "segLib/seg_eval.pyx":173
  *     nzpx = px[nzx]
  *     nzpy = py[nzy]
  *     nzpxy = pxy[nzx, :][:, nzy]             # <<<<<<<<<<<<<<
@@ -4869,7 +4869,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_nzpxy = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "segLib/eval.pyx":176
+  /* "segLib/seg_eval.pyx":176
  * 
  *     # Calculate log conditional probabilities and entropies
  *     lpygx = np.zeros(np.shape(px))             # <<<<<<<<<<<<<<
@@ -4978,7 +4978,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_lpygx = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "segLib/eval.pyx":177
+  /* "segLib/seg_eval.pyx":177
  *     # Calculate log conditional probabilities and entropies
  *     lpygx = np.zeros(np.shape(px))
  *     lpygx[nzx] = xlogx(divide_rows(nzpxy, nzpx)).sum(axis=1).ravel()             # <<<<<<<<<<<<<<
@@ -5114,7 +5114,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   if (unlikely(PyObject_SetItem(__pyx_v_lpygx, __pyx_v_nzx, __pyx_t_5) < 0)) __PYX_ERR(0, 177, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "segLib/eval.pyx":179
+  /* "segLib/seg_eval.pyx":179
  *     lpygx[nzx] = xlogx(divide_rows(nzpxy, nzpx)).sum(axis=1).ravel()
  *                         # \sum_x{p_{y|x} \log{p_{y|x}}}
  *     hygx = -(px*lpygx) # \sum_x{p_x H(Y|X=x)} = H(Y|X)             # <<<<<<<<<<<<<<
@@ -5129,7 +5129,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_hygx = __pyx_t_7;
   __pyx_t_7 = 0;
 
-  /* "segLib/eval.pyx":181
+  /* "segLib/seg_eval.pyx":181
  *     hygx = -(px*lpygx) # \sum_x{p_x H(Y|X=x)} = H(Y|X)
  * 
  *     lpxgy = np.zeros(np.shape(py))             # <<<<<<<<<<<<<<
@@ -5238,7 +5238,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_lpxgy = __pyx_t_7;
   __pyx_t_7 = 0;
 
-  /* "segLib/eval.pyx":182
+  /* "segLib/seg_eval.pyx":182
  * 
  *     lpxgy = np.zeros(np.shape(py))
  *     lpxgy[nzy] = xlogx(divide_columns(nzpxy, nzpy)).sum(axis=0).ravel()             # <<<<<<<<<<<<<<
@@ -5374,7 +5374,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   if (unlikely(PyObject_SetItem(__pyx_v_lpxgy, __pyx_v_nzy, __pyx_t_7) < 0)) __PYX_ERR(0, 182, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "segLib/eval.pyx":183
+  /* "segLib/seg_eval.pyx":183
  *     lpxgy = np.zeros(np.shape(py))
  *     lpxgy[nzy] = xlogx(divide_columns(nzpxy, nzpy)).sum(axis=0).ravel()
  *     hxgy = -(py*lpxgy)             # <<<<<<<<<<<<<<
@@ -5389,7 +5389,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __pyx_v_hxgy = __pyx_t_11;
   __pyx_t_11 = 0;
 
-  /* "segLib/eval.pyx":185
+  /* "segLib/seg_eval.pyx":185
  *     hxgy = -(py*lpxgy)
  * 
  *     return [pxy] + list(map(np.asarray, [px, py, hxgy, hygx, lpygx, lpxgy]))             # <<<<<<<<<<<<<<
@@ -5449,7 +5449,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __pyx_t_7 = 0;
   goto __pyx_L0;
 
-  /* "segLib/eval.pyx":133
+  /* "segLib/seg_eval.pyx":133
  *     return np.array([hygx.sum(), hxgy.sum()])
  * 
  * def vi_tables(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -5466,7 +5466,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_AddTraceback("segLib.eval.vi_tables", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.vi_tables", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_pxy);
@@ -5487,7 +5487,7 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
   return __pyx_r;
 }
 
-/* "segLib/eval.pyx":187
+/* "segLib/seg_eval.pyx":187
  *     return [pxy] + list(map(np.asarray, [px, py, hxgy, hygx, lpygx, lpxgy]))
  * 
  * def contingency_table(seg, gt, ignore_seg=[0], ignore_gt=[0], norm=True):             # <<<<<<<<<<<<<<
@@ -5496,10 +5496,10 @@ static PyObject *__pyx_pf_6segLib_4eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_4eval_11contingency_table(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_4eval_10contingency_table[] = "Return the contingency table for all regions in matched segmentations.\n\n    Parameters\n    ----------\n    seg : np.ndarray, int type, arbitrary shape\n        A candidate segmentation.\n    gt : np.ndarray, int type, same shape as `seg`\n        The ground truth segmentation.\n    ignore_seg : list of int, optional\n        Values to ignore in `seg`. Voxels in `seg` having a value in this list\n        will not contribute to the contingency table. (default: [0])\n    ignore_gt : list of int, optional\n        Values to ignore in `gt`. Voxels in `gt` having a value in this list\n        will not contribute to the contingency table. (default: [0])\n    norm : bool, optional\n        Whether to normalize the table so that it sums to 1.\n\n    Returns\n    -------\n    cont : scipy.sparse.csc_matrix\n        A contingency table. `cont[i, j]` will equal the number of voxels\n        labeled `i` in `seg` and `j` in `gt`. (Or the proportion of such voxels\n        if `norm=True`.)\n    ";
-static PyMethodDef __pyx_mdef_6segLib_4eval_11contingency_table = {"contingency_table", (PyCFunction)__pyx_pw_6segLib_4eval_11contingency_table, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_4eval_10contingency_table};
-static PyObject *__pyx_pw_6segLib_4eval_11contingency_table(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_6segLib_8seg_eval_11contingency_table(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_6segLib_8seg_eval_10contingency_table[] = "Return the contingency table for all regions in matched segmentations.\n\n    Parameters\n    ----------\n    seg : np.ndarray, int type, arbitrary shape\n        A candidate segmentation.\n    gt : np.ndarray, int type, same shape as `seg`\n        The ground truth segmentation.\n    ignore_seg : list of int, optional\n        Values to ignore in `seg`. Voxels in `seg` having a value in this list\n        will not contribute to the contingency table. (default: [0])\n    ignore_gt : list of int, optional\n        Values to ignore in `gt`. Voxels in `gt` having a value in this list\n        will not contribute to the contingency table. (default: [0])\n    norm : bool, optional\n        Whether to normalize the table so that it sums to 1.\n\n    Returns\n    -------\n    cont : scipy.sparse.csc_matrix\n        A contingency table. `cont[i, j]` will equal the number of voxels\n        labeled `i` in `seg` and `j` in `gt`. (Or the proportion of such voxels\n        if `norm=True`.)\n    ";
+static PyMethodDef __pyx_mdef_6segLib_8seg_eval_11contingency_table = {"contingency_table", (PyCFunction)__pyx_pw_6segLib_8seg_eval_11contingency_table, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_10contingency_table};
+static PyObject *__pyx_pw_6segLib_8seg_eval_11contingency_table(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_seg = 0;
   PyObject *__pyx_v_gt = 0;
   PyObject *__pyx_v_ignore_seg = 0;
@@ -5588,18 +5588,18 @@ static PyObject *__pyx_pw_6segLib_4eval_11contingency_table(PyObject *__pyx_self
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("contingency_table", 0, 2, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 187, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.eval.contingency_table", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.contingency_table", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_4eval_10contingency_table(__pyx_self, __pyx_v_seg, __pyx_v_gt, __pyx_v_ignore_seg, __pyx_v_ignore_gt, __pyx_v_norm);
+  __pyx_r = __pyx_pf_6segLib_8seg_eval_10contingency_table(__pyx_self, __pyx_v_seg, __pyx_v_gt, __pyx_v_ignore_seg, __pyx_v_ignore_gt, __pyx_v_norm);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_seg, PyObject *__pyx_v_gt, PyObject *__pyx_v_ignore_seg, PyObject *__pyx_v_ignore_gt, PyObject *__pyx_v_norm) {
+static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_seg, PyObject *__pyx_v_gt, PyObject *__pyx_v_ignore_seg, PyObject *__pyx_v_ignore_gt, PyObject *__pyx_v_norm) {
   PyObject *__pyx_v_segr = NULL;
   PyObject *__pyx_v_gtr = NULL;
   PyObject *__pyx_v_ignored = NULL;
@@ -5621,7 +5621,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
   int __pyx_t_10;
   __Pyx_RefNannySetupContext("contingency_table", 0);
 
-  /* "segLib/eval.pyx":212
+  /* "segLib/seg_eval.pyx":212
  *         if `norm=True`.)
  *     """
  *     segr = seg.ravel()             # <<<<<<<<<<<<<<
@@ -5651,7 +5651,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
   __pyx_v_segr = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "segLib/eval.pyx":213
+  /* "segLib/seg_eval.pyx":213
  *     """
  *     segr = seg.ravel()
  *     gtr = gt.ravel()             # <<<<<<<<<<<<<<
@@ -5681,7 +5681,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
   __pyx_v_gtr = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "segLib/eval.pyx":214
+  /* "segLib/seg_eval.pyx":214
  *     segr = seg.ravel()
  *     gtr = gt.ravel()
  *     ignored = np.zeros(segr.shape, np.bool)             # <<<<<<<<<<<<<<
@@ -5752,7 +5752,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
   __pyx_v_ignored = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "segLib/eval.pyx":215
+  /* "segLib/seg_eval.pyx":215
  *     gtr = gt.ravel()
  *     ignored = np.zeros(segr.shape, np.bool)
  *     data = np.ones(len(gtr))             # <<<<<<<<<<<<<<
@@ -5816,7 +5816,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
   __pyx_v_data = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "segLib/eval.pyx":216
+  /* "segLib/seg_eval.pyx":216
  *     ignored = np.zeros(segr.shape, np.bool)
  *     data = np.ones(len(gtr))
  *     for i in ignore_seg:             # <<<<<<<<<<<<<<
@@ -5865,7 +5865,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
     __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_7);
     __pyx_t_7 = 0;
 
-    /* "segLib/eval.pyx":217
+    /* "segLib/seg_eval.pyx":217
  *     data = np.ones(len(gtr))
  *     for i in ignore_seg:
  *         ignored[segr == i] = True             # <<<<<<<<<<<<<<
@@ -5876,7 +5876,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
     if (unlikely(PyObject_SetItem(__pyx_v_ignored, __pyx_t_7, Py_True) < 0)) __PYX_ERR(0, 217, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "segLib/eval.pyx":216
+    /* "segLib/seg_eval.pyx":216
  *     ignored = np.zeros(segr.shape, np.bool)
  *     data = np.ones(len(gtr))
  *     for i in ignore_seg:             # <<<<<<<<<<<<<<
@@ -5886,7 +5886,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "segLib/eval.pyx":218
+  /* "segLib/seg_eval.pyx":218
  *     for i in ignore_seg:
  *         ignored[segr == i] = True
  *     for j in ignore_gt:             # <<<<<<<<<<<<<<
@@ -5935,7 +5935,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
     __Pyx_XDECREF_SET(__pyx_v_j, __pyx_t_7);
     __pyx_t_7 = 0;
 
-    /* "segLib/eval.pyx":219
+    /* "segLib/seg_eval.pyx":219
  *         ignored[segr == i] = True
  *     for j in ignore_gt:
  *         ignored[gtr == j] = True             # <<<<<<<<<<<<<<
@@ -5946,7 +5946,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
     if (unlikely(PyObject_SetItem(__pyx_v_ignored, __pyx_t_7, Py_True) < 0)) __PYX_ERR(0, 219, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "segLib/eval.pyx":218
+    /* "segLib/seg_eval.pyx":218
  *     for i in ignore_seg:
  *         ignored[segr == i] = True
  *     for j in ignore_gt:             # <<<<<<<<<<<<<<
@@ -5956,7 +5956,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "segLib/eval.pyx":220
+  /* "segLib/seg_eval.pyx":220
  *     for j in ignore_gt:
  *         ignored[gtr == j] = True
  *     data[ignored] = 0             # <<<<<<<<<<<<<<
@@ -5965,7 +5965,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
  */
   if (unlikely(PyObject_SetItem(__pyx_v_data, __pyx_v_ignored, __pyx_int_0) < 0)) __PYX_ERR(0, 220, __pyx_L1_error)
 
-  /* "segLib/eval.pyx":221
+  /* "segLib/seg_eval.pyx":221
  *         ignored[gtr == j] = True
  *     data[ignored] = 0
  *     cont = sparse.coo_matrix((data, (segr, gtr))).tocsc()             # <<<<<<<<<<<<<<
@@ -6063,7 +6063,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
   __pyx_v_cont = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "segLib/eval.pyx":222
+  /* "segLib/seg_eval.pyx":222
  *     data[ignored] = 0
  *     cont = sparse.coo_matrix((data, (segr, gtr))).tocsc()
  *     if norm:             # <<<<<<<<<<<<<<
@@ -6073,7 +6073,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
   __pyx_t_10 = __Pyx_PyObject_IsTrue(__pyx_v_norm); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(0, 222, __pyx_L1_error)
   if (__pyx_t_10) {
 
-    /* "segLib/eval.pyx":223
+    /* "segLib/seg_eval.pyx":223
  *     cont = sparse.coo_matrix((data, (segr, gtr))).tocsc()
  *     if norm:
  *         cont /= float(cont.sum())             # <<<<<<<<<<<<<<
@@ -6109,7 +6109,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
     __Pyx_DECREF_SET(__pyx_v_cont, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "segLib/eval.pyx":222
+    /* "segLib/seg_eval.pyx":222
  *     data[ignored] = 0
  *     cont = sparse.coo_matrix((data, (segr, gtr))).tocsc()
  *     if norm:             # <<<<<<<<<<<<<<
@@ -6118,7 +6118,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
  */
   }
 
-  /* "segLib/eval.pyx":224
+  /* "segLib/seg_eval.pyx":224
  *     if norm:
  *         cont /= float(cont.sum())
  *     return cont             # <<<<<<<<<<<<<<
@@ -6130,7 +6130,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
   __pyx_r = __pyx_v_cont;
   goto __pyx_L0;
 
-  /* "segLib/eval.pyx":187
+  /* "segLib/seg_eval.pyx":187
  *     return [pxy] + list(map(np.asarray, [px, py, hxgy, hygx, lpygx, lpxgy]))
  * 
  * def contingency_table(seg, gt, ignore_seg=[0], ignore_gt=[0], norm=True):             # <<<<<<<<<<<<<<
@@ -6146,7 +6146,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("segLib.eval.contingency_table", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.contingency_table", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_segr);
@@ -6161,7 +6161,7 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "segLib/eval.pyx":226
+/* "segLib/seg_eval.pyx":226
  *     return cont
  * 
  * def divide_columns(matrix, row, in_place=False):             # <<<<<<<<<<<<<<
@@ -6170,10 +6170,10 @@ static PyObject *__pyx_pf_6segLib_4eval_10contingency_table(CYTHON_UNUSED PyObje
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_4eval_13divide_columns(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_4eval_12divide_columns[] = "Divide each column of `matrix` by the corresponding element in `row`.\n\n    The result is as follows: out[i, j] = matrix[i, j] / row[j]\n\n    Parameters\n    ----------\n    matrix : np.ndarray, scipy.sparse.csc_matrix or csr_matrix, shape (M, N)\n        The input matrix.\n    column : a 1D np.ndarray, shape (N,)\n        The row dividing `matrix`.\n    in_place : bool (optional, default False)\n        Do the computation in-place.\n\n    Returns\n    -------\n    out : same type as `matrix`\n        The result of the row-wise division.\n    ";
-static PyMethodDef __pyx_mdef_6segLib_4eval_13divide_columns = {"divide_columns", (PyCFunction)__pyx_pw_6segLib_4eval_13divide_columns, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_4eval_12divide_columns};
-static PyObject *__pyx_pw_6segLib_4eval_13divide_columns(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_6segLib_8seg_eval_13divide_columns(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_6segLib_8seg_eval_12divide_columns[] = "Divide each column of `matrix` by the corresponding element in `row`.\n\n    The result is as follows: out[i, j] = matrix[i, j] / row[j]\n\n    Parameters\n    ----------\n    matrix : np.ndarray, scipy.sparse.csc_matrix or csr_matrix, shape (M, N)\n        The input matrix.\n    column : a 1D np.ndarray, shape (N,)\n        The row dividing `matrix`.\n    in_place : bool (optional, default False)\n        Do the computation in-place.\n\n    Returns\n    -------\n    out : same type as `matrix`\n        The result of the row-wise division.\n    ";
+static PyMethodDef __pyx_mdef_6segLib_8seg_eval_13divide_columns = {"divide_columns", (PyCFunction)__pyx_pw_6segLib_8seg_eval_13divide_columns, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_12divide_columns};
+static PyObject *__pyx_pw_6segLib_8seg_eval_13divide_columns(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_matrix = 0;
   PyObject *__pyx_v_row = 0;
   PyObject *__pyx_v_in_place = 0;
@@ -6236,18 +6236,18 @@ static PyObject *__pyx_pw_6segLib_4eval_13divide_columns(PyObject *__pyx_self, P
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("divide_columns", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 226, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.eval.divide_columns", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.divide_columns", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_4eval_12divide_columns(__pyx_self, __pyx_v_matrix, __pyx_v_row, __pyx_v_in_place);
+  __pyx_r = __pyx_pf_6segLib_8seg_eval_12divide_columns(__pyx_self, __pyx_v_matrix, __pyx_v_row, __pyx_v_in_place);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_row, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_row, PyObject *__pyx_v_in_place) {
   PyObject *__pyx_v_out = NULL;
   int __pyx_v_convert_to_csc;
   PyObject *__pyx_v_row_repeated = NULL;
@@ -6264,7 +6264,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("divide_columns", 0);
 
-  /* "segLib/eval.pyx":245
+  /* "segLib/seg_eval.pyx":245
  *         The result of the row-wise division.
  *     """
  *     if in_place:             # <<<<<<<<<<<<<<
@@ -6274,7 +6274,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
   __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 245, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "segLib/eval.pyx":246
+    /* "segLib/seg_eval.pyx":246
  *     """
  *     if in_place:
  *         out = matrix             # <<<<<<<<<<<<<<
@@ -6284,7 +6284,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
     __Pyx_INCREF(__pyx_v_matrix);
     __pyx_v_out = __pyx_v_matrix;
 
-    /* "segLib/eval.pyx":245
+    /* "segLib/seg_eval.pyx":245
  *         The result of the row-wise division.
  *     """
  *     if in_place:             # <<<<<<<<<<<<<<
@@ -6294,7 +6294,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
     goto __pyx_L3;
   }
 
-  /* "segLib/eval.pyx":248
+  /* "segLib/seg_eval.pyx":248
  *         out = matrix
  *     else:
  *         out = matrix.copy()             # <<<<<<<<<<<<<<
@@ -6327,7 +6327,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
   }
   __pyx_L3:;
 
-  /* "segLib/eval.pyx":249
+  /* "segLib/seg_eval.pyx":249
  *     else:
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:             # <<<<<<<<<<<<<<
@@ -6365,7 +6365,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
   __pyx_t_5 = (__pyx_t_1 != 0);
   if (__pyx_t_5) {
 
-    /* "segLib/eval.pyx":250
+    /* "segLib/seg_eval.pyx":250
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         if type(out) == sparse.csc_matrix:             # <<<<<<<<<<<<<<
@@ -6383,7 +6383,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (__pyx_t_5) {
 
-      /* "segLib/eval.pyx":251
+      /* "segLib/seg_eval.pyx":251
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         if type(out) == sparse.csc_matrix:
  *             convert_to_csc = True             # <<<<<<<<<<<<<<
@@ -6392,7 +6392,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
  */
       __pyx_v_convert_to_csc = 1;
 
-      /* "segLib/eval.pyx":252
+      /* "segLib/seg_eval.pyx":252
  *         if type(out) == sparse.csc_matrix:
  *             convert_to_csc = True
  *             out = out.tocsr()             # <<<<<<<<<<<<<<
@@ -6422,7 +6422,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
       __Pyx_DECREF_SET(__pyx_v_out, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "segLib/eval.pyx":250
+      /* "segLib/seg_eval.pyx":250
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         if type(out) == sparse.csc_matrix:             # <<<<<<<<<<<<<<
@@ -6432,7 +6432,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
       goto __pyx_L7;
     }
 
-    /* "segLib/eval.pyx":254
+    /* "segLib/seg_eval.pyx":254
  *             out = out.tocsr()
  *         else:
  *             convert_to_csc = False             # <<<<<<<<<<<<<<
@@ -6444,7 +6444,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
     }
     __pyx_L7:;
 
-    /* "segLib/eval.pyx":255
+    /* "segLib/seg_eval.pyx":255
  *         else:
  *             convert_to_csc = False
  *         row_repeated = np.take(row, out.indices)             # <<<<<<<<<<<<<<
@@ -6508,7 +6508,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
     __pyx_v_row_repeated = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "segLib/eval.pyx":256
+    /* "segLib/seg_eval.pyx":256
  *             convert_to_csc = False
  *         row_repeated = np.take(row, out.indices)
  *         nz = out.data.nonzero()             # <<<<<<<<<<<<<<
@@ -6541,7 +6541,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
     __pyx_v_nz = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "segLib/eval.pyx":257
+    /* "segLib/seg_eval.pyx":257
  *         row_repeated = np.take(row, out.indices)
  *         nz = out.data.nonzero()
  *         out.data[nz] /= row_repeated[nz]             # <<<<<<<<<<<<<<
@@ -6565,7 +6565,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "segLib/eval.pyx":258
+    /* "segLib/seg_eval.pyx":258
  *         nz = out.data.nonzero()
  *         out.data[nz] /= row_repeated[nz]
  *         if convert_to_csc:             # <<<<<<<<<<<<<<
@@ -6575,7 +6575,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
     __pyx_t_5 = (__pyx_v_convert_to_csc != 0);
     if (__pyx_t_5) {
 
-      /* "segLib/eval.pyx":259
+      /* "segLib/seg_eval.pyx":259
  *         out.data[nz] /= row_repeated[nz]
  *         if convert_to_csc:
  *             out = out.tocsc()             # <<<<<<<<<<<<<<
@@ -6605,7 +6605,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
       __Pyx_DECREF_SET(__pyx_v_out, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "segLib/eval.pyx":258
+      /* "segLib/seg_eval.pyx":258
  *         nz = out.data.nonzero()
  *         out.data[nz] /= row_repeated[nz]
  *         if convert_to_csc:             # <<<<<<<<<<<<<<
@@ -6614,7 +6614,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
  */
     }
 
-    /* "segLib/eval.pyx":249
+    /* "segLib/seg_eval.pyx":249
  *     else:
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:             # <<<<<<<<<<<<<<
@@ -6624,7 +6624,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
     goto __pyx_L4;
   }
 
-  /* "segLib/eval.pyx":261
+  /* "segLib/seg_eval.pyx":261
  *             out = out.tocsc()
  *     else:
  *         out /= row[np.newaxis, :]             # <<<<<<<<<<<<<<
@@ -6656,7 +6656,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
   }
   __pyx_L4:;
 
-  /* "segLib/eval.pyx":262
+  /* "segLib/seg_eval.pyx":262
  *     else:
  *         out /= row[np.newaxis, :]
  *     return out             # <<<<<<<<<<<<<<
@@ -6668,7 +6668,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
   __pyx_r = __pyx_v_out;
   goto __pyx_L0;
 
-  /* "segLib/eval.pyx":226
+  /* "segLib/seg_eval.pyx":226
  *     return cont
  * 
  * def divide_columns(matrix, row, in_place=False):             # <<<<<<<<<<<<<<
@@ -6683,7 +6683,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("segLib.eval.divide_columns", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.divide_columns", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_out);
@@ -6694,7 +6694,7 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
   return __pyx_r;
 }
 
-/* "segLib/eval.pyx":264
+/* "segLib/seg_eval.pyx":264
  *     return out
  * 
  * def divide_rows(matrix, column, in_place=False):             # <<<<<<<<<<<<<<
@@ -6703,10 +6703,10 @@ static PyObject *__pyx_pf_6segLib_4eval_12divide_columns(CYTHON_UNUSED PyObject 
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_4eval_15divide_rows(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_4eval_14divide_rows[] = "Divide each row of `matrix` by the corresponding element in `column`.\n\n    The result is as follows: out[i, j] = matrix[i, j] / column[i]\n\n    Parameters\n    ----------\n    matrix : np.ndarray, scipy.sparse.csc_matrix or csr_matrix, shape (M, N)\n        The input matrix.\n    column : a 1D np.ndarray, shape (M,)\n        The column dividing `matrix`.\n    in_place : bool (optional, default False)\n        Do the computation in-place.\n\n    Returns\n    -------\n    out : same type as `matrix`\n        The result of the row-wise division.\n    ";
-static PyMethodDef __pyx_mdef_6segLib_4eval_15divide_rows = {"divide_rows", (PyCFunction)__pyx_pw_6segLib_4eval_15divide_rows, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_4eval_14divide_rows};
-static PyObject *__pyx_pw_6segLib_4eval_15divide_rows(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_6segLib_8seg_eval_15divide_rows(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_6segLib_8seg_eval_14divide_rows[] = "Divide each row of `matrix` by the corresponding element in `column`.\n\n    The result is as follows: out[i, j] = matrix[i, j] / column[i]\n\n    Parameters\n    ----------\n    matrix : np.ndarray, scipy.sparse.csc_matrix or csr_matrix, shape (M, N)\n        The input matrix.\n    column : a 1D np.ndarray, shape (M,)\n        The column dividing `matrix`.\n    in_place : bool (optional, default False)\n        Do the computation in-place.\n\n    Returns\n    -------\n    out : same type as `matrix`\n        The result of the row-wise division.\n    ";
+static PyMethodDef __pyx_mdef_6segLib_8seg_eval_15divide_rows = {"divide_rows", (PyCFunction)__pyx_pw_6segLib_8seg_eval_15divide_rows, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_14divide_rows};
+static PyObject *__pyx_pw_6segLib_8seg_eval_15divide_rows(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_matrix = 0;
   PyObject *__pyx_v_column = 0;
   PyObject *__pyx_v_in_place = 0;
@@ -6769,18 +6769,18 @@ static PyObject *__pyx_pw_6segLib_4eval_15divide_rows(PyObject *__pyx_self, PyOb
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("divide_rows", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 264, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.eval.divide_rows", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.divide_rows", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_4eval_14divide_rows(__pyx_self, __pyx_v_matrix, __pyx_v_column, __pyx_v_in_place);
+  __pyx_r = __pyx_pf_6segLib_8seg_eval_14divide_rows(__pyx_self, __pyx_v_matrix, __pyx_v_column, __pyx_v_in_place);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_column, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_column, PyObject *__pyx_v_in_place) {
   PyObject *__pyx_v_out = NULL;
   int __pyx_v_convert_to_csr;
   PyObject *__pyx_v_column_repeated = NULL;
@@ -6797,7 +6797,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("divide_rows", 0);
 
-  /* "segLib/eval.pyx":283
+  /* "segLib/seg_eval.pyx":283
  *         The result of the row-wise division.
  *     """
  *     if in_place:             # <<<<<<<<<<<<<<
@@ -6807,7 +6807,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
   __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 283, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "segLib/eval.pyx":284
+    /* "segLib/seg_eval.pyx":284
  *     """
  *     if in_place:
  *         out = matrix             # <<<<<<<<<<<<<<
@@ -6817,7 +6817,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
     __Pyx_INCREF(__pyx_v_matrix);
     __pyx_v_out = __pyx_v_matrix;
 
-    /* "segLib/eval.pyx":283
+    /* "segLib/seg_eval.pyx":283
  *         The result of the row-wise division.
  *     """
  *     if in_place:             # <<<<<<<<<<<<<<
@@ -6827,7 +6827,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
     goto __pyx_L3;
   }
 
-  /* "segLib/eval.pyx":286
+  /* "segLib/seg_eval.pyx":286
  *         out = matrix
  *     else:
  *         out = matrix.copy()             # <<<<<<<<<<<<<<
@@ -6860,7 +6860,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
   }
   __pyx_L3:;
 
-  /* "segLib/eval.pyx":287
+  /* "segLib/seg_eval.pyx":287
  *     else:
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:             # <<<<<<<<<<<<<<
@@ -6898,7 +6898,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
   __pyx_t_5 = (__pyx_t_1 != 0);
   if (__pyx_t_5) {
 
-    /* "segLib/eval.pyx":288
+    /* "segLib/seg_eval.pyx":288
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         if type(out) == sparse.csr_matrix:             # <<<<<<<<<<<<<<
@@ -6916,7 +6916,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (__pyx_t_5) {
 
-      /* "segLib/eval.pyx":289
+      /* "segLib/seg_eval.pyx":289
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         if type(out) == sparse.csr_matrix:
  *             convert_to_csr = True             # <<<<<<<<<<<<<<
@@ -6925,7 +6925,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
  */
       __pyx_v_convert_to_csr = 1;
 
-      /* "segLib/eval.pyx":290
+      /* "segLib/seg_eval.pyx":290
  *         if type(out) == sparse.csr_matrix:
  *             convert_to_csr = True
  *             out = out.tocsc()             # <<<<<<<<<<<<<<
@@ -6955,7 +6955,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
       __Pyx_DECREF_SET(__pyx_v_out, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "segLib/eval.pyx":288
+      /* "segLib/seg_eval.pyx":288
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         if type(out) == sparse.csr_matrix:             # <<<<<<<<<<<<<<
@@ -6965,7 +6965,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
       goto __pyx_L7;
     }
 
-    /* "segLib/eval.pyx":292
+    /* "segLib/seg_eval.pyx":292
  *             out = out.tocsc()
  *         else:
  *             convert_to_csr = False             # <<<<<<<<<<<<<<
@@ -6977,7 +6977,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
     }
     __pyx_L7:;
 
-    /* "segLib/eval.pyx":293
+    /* "segLib/seg_eval.pyx":293
  *         else:
  *             convert_to_csr = False
  *         column_repeated = np.take(column, out.indices)             # <<<<<<<<<<<<<<
@@ -7041,7 +7041,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
     __pyx_v_column_repeated = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "segLib/eval.pyx":294
+    /* "segLib/seg_eval.pyx":294
  *             convert_to_csr = False
  *         column_repeated = np.take(column, out.indices)
  *         nz = out.data.nonzero()             # <<<<<<<<<<<<<<
@@ -7074,7 +7074,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
     __pyx_v_nz = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "segLib/eval.pyx":295
+    /* "segLib/seg_eval.pyx":295
  *         column_repeated = np.take(column, out.indices)
  *         nz = out.data.nonzero()
  *         out.data[nz] /= column_repeated[nz]             # <<<<<<<<<<<<<<
@@ -7098,7 +7098,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "segLib/eval.pyx":296
+    /* "segLib/seg_eval.pyx":296
  *         nz = out.data.nonzero()
  *         out.data[nz] /= column_repeated[nz]
  *         if convert_to_csr:             # <<<<<<<<<<<<<<
@@ -7108,7 +7108,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
     __pyx_t_5 = (__pyx_v_convert_to_csr != 0);
     if (__pyx_t_5) {
 
-      /* "segLib/eval.pyx":297
+      /* "segLib/seg_eval.pyx":297
  *         out.data[nz] /= column_repeated[nz]
  *         if convert_to_csr:
  *             out = out.tocsr()             # <<<<<<<<<<<<<<
@@ -7138,7 +7138,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
       __Pyx_DECREF_SET(__pyx_v_out, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "segLib/eval.pyx":296
+      /* "segLib/seg_eval.pyx":296
  *         nz = out.data.nonzero()
  *         out.data[nz] /= column_repeated[nz]
  *         if convert_to_csr:             # <<<<<<<<<<<<<<
@@ -7147,7 +7147,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
  */
     }
 
-    /* "segLib/eval.pyx":287
+    /* "segLib/seg_eval.pyx":287
  *     else:
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:             # <<<<<<<<<<<<<<
@@ -7157,7 +7157,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
     goto __pyx_L4;
   }
 
-  /* "segLib/eval.pyx":299
+  /* "segLib/seg_eval.pyx":299
  *             out = out.tocsr()
  *     else:
  *         out /= column[:, np.newaxis]             # <<<<<<<<<<<<<<
@@ -7189,7 +7189,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
   }
   __pyx_L4:;
 
-  /* "segLib/eval.pyx":300
+  /* "segLib/seg_eval.pyx":300
  *     else:
  *         out /= column[:, np.newaxis]
  *     return out             # <<<<<<<<<<<<<<
@@ -7201,7 +7201,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
   __pyx_r = __pyx_v_out;
   goto __pyx_L0;
 
-  /* "segLib/eval.pyx":264
+  /* "segLib/seg_eval.pyx":264
  *     return out
  * 
  * def divide_rows(matrix, column, in_place=False):             # <<<<<<<<<<<<<<
@@ -7216,7 +7216,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("segLib.eval.divide_rows", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.divide_rows", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_out);
@@ -7227,7 +7227,7 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
   return __pyx_r;
 }
 
-/* "segLib/eval.pyx":302
+/* "segLib/seg_eval.pyx":302
  *     return out
  * 
  * def xlogx(x, out=None, in_place=False):             # <<<<<<<<<<<<<<
@@ -7236,10 +7236,10 @@ static PyObject *__pyx_pf_6segLib_4eval_14divide_rows(CYTHON_UNUSED PyObject *__
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_4eval_17xlogx(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_4eval_16xlogx[] = "Compute x * log_2(x).\n\n    We define 0 * log_2(0) = 0\n\n    Parameters\n    ----------\n    x : np.ndarray or scipy.sparse.csc_matrix or csr_matrix\n        The input array.\n    out : same type as x (optional)\n        If provided, use this array/matrix for the result.\n    in_place : bool (optional, default False)\n        Operate directly on x.\n\n    Returns\n    -------\n    y : same type as x\n        Result of x * log_2(x).\n    ";
-static PyMethodDef __pyx_mdef_6segLib_4eval_17xlogx = {"xlogx", (PyCFunction)__pyx_pw_6segLib_4eval_17xlogx, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_4eval_16xlogx};
-static PyObject *__pyx_pw_6segLib_4eval_17xlogx(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_6segLib_8seg_eval_17xlogx(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_6segLib_8seg_eval_16xlogx[] = "Compute x * log_2(x).\n\n    We define 0 * log_2(0) = 0\n\n    Parameters\n    ----------\n    x : np.ndarray or scipy.sparse.csc_matrix or csr_matrix\n        The input array.\n    out : same type as x (optional)\n        If provided, use this array/matrix for the result.\n    in_place : bool (optional, default False)\n        Operate directly on x.\n\n    Returns\n    -------\n    y : same type as x\n        Result of x * log_2(x).\n    ";
+static PyMethodDef __pyx_mdef_6segLib_8seg_eval_17xlogx = {"xlogx", (PyCFunction)__pyx_pw_6segLib_8seg_eval_17xlogx, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_16xlogx};
+static PyObject *__pyx_pw_6segLib_8seg_eval_17xlogx(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_x = 0;
   PyObject *__pyx_v_out = 0;
   PyObject *__pyx_v_in_place = 0;
@@ -7304,18 +7304,18 @@ static PyObject *__pyx_pw_6segLib_4eval_17xlogx(PyObject *__pyx_self, PyObject *
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("xlogx", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 302, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.eval.xlogx", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.xlogx", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_4eval_16xlogx(__pyx_self, __pyx_v_x, __pyx_v_out, __pyx_v_in_place);
+  __pyx_r = __pyx_pf_6segLib_8seg_eval_16xlogx(__pyx_self, __pyx_v_x, __pyx_v_out, __pyx_v_in_place);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_out, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_out, PyObject *__pyx_v_in_place) {
   PyObject *__pyx_v_y = NULL;
   PyObject *__pyx_v_z = NULL;
   PyObject *__pyx_v_nz = NULL;
@@ -7332,7 +7332,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
   PyObject *__pyx_t_9 = NULL;
   __Pyx_RefNannySetupContext("xlogx", 0);
 
-  /* "segLib/eval.pyx":321
+  /* "segLib/seg_eval.pyx":321
  *         Result of x * log_2(x).
  *     """
  *     if in_place:             # <<<<<<<<<<<<<<
@@ -7342,7 +7342,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
   __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 321, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "segLib/eval.pyx":322
+    /* "segLib/seg_eval.pyx":322
  *     """
  *     if in_place:
  *         y = x             # <<<<<<<<<<<<<<
@@ -7352,7 +7352,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
     __Pyx_INCREF(__pyx_v_x);
     __pyx_v_y = __pyx_v_x;
 
-    /* "segLib/eval.pyx":321
+    /* "segLib/seg_eval.pyx":321
  *         Result of x * log_2(x).
  *     """
  *     if in_place:             # <<<<<<<<<<<<<<
@@ -7362,7 +7362,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
     goto __pyx_L3;
   }
 
-  /* "segLib/eval.pyx":323
+  /* "segLib/seg_eval.pyx":323
  *     if in_place:
  *         y = x
  *     elif out is None:             # <<<<<<<<<<<<<<
@@ -7373,7 +7373,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "segLib/eval.pyx":324
+    /* "segLib/seg_eval.pyx":324
  *         y = x
  *     elif out is None:
  *         y = x.copy()             # <<<<<<<<<<<<<<
@@ -7403,7 +7403,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
     __pyx_v_y = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":323
+    /* "segLib/seg_eval.pyx":323
  *     if in_place:
  *         y = x
  *     elif out is None:             # <<<<<<<<<<<<<<
@@ -7413,7 +7413,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
     goto __pyx_L3;
   }
 
-  /* "segLib/eval.pyx":326
+  /* "segLib/seg_eval.pyx":326
  *         y = x.copy()
  *     else:
  *         y = out             # <<<<<<<<<<<<<<
@@ -7426,7 +7426,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
   }
   __pyx_L3:;
 
-  /* "segLib/eval.pyx":327
+  /* "segLib/seg_eval.pyx":327
  *     else:
  *         y = out
  *     if type(y) in [sparse.csc_matrix, sparse.csr_matrix]:             # <<<<<<<<<<<<<<
@@ -7464,7 +7464,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "segLib/eval.pyx":328
+    /* "segLib/seg_eval.pyx":328
  *         y = out
  *     if type(y) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         z = y.data             # <<<<<<<<<<<<<<
@@ -7476,7 +7476,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
     __pyx_v_z = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "segLib/eval.pyx":327
+    /* "segLib/seg_eval.pyx":327
  *     else:
  *         y = out
  *     if type(y) in [sparse.csc_matrix, sparse.csr_matrix]:             # <<<<<<<<<<<<<<
@@ -7486,7 +7486,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
     goto __pyx_L4;
   }
 
-  /* "segLib/eval.pyx":330
+  /* "segLib/seg_eval.pyx":330
  *         z = y.data
  *     else:
  *         z = y             # <<<<<<<<<<<<<<
@@ -7499,7 +7499,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
   }
   __pyx_L4:;
 
-  /* "segLib/eval.pyx":331
+  /* "segLib/seg_eval.pyx":331
  *     else:
  *         z = y
  *     nz = z.nonzero()             # <<<<<<<<<<<<<<
@@ -7529,7 +7529,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
   __pyx_v_nz = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "segLib/eval.pyx":332
+  /* "segLib/seg_eval.pyx":332
  *         z = y
  *     nz = z.nonzero()
  *     z[nz] *= np.log2(z[nz])             # <<<<<<<<<<<<<<
@@ -7600,7 +7600,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "segLib/eval.pyx":333
+  /* "segLib/seg_eval.pyx":333
  *     nz = z.nonzero()
  *     z[nz] *= np.log2(z[nz])
  *     return y             # <<<<<<<<<<<<<<
@@ -7610,7 +7610,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
   __pyx_r = __pyx_v_y;
   goto __pyx_L0;
 
-  /* "segLib/eval.pyx":302
+  /* "segLib/seg_eval.pyx":302
  *     return out
  * 
  * def xlogx(x, out=None, in_place=False):             # <<<<<<<<<<<<<<
@@ -7627,7 +7627,7 @@ static PyObject *__pyx_pf_6segLib_4eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_se
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
-  __Pyx_AddTraceback("segLib.eval.xlogx", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("segLib.seg_eval.xlogx", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_y);
@@ -10227,17 +10227,17 @@ static PyMethodDef __pyx_methods[] = {
 #if PY_MAJOR_VERSION >= 3
 #if CYTHON_PEP489_MULTI_PHASE_INIT
 static PyObject* __pyx_pymod_create(PyObject *spec, PyModuleDef *def); /*proto*/
-static int __pyx_pymod_exec_eval(PyObject* module); /*proto*/
+static int __pyx_pymod_exec_seg_eval(PyObject* module); /*proto*/
 static PyModuleDef_Slot __pyx_moduledef_slots[] = {
   {Py_mod_create, (void*)__pyx_pymod_create},
-  {Py_mod_exec, (void*)__pyx_pymod_exec_eval},
+  {Py_mod_exec, (void*)__pyx_pymod_exec_seg_eval},
   {0, NULL}
 };
 #endif
 
 static struct PyModuleDef __pyx_moduledef = {
     PyModuleDef_HEAD_INIT,
-    "eval",
+    "seg_eval",
     0, /* m_doc */
   #if CYTHON_PEP489_MULTI_PHASE_INIT
     0, /* m_size */
@@ -10355,10 +10355,10 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_row_repeated, __pyx_k_row_repeated, sizeof(__pyx_k_row_repeated), 0, 0, 1, 1},
   {&__pyx_n_s_scipy_sparse, __pyx_k_scipy_sparse, sizeof(__pyx_k_scipy_sparse), 0, 0, 1, 1},
   {&__pyx_n_s_seg, __pyx_k_seg, sizeof(__pyx_k_seg), 0, 0, 1, 1},
-  {&__pyx_n_s_segLib_dist, __pyx_k_segLib_dist, sizeof(__pyx_k_segLib_dist), 0, 0, 1, 1},
-  {&__pyx_n_s_segLib_eval, __pyx_k_segLib_eval, sizeof(__pyx_k_segLib_eval), 0, 0, 1, 1},
-  {&__pyx_kp_s_segLib_eval_pyx, __pyx_k_segLib_eval_pyx, sizeof(__pyx_k_segLib_eval_pyx), 0, 0, 1, 0},
-  {&__pyx_n_s_segLib_seg, __pyx_k_segLib_seg, sizeof(__pyx_k_segLib_seg), 0, 0, 1, 1},
+  {&__pyx_n_s_segLib_seg_core, __pyx_k_segLib_seg_core, sizeof(__pyx_k_segLib_seg_core), 0, 0, 1, 1},
+  {&__pyx_n_s_segLib_seg_dist, __pyx_k_segLib_seg_dist, sizeof(__pyx_k_segLib_seg_dist), 0, 0, 1, 1},
+  {&__pyx_n_s_segLib_seg_eval, __pyx_k_segLib_seg_eval, sizeof(__pyx_k_segLib_seg_eval), 0, 0, 1, 1},
+  {&__pyx_kp_s_segLib_seg_eval_pyx, __pyx_k_segLib_seg_eval_pyx, sizeof(__pyx_k_segLib_seg_eval_pyx), 0, 0, 1, 0},
   {&__pyx_n_s_segmentation, __pyx_k_segmentation, sizeof(__pyx_k_segmentation), 0, 0, 1, 1},
   {&__pyx_n_s_segr, __pyx_k_segr, sizeof(__pyx_k_segr), 0, 0, 1, 1},
   {&__pyx_n_s_shape, __pyx_k_shape, sizeof(__pyx_k_shape), 0, 0, 1, 1},
@@ -10400,7 +10400,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "segLib/eval.pyx":173
+  /* "segLib/seg_eval.pyx":173
  *     nzpx = px[nzx]
  *     nzpy = py[nzy]
  *     nzpxy = pxy[nzx, :][:, nzy]             # <<<<<<<<<<<<<<
@@ -10414,7 +10414,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__8);
   __Pyx_GIVEREF(__pyx_slice__8);
 
-  /* "segLib/eval.pyx":261
+  /* "segLib/seg_eval.pyx":261
  *             out = out.tocsc()
  *     else:
  *         out /= row[np.newaxis, :]             # <<<<<<<<<<<<<<
@@ -10425,7 +10425,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__11);
   __Pyx_GIVEREF(__pyx_slice__11);
 
-  /* "segLib/eval.pyx":299
+  /* "segLib/seg_eval.pyx":299
  *             out = out.tocsr()
  *     else:
  *         out /= column[:, np.newaxis]             # <<<<<<<<<<<<<<
@@ -10533,7 +10533,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__21);
   __Pyx_GIVEREF(__pyx_tuple__21);
 
-  /* "segLib/eval.pyx":14
+  /* "segLib/seg_eval.pyx":14
  *     void CppEvaluate(long *segmentation, long *gold, long resolution[3], unsigned char mask_ground_truth)
  * 
  * def PrincetonEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
@@ -10543,9 +10543,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__23 = PyTuple_Pack(10, __pyx_n_s_segmentation, __pyx_n_s_gold, __pyx_n_s_dilate_ground_truth, __pyx_n_s_mask_ground_truth, __pyx_n_s_filtersize, __pyx_n_s_cpp_segmentation, __pyx_n_s_cpp_gold, __pyx_n_s_zres, __pyx_n_s_yres, __pyx_n_s_xres); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__23);
   __Pyx_GIVEREF(__pyx_tuple__23);
-  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(5, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_eval_pyx, __pyx_n_s_PrincetonEvaluate, 14, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(5, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_PrincetonEvaluate, 14, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) __PYX_ERR(0, 14, __pyx_L1_error)
 
-  /* "segLib/eval.pyx":36
+  /* "segLib/seg_eval.pyx":36
  * 
  * 
  * def CremiEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
@@ -10555,9 +10555,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__25 = PyTuple_Pack(7, __pyx_n_s_segmentation, __pyx_n_s_gold, __pyx_n_s_dilate_ground_truth, __pyx_n_s_mask_ground_truth, __pyx_n_s_filtersize, __pyx_n_s_vi_split, __pyx_n_s_vi_merge); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__25);
   __Pyx_GIVEREF(__pyx_tuple__25);
-  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(5, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_eval_pyx, __pyx_n_s_CremiEvaluate, 36, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) __PYX_ERR(0, 36, __pyx_L1_error)
+  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(5, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_CremiEvaluate, 36, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) __PYX_ERR(0, 36, __pyx_L1_error)
 
-  /* "segLib/eval.pyx":62
+  /* "segLib/seg_eval.pyx":62
  * # Evaluation code courtesy of Juan Nunez-Iglesias, taken from
  * # https://github.com/janelia-flyem/gala/blob/master/gala/evaluate.py
  * def voi(reconstruction, groundtruth, ignore_reconstruction=[], ignore_groundtruth=[0]):             # <<<<<<<<<<<<<<
@@ -10567,9 +10567,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__27 = PyTuple_Pack(6, __pyx_n_s_reconstruction, __pyx_n_s_groundtruth, __pyx_n_s_ignore_reconstruction, __pyx_n_s_ignore_groundtruth, __pyx_n_s_hyxg, __pyx_n_s_hxgy); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(0, 62, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__27);
   __Pyx_GIVEREF(__pyx_tuple__27);
-  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(4, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__27, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_eval_pyx, __pyx_n_s_voi, 62, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 62, __pyx_L1_error)
+  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(4, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__27, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_voi, 62, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 62, __pyx_L1_error)
 
-  /* "segLib/eval.pyx":97
+  /* "segLib/seg_eval.pyx":97
  *     return (hxgy, hyxg)
  * 
  * def split_vi(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -10579,9 +10579,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__30 = PyTuple_Pack(7, __pyx_n_s_x, __pyx_n_s_y, __pyx_n_s_ignore_x, __pyx_n_s_ignore_y, __pyx_n_s__29, __pyx_n_s_hxgy, __pyx_n_s_hygx); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__30);
   __Pyx_GIVEREF(__pyx_tuple__30);
-  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(4, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_eval_pyx, __pyx_n_s_split_vi, 97, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) __PYX_ERR(0, 97, __pyx_L1_error)
+  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(4, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_split_vi, 97, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) __PYX_ERR(0, 97, __pyx_L1_error)
 
-  /* "segLib/eval.pyx":133
+  /* "segLib/seg_eval.pyx":133
  *     return np.array([hygx.sum(), hxgy.sum()])
  * 
  * def vi_tables(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -10591,9 +10591,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__32 = PyTuple_Pack(18, __pyx_n_s_x, __pyx_n_s_y, __pyx_n_s_ignore_x, __pyx_n_s_ignore_y, __pyx_n_s_pxy, __pyx_n_s_cont, __pyx_n_s_total, __pyx_n_s_px, __pyx_n_s_py, __pyx_n_s_nzx, __pyx_n_s_nzy, __pyx_n_s_nzpx, __pyx_n_s_nzpy, __pyx_n_s_nzpxy, __pyx_n_s_lpygx, __pyx_n_s_hygx, __pyx_n_s_lpxgy, __pyx_n_s_hxgy); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(0, 133, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__32);
   __Pyx_GIVEREF(__pyx_tuple__32);
-  __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(4, 0, 18, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_eval_pyx, __pyx_n_s_vi_tables, 133, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(4, 0, 18, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_vi_tables, 133, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) __PYX_ERR(0, 133, __pyx_L1_error)
 
-  /* "segLib/eval.pyx":187
+  /* "segLib/seg_eval.pyx":187
  *     return [pxy] + list(map(np.asarray, [px, py, hxgy, hygx, lpygx, lpxgy]))
  * 
  * def contingency_table(seg, gt, ignore_seg=[0], ignore_gt=[0], norm=True):             # <<<<<<<<<<<<<<
@@ -10603,9 +10603,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__34 = PyTuple_Pack(12, __pyx_n_s_seg, __pyx_n_s_gt, __pyx_n_s_ignore_seg, __pyx_n_s_ignore_gt, __pyx_n_s_norm, __pyx_n_s_segr, __pyx_n_s_gtr, __pyx_n_s_ignored, __pyx_n_s_data, __pyx_n_s_i, __pyx_n_s_j, __pyx_n_s_cont); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 187, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__34);
   __Pyx_GIVEREF(__pyx_tuple__34);
-  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(5, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_eval_pyx, __pyx_n_s_contingency_table, 187, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) __PYX_ERR(0, 187, __pyx_L1_error)
+  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(5, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_contingency_table, 187, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) __PYX_ERR(0, 187, __pyx_L1_error)
 
-  /* "segLib/eval.pyx":226
+  /* "segLib/seg_eval.pyx":226
  *     return cont
  * 
  * def divide_columns(matrix, row, in_place=False):             # <<<<<<<<<<<<<<
@@ -10615,9 +10615,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__36 = PyTuple_Pack(7, __pyx_n_s_matrix, __pyx_n_s_row, __pyx_n_s_in_place, __pyx_n_s_out, __pyx_n_s_convert_to_csc, __pyx_n_s_row_repeated, __pyx_n_s_nz); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(0, 226, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__36);
   __Pyx_GIVEREF(__pyx_tuple__36);
-  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(3, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_eval_pyx, __pyx_n_s_divide_columns, 226, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) __PYX_ERR(0, 226, __pyx_L1_error)
+  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(3, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_divide_columns, 226, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) __PYX_ERR(0, 226, __pyx_L1_error)
 
-  /* "segLib/eval.pyx":264
+  /* "segLib/seg_eval.pyx":264
  *     return out
  * 
  * def divide_rows(matrix, column, in_place=False):             # <<<<<<<<<<<<<<
@@ -10627,9 +10627,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__38 = PyTuple_Pack(7, __pyx_n_s_matrix, __pyx_n_s_column, __pyx_n_s_in_place, __pyx_n_s_out, __pyx_n_s_convert_to_csr, __pyx_n_s_column_repeated, __pyx_n_s_nz); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 264, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__38);
   __Pyx_GIVEREF(__pyx_tuple__38);
-  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(3, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_eval_pyx, __pyx_n_s_divide_rows, 264, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 264, __pyx_L1_error)
+  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(3, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_divide_rows, 264, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 264, __pyx_L1_error)
 
-  /* "segLib/eval.pyx":302
+  /* "segLib/seg_eval.pyx":302
  *     return out
  * 
  * def xlogx(x, out=None, in_place=False):             # <<<<<<<<<<<<<<
@@ -10639,7 +10639,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__40 = PyTuple_Pack(6, __pyx_n_s_x, __pyx_n_s_out, __pyx_n_s_in_place, __pyx_n_s_y, __pyx_n_s_z, __pyx_n_s_nz); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(0, 302, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__40);
   __Pyx_GIVEREF(__pyx_tuple__40);
-  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(3, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_eval_pyx, __pyx_n_s_xlogx, 302, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 302, __pyx_L1_error)
+  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(3, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_xlogx, 302, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 302, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -10657,11 +10657,11 @@ static int __Pyx_InitGlobals(void) {
 }
 
 #if PY_MAJOR_VERSION < 3
-PyMODINIT_FUNC initeval(void); /*proto*/
-PyMODINIT_FUNC initeval(void)
+PyMODINIT_FUNC initseg_eval(void); /*proto*/
+PyMODINIT_FUNC initseg_eval(void)
 #else
-PyMODINIT_FUNC PyInit_eval(void); /*proto*/
-PyMODINIT_FUNC PyInit_eval(void)
+PyMODINIT_FUNC PyInit_seg_eval(void); /*proto*/
+PyMODINIT_FUNC PyInit_seg_eval(void)
 #if CYTHON_PEP489_MULTI_PHASE_INIT
 {
   return PyModuleDef_Init(&__pyx_moduledef);
@@ -10701,7 +10701,7 @@ bad:
 }
 
 
-static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
+static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
 #endif
 #endif
 {
@@ -10720,7 +10720,7 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
           Py_FatalError("failed to import 'refnanny' module");
   }
   #endif
-  __Pyx_RefNannySetupContext("PyMODINIT_FUNC PyInit_eval(void)", 0);
+  __Pyx_RefNannySetupContext("PyMODINIT_FUNC PyInit_seg_eval(void)", 0);
   if (__Pyx_check_binary_version() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_empty_tuple = PyTuple_New(0); if (unlikely(!__pyx_empty_tuple)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_empty_bytes = PyBytes_FromStringAndSize("", 0); if (unlikely(!__pyx_empty_bytes)) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -10756,7 +10756,7 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   Py_INCREF(__pyx_m);
   #else
   #if PY_MAJOR_VERSION < 3
-  __pyx_m = Py_InitModule4("eval", __pyx_methods, 0, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
+  __pyx_m = Py_InitModule4("seg_eval", __pyx_methods, 0, 0, PYTHON_API_VERSION); Py_XINCREF(__pyx_m);
   #else
   __pyx_m = PyModule_Create(&__pyx_moduledef);
   #endif
@@ -10775,14 +10775,14 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_segLib__eval) {
+  if (__pyx_module_is_main_segLib__seg_eval) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "segLib.eval")) {
-      if (unlikely(PyDict_SetItemString(modules, "segLib.eval", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "segLib.seg_eval")) {
+      if (unlikely(PyDict_SetItemString(modules, "segLib.seg_eval", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -10814,7 +10814,7 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "segLib/eval.pyx":4
+  /* "segLib/seg_eval.pyx":4
  * cimport numpy as np
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -10826,7 +10826,7 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "segLib/eval.pyx":5
+  /* "segLib/seg_eval.pyx":5
  * 
  * import numpy as np
  * import ctypes             # <<<<<<<<<<<<<<
@@ -10838,12 +10838,12 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_ctypes, __pyx_t_1) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "segLib/eval.pyx":6
+  /* "segLib/seg_eval.pyx":6
  * import numpy as np
  * import ctypes
  * import scipy.sparse as sparse             # <<<<<<<<<<<<<<
  * 
- * from segLib.dist import DilateData
+ * from segLib.seg_dist import DilateData
  */
   __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -10856,11 +10856,11 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sparse, __pyx_t_2) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/eval.pyx":8
+  /* "segLib/seg_eval.pyx":8
  * import scipy.sparse as sparse
  * 
- * from segLib.dist import DilateData             # <<<<<<<<<<<<<<
- * from segLib.seg import RemoveSmallConnectedComponents
+ * from segLib.seg_dist import DilateData             # <<<<<<<<<<<<<<
+ * from segLib.seg_core import RemoveSmallConnectedComponents
  * 
  */
   __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 8, __pyx_L1_error)
@@ -10868,7 +10868,7 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   __Pyx_INCREF(__pyx_n_s_DilateData);
   __Pyx_GIVEREF(__pyx_n_s_DilateData);
   PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_DilateData);
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_segLib_dist, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_segLib_seg_dist, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_DilateData); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 8, __pyx_L1_error)
@@ -10877,19 +10877,19 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "segLib/eval.pyx":9
+  /* "segLib/seg_eval.pyx":9
  * 
- * from segLib.dist import DilateData
- * from segLib.seg import RemoveSmallConnectedComponents             # <<<<<<<<<<<<<<
+ * from segLib.seg_dist import DilateData
+ * from segLib.seg_core import RemoveSmallConnectedComponents             # <<<<<<<<<<<<<<
  * 
- * cdef extern from 'cpp/eval/cpp-comparestacks.h':
+ * cdef extern from 'cpp/seg_eval/cpp-comparestacks.h':
  */
   __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 9, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_n_s_RemoveSmallConnectedComponents);
   __Pyx_GIVEREF(__pyx_n_s_RemoveSmallConnectedComponents);
   PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_RemoveSmallConnectedComponents);
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_segLib_seg, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 9, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_segLib_seg_core, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 9, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_RemoveSmallConnectedComponents); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 9, __pyx_L1_error)
@@ -10898,31 +10898,31 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/eval.pyx":14
+  /* "segLib/seg_eval.pyx":14
  *     void CppEvaluate(long *segmentation, long *gold, long resolution[3], unsigned char mask_ground_truth)
  * 
  * def PrincetonEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
  *     # make sure these elements are the same size
  *     assert (segmentation.shape == gold.shape)
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_4eval_1PrincetonEvaluate, NULL, __pyx_n_s_segLib_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_1PrincetonEvaluate, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_PrincetonEvaluate, __pyx_t_2) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/eval.pyx":36
+  /* "segLib/seg_eval.pyx":36
  * 
  * 
  * def CremiEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
  *     # make sure these elements are the same size
  *     assert (segmentation.shape == gold.shape)
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_4eval_3CremiEvaluate, NULL, __pyx_n_s_segLib_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 36, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_3CremiEvaluate, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_CremiEvaluate, __pyx_t_2) < 0) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/eval.pyx":62
+  /* "segLib/seg_eval.pyx":62
  * # Evaluation code courtesy of Juan Nunez-Iglesias, taken from
  * # https://github.com/janelia-flyem/gala/blob/master/gala/evaluate.py
  * def voi(reconstruction, groundtruth, ignore_reconstruction=[], ignore_groundtruth=[0]):             # <<<<<<<<<<<<<<
@@ -10942,12 +10942,12 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   __pyx_k__2 = __pyx_t_2;
   __Pyx_GIVEREF(__pyx_t_2);
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_4eval_5voi, NULL, __pyx_n_s_segLib_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 62, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_5voi, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 62, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_voi, __pyx_t_2) < 0) __PYX_ERR(0, 62, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/eval.pyx":97
+  /* "segLib/seg_eval.pyx":97
  *     return (hxgy, hyxg)
  * 
  * def split_vi(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -10970,12 +10970,12 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   __pyx_k__4 = __pyx_t_2;
   __Pyx_GIVEREF(__pyx_t_2);
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_4eval_7split_vi, NULL, __pyx_n_s_segLib_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 97, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_7split_vi, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_split_vi, __pyx_t_2) < 0) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/eval.pyx":133
+  /* "segLib/seg_eval.pyx":133
  *     return np.array([hygx.sum(), hxgy.sum()])
  * 
  * def vi_tables(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -10998,12 +10998,12 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   __pyx_k__6 = __pyx_t_2;
   __Pyx_GIVEREF(__pyx_t_2);
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_4eval_9vi_tables, NULL, __pyx_n_s_segLib_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_9vi_tables, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 133, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_vi_tables, __pyx_t_2) < 0) __PYX_ERR(0, 133, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/eval.pyx":187
+  /* "segLib/seg_eval.pyx":187
  *     return [pxy] + list(map(np.asarray, [px, py, hxgy, hygx, lpygx, lpxgy]))
  * 
  * def contingency_table(seg, gt, ignore_seg=[0], ignore_gt=[0], norm=True):             # <<<<<<<<<<<<<<
@@ -11026,48 +11026,48 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   __pyx_k__10 = __pyx_t_2;
   __Pyx_GIVEREF(__pyx_t_2);
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_4eval_11contingency_table, NULL, __pyx_n_s_segLib_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 187, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_11contingency_table, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 187, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_contingency_table, __pyx_t_2) < 0) __PYX_ERR(0, 187, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/eval.pyx":226
+  /* "segLib/seg_eval.pyx":226
  *     return cont
  * 
  * def divide_columns(matrix, row, in_place=False):             # <<<<<<<<<<<<<<
  *     """Divide each column of `matrix` by the corresponding element in `row`.
  * 
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_4eval_13divide_columns, NULL, __pyx_n_s_segLib_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 226, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_13divide_columns, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 226, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_divide_columns, __pyx_t_2) < 0) __PYX_ERR(0, 226, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/eval.pyx":264
+  /* "segLib/seg_eval.pyx":264
  *     return out
  * 
  * def divide_rows(matrix, column, in_place=False):             # <<<<<<<<<<<<<<
  *     """Divide each row of `matrix` by the corresponding element in `column`.
  * 
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_4eval_15divide_rows, NULL, __pyx_n_s_segLib_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 264, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_15divide_rows, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 264, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_divide_rows, __pyx_t_2) < 0) __PYX_ERR(0, 264, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/eval.pyx":302
+  /* "segLib/seg_eval.pyx":302
  *     return out
  * 
  * def xlogx(x, out=None, in_place=False):             # <<<<<<<<<<<<<<
  *     """Compute x * log_2(x).
  * 
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_4eval_17xlogx, NULL, __pyx_n_s_segLib_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 302, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_17xlogx, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 302, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_xlogx, __pyx_t_2) < 0) __PYX_ERR(0, 302, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/eval.pyx":1
+  /* "segLib/seg_eval.pyx":1
  * cimport cython             # <<<<<<<<<<<<<<
  * cimport numpy as np
  * 
@@ -11093,11 +11093,11 @@ static int __pyx_pymod_exec_eval(PyObject *__pyx_pyinit_module)
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init segLib.eval", 0, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init segLib.seg_eval", 0, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init segLib.eval");
+    PyErr_SetString(PyExc_ImportError, "init segLib.seg_eval");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

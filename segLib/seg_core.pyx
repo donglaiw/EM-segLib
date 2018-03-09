@@ -6,14 +6,14 @@ from libc.stdint cimport uint64_t,int32_t
 import numpy as np
 import scipy.ndimage
 
-from segLib.aff import affgraph_to_edgelist
+from segLib.aff_util import affgraph_to_edgelist
 
-cdef extern from 'cpp/seg/cpp-seg2seg.h':
+cdef extern from 'cpp/seg_core/cpp-seg2seg.h':
     long *CppMapLabels(long *segmentation, long *mapping, unsigned long nentries)
     long *CppRemoveSmallConnectedComponents(long *segmentation, int threshold, unsigned long nentries)
     long *CppForceConnectivity(long *segmentation, long zres, long yres, long xres)
 
-cdef extern from 'cpp/seg/cpp-seg_core.h':
+cdef extern from 'cpp/seg_core/cpp-seg_core.h':
     void connected_components_cpp(const int nVert,
                    const int nEdge, const uint64_t* node1, const uint64_t* node2, const int* edgeWeight,
                    uint64_t* seg);
@@ -21,7 +21,7 @@ cdef extern from 'cpp/seg/cpp-seg_core.h':
                    const int nEdge, const uint64_t* node1, const uint64_t* node2, const float* edgeWeight,
                    uint64_t* seg);
 
-cdef extern from 'cpp/seg/cpp-seg2gold.h':
+cdef extern from 'cpp/seg_core/cpp-seg2gold.h':
     long *CppMapping(long *segmentation, int *gold, long nentries, double low_threshold, double high_threshold)
 
 
