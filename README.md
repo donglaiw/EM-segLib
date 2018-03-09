@@ -1,1 +1,1 @@
-# segLib: utility functions for segmentation
+# segLib: library of functions for segmentation operations
