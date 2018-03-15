@@ -29,6 +29,13 @@ def getExt():
                      'segLib/cpp/seg_eval/cpp-comparestacks.cpp'],
             extra_compile_args=['-O4', '-std=c++0x'],
             language='c++'
+        ),
+        Extension(
+            name='segLib.seg_malis',
+            sources=['segLib/seg_malis.pyx',
+                     'segLib/cpp/seg_malis/cpp-malis_core.cpp'],
+            extra_compile_args=['-O4', '-std=c++0x'],
+            language='c++'
         )
     ]
 def getInclude():
