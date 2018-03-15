@@ -1,1 +1,1 @@
-# EM-segLib
+# segLib: library of functions for segmentation operations
