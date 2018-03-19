@@ -7,6 +7,7 @@ import numpy as np
 import scipy.ndimage
 
 from segLib.aff_util import affgraph_to_edgelist
+from segLib.seg_util import mknhood3d
 
 cdef extern from 'cpp/seg_core/cpp-seg2seg.h':
     long *CppMapLabels(long *segmentation, long *mapping, unsigned long nentries)
@@ -159,7 +160,7 @@ def marker_watershed(np.ndarray[uint64_t,ndim=1] marker,
     (seg,segSizes) = prune_and_renum(seg,sizeThreshold)
     return (seg, segSizes)
 
-def connected_components_affgraph(aff,nhood):
+def connected_components_affgraph(aff,nhood=mknhood3d()):
     (node1,node2,edge) = affgraph_to_edgelist(aff,nhood)
     (seg,segSizes) = connected_components(int(np.prod(aff.shape[1:])),node1,node2,edge)
     seg = seg.reshape(aff.shape[1:])
