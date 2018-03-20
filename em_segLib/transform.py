@@ -124,7 +124,7 @@ def cropCentral(img, label, offset=np.array([0,0,0])):
     img_sz = np.array(img.shape[1:])
     label_sz = np.array(label.shape[1:])
     sz_diff = img_sz-label_sz-2*offset
-    sz_offset = offset + abs(sz_diff[1:]) // 2 # floor
+    sz_offset = offset + abs(sz_diff) // 2 # floor
     if any(sz_offset!=0):
         # z axis
         if sz_diff[1] < 0: # label is bigger
