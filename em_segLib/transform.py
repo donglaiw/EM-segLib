@@ -1,3 +1,5 @@
+import numpy as np
+
 def flip(data, rule, mode='seg'):
     # data: copy of the original input 
     """Flip data according to a specified rule.
@@ -84,30 +86,30 @@ def revert_flip(data, rule, mode='seg'):
     return data
 
 def crop(data, sz, st=np.array([0,0,0])): # C*D*W*H                                            
-    if np.array(st).ndim == 1: # pointer to sub-tensor                                               
-        return data[:,st[0]:st[0]+sz[0], st[1]:st[1]+sz[1], \                                        
-                st[2]:st[2]+sz[2]]                                                                   
-    else: # need to create new tensor for channel wise crop                                          
-        out = np.zeros([st.shape[0]]+list(sz)).astype(data.dtype)                                    
-        print('cc,',out.shape,data.shape,st,sz)                                                      
-        for i in range(st.shape[0]):                                                                 
-            out[i] = data[i, st[i,0]:st[i,0]+sz[0],st[i,1]:st[i,1]+sz[1],\                           
-                          st[i,2]:st[i,2]+sz[2]]                                                     
-        return out                                                                                   
+    if np.array(st).ndim == 1: # pointer to sub-tensor
+        return data[:,st[0]:st[0]+sz[0], st[1]:st[1]+sz[1], \
+                st[2]:st[2]+sz[2]]
+    else: # need to create new tensor for channel wise crop
+        out = np.zeros([st.shape[0]]+list(sz)).astype(data.dtype)
+        print('cc,',out.shape,data.shape,st,sz)
+        for i in range(st.shape[0]):
+            out[i] = data[i, st[i,0]:st[i,0]+sz[0],st[i,1]:st[i,1]+sz[1],\
+                          st[i,2]:st[i,2]+sz[2]]
+        return out
                                                                                                      
-def cropPad(data, sz, st=np.zeros(3)): # C*D*W*H                                               
-    # within the range                                                                               
-    dsz = np.array(data.shape[1:])                                                                   
-    if st.min()>=0 and (st+sz-dsz)<=0:                                                               
-        return data[:,st[0]:st[0]+sz[0], st[1]:st[1]+sz[1], \                                        
-                st[2]:st[2]+sz[2]]                                                                   
-    else: # out of the range                                                                         
-        ran = [None]*3                                                                               
-        for i in range(3):                                                                           
-            ran[i] = np.abs(np.arange(st[i],st[i]+sz[i])) # reflect negative                         
-            bid = np.where(ran[i]>=dsz[i])[0]                                                        
-            ran[i][bid] = 2*(dsz[i]-1)-ran[i][bid]                                                   
-        return data[:,ran[0], ran[1], ran[2]] 
+def cropPad(data, sz, st=np.zeros(3)): # C*D*W*H
+    # within the range
+    dsz = np.array(data.shape[1:])
+    if st.min()>=0 and (st+sz-dsz)<=0:
+        return data[:,st[0]:st[0]+sz[0], st[1]:st[1]+sz[1], \
+                st[2]:st[2]+sz[2]]
+    else: # out of the range
+        ran = [None]*3
+        for i in range(3):
+            ran[i] = np.abs(np.arange(st[i],st[i]+sz[i])) # reflect negative
+            bid = np.where(ran[i]>=dsz[i])[0]
+            ran[i][bid] = 2*(dsz[i]-1)-ran[i][bid]
+        return data[:,ran[0], ran[1], ran[2]]
 
 def cropCentralN(img, label, offset=np.array([0,0,0])):
     # multiple datasets

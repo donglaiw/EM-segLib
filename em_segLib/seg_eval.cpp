@@ -532,8 +532,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__segLib__seg_eval
-#define __PYX_HAVE_API__segLib__seg_eval
+#define __PYX_HAVE__em_segLib__seg_eval
+#define __PYX_HAVE_API__em_segLib__seg_eval
 #include <string.h>
 #include <stdio.h>
 #include "numpy/arrayobject.h"
@@ -764,7 +764,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "segLib/seg_eval.pyx",
+  "em_segLib/seg_eval.pyx",
   "__init__.pxd",
   "type.pxd",
 };
@@ -805,7 +805,7 @@ typedef struct {
 } __Pyx_BufFmt_Context;
 
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":743
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":743
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -814,7 +814,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":744
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":744
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -823,7 +823,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":745
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":745
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -832,7 +832,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":746
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":746
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -841,7 +841,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":750
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":750
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -850,7 +850,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":751
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":751
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -859,7 +859,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":752
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":752
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -868,7 +868,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":753
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":753
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -877,7 +877,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":757
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":757
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -886,7 +886,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":758
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":758
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -895,7 +895,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":767
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":767
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -904,7 +904,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":768
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":768
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -913,7 +913,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":769
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":769
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -922,7 +922,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":771
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":771
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -931,7 +931,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":772
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":772
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -940,7 +940,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":773
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":773
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -949,7 +949,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":775
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":775
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -958,7 +958,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":776
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":776
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -967,7 +967,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":778
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":778
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -976,7 +976,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":779
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":779
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -985,7 +985,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":780
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":780
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1020,7 +1020,7 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
 
 /*--- Type declarations ---*/
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":782
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":782
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1029,7 +1029,7 @@ static CYTHON_INLINE __pyx_t_double_complex __pyx_t_double_complex_from_parts(do
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":783
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":783
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1038,7 +1038,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":784
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":784
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1047,7 +1047,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":786
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":786
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -1608,13 +1608,13 @@ static PyTypeObject *__pyx_ptype_5numpy_ndarray = 0;
 static PyTypeObject *__pyx_ptype_5numpy_ufunc = 0;
 static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *, char *, char *, int *); /*proto*/
 
-/* Module declarations from 'segLib.seg_eval' */
+/* Module declarations from 'em_segLib.seg_eval' */
 static __Pyx_TypeInfo __Pyx_TypeInfo_long = { "long", NULL, sizeof(long), { 0 }, 0, IS_UNSIGNED(long) ? 'U' : 'I', IS_UNSIGNED(long), 0 };
-#define __Pyx_MODULE_NAME "segLib.seg_eval"
-extern int __pyx_module_is_main_segLib__seg_eval;
-int __pyx_module_is_main_segLib__seg_eval = 0;
+#define __Pyx_MODULE_NAME "em_segLib.seg_eval"
+extern int __pyx_module_is_main_em_segLib__seg_eval;
+int __pyx_module_is_main_em_segLib__seg_eval = 0;
 
-/* Implementation of 'segLib.seg_eval' */
+/* Implementation of 'em_segLib.seg_eval' */
 static PyObject *__pyx_builtin_map;
 static PyObject *__pyx_builtin_ValueError;
 static PyObject *__pyx_builtin_range;
@@ -1721,19 +1721,19 @@ static const char __pyx_k_convert_to_csr[] = "convert_to_csr";
 static const char __pyx_k_divide_columns[] = "divide_columns";
 static const char __pyx_k_reconstruction[] = "reconstruction";
 static const char __pyx_k_column_repeated[] = "column_repeated";
-static const char __pyx_k_segLib_seg_core[] = "segLib.seg_core";
-static const char __pyx_k_segLib_seg_dist[] = "segLib.seg_dist";
-static const char __pyx_k_segLib_seg_eval[] = "segLib.seg_eval";
 static const char __pyx_k_cpp_segmentation[] = "cpp_segmentation";
 static const char __pyx_k_PrincetonEvaluate[] = "PrincetonEvaluate";
 static const char __pyx_k_ascontiguousarray[] = "ascontiguousarray";
 static const char __pyx_k_contingency_table[] = "contingency_table";
 static const char __pyx_k_mask_ground_truth[] = "mask_ground_truth";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
+static const char __pyx_k_em_segLib_seg_core[] = "em_segLib.seg_core";
+static const char __pyx_k_em_segLib_seg_dist[] = "em_segLib.seg_dist";
+static const char __pyx_k_em_segLib_seg_eval[] = "em_segLib.seg_eval";
 static const char __pyx_k_ignore_groundtruth[] = "ignore_groundtruth";
 static const char __pyx_k_dilate_ground_truth[] = "dilate_ground_truth";
-static const char __pyx_k_segLib_seg_eval_pyx[] = "segLib/seg_eval.pyx";
 static const char __pyx_k_ignore_reconstruction[] = "ignore_reconstruction";
+static const char __pyx_k_em_segLib_seg_eval_pyx[] = "em_segLib/seg_eval.pyx";
 static const char __pyx_k_ndarray_is_not_C_contiguous[] = "ndarray is not C contiguous";
 static const char __pyx_k_Variation_of_Information_Full[] = "Variation of Information Full: {}";
 static const char __pyx_k_RemoveSmallConnectedComponents[] = "RemoveSmallConnectedComponents";
@@ -1786,6 +1786,10 @@ static PyObject *__pyx_n_s_dilate_ground_truth;
 static PyObject *__pyx_n_s_divide_columns;
 static PyObject *__pyx_n_s_divide_rows;
 static PyObject *__pyx_n_s_dtype;
+static PyObject *__pyx_n_s_em_segLib_seg_core;
+static PyObject *__pyx_n_s_em_segLib_seg_dist;
+static PyObject *__pyx_n_s_em_segLib_seg_eval;
+static PyObject *__pyx_kp_s_em_segLib_seg_eval_pyx;
 static PyObject *__pyx_n_s_end;
 static PyObject *__pyx_n_s_file;
 static PyObject *__pyx_n_s_filtersize;
@@ -1844,10 +1848,6 @@ static PyObject *__pyx_n_s_row;
 static PyObject *__pyx_n_s_row_repeated;
 static PyObject *__pyx_n_s_scipy_sparse;
 static PyObject *__pyx_n_s_seg;
-static PyObject *__pyx_n_s_segLib_seg_core;
-static PyObject *__pyx_n_s_segLib_seg_dist;
-static PyObject *__pyx_n_s_segLib_seg_eval;
-static PyObject *__pyx_kp_s_segLib_seg_eval_pyx;
 static PyObject *__pyx_n_s_segmentation;
 static PyObject *__pyx_n_s_segr;
 static PyObject *__pyx_n_s_shape;
@@ -1872,15 +1872,15 @@ static PyObject *__pyx_n_s_yres;
 static PyObject *__pyx_n_s_z;
 static PyObject *__pyx_n_s_zeros;
 static PyObject *__pyx_n_s_zres;
-static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize); /* proto */
-static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize); /* proto */
-static PyObject *__pyx_pf_6segLib_8seg_eval_4voi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_reconstruction, PyObject *__pyx_v_groundtruth, PyObject *__pyx_v_ignore_reconstruction, PyObject *__pyx_v_ignore_groundtruth); /* proto */
-static PyObject *__pyx_pf_6segLib_8seg_eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y); /* proto */
-static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y); /* proto */
-static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_seg, PyObject *__pyx_v_gt, PyObject *__pyx_v_ignore_seg, PyObject *__pyx_v_ignore_gt, PyObject *__pyx_v_norm); /* proto */
-static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_row, PyObject *__pyx_v_in_place); /* proto */
-static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_column, PyObject *__pyx_v_in_place); /* proto */
-static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_out, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize); /* proto */
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize); /* proto */
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_4voi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_reconstruction, PyObject *__pyx_v_groundtruth, PyObject *__pyx_v_ignore_reconstruction, PyObject *__pyx_v_ignore_groundtruth); /* proto */
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y); /* proto */
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y); /* proto */
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_10contingency_table(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_seg, PyObject *__pyx_v_gt, PyObject *__pyx_v_ignore_seg, PyObject *__pyx_v_ignore_gt, PyObject *__pyx_v_norm); /* proto */
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_row, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_column, PyObject *__pyx_v_in_place); /* proto */
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_out, PyObject *__pyx_v_in_place); /* proto */
 static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info, int __pyx_v_flags); /* proto */
 static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_self, Py_buffer *__pyx_v_info); /* proto */
 static PyObject *__pyx_int_0;
@@ -1925,7 +1925,7 @@ static PyObject *__pyx_codeobj__37;
 static PyObject *__pyx_codeobj__39;
 static PyObject *__pyx_codeobj__41;
 
-/* "segLib/seg_eval.pyx":14
+/* "em_segLib/seg_eval.pyx":14
  *     void CppEvaluate(long *segmentation, long *gold, long resolution[3], unsigned char mask_ground_truth)
  * 
  * def PrincetonEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
@@ -1934,9 +1934,9 @@ static PyObject *__pyx_codeobj__41;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_8seg_eval_1PrincetonEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_6segLib_8seg_eval_1PrincetonEvaluate = {"PrincetonEvaluate", (PyCFunction)__pyx_pw_6segLib_8seg_eval_1PrincetonEvaluate, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_6segLib_8seg_eval_1PrincetonEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_1PrincetonEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9em_segLib_8seg_eval_1PrincetonEvaluate = {"PrincetonEvaluate", (PyCFunction)__pyx_pw_9em_segLib_8seg_eval_1PrincetonEvaluate, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_1PrincetonEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_segmentation = 0;
   PyObject *__pyx_v_gold = 0;
   PyObject *__pyx_v_dilate_ground_truth = 0;
@@ -2025,18 +2025,18 @@ static PyObject *__pyx_pw_6segLib_8seg_eval_1PrincetonEvaluate(PyObject *__pyx_s
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("PrincetonEvaluate", 0, 2, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 14, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.seg_eval.PrincetonEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.PrincetonEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(__pyx_self, __pyx_v_segmentation, __pyx_v_gold, __pyx_v_dilate_ground_truth, __pyx_v_mask_ground_truth, __pyx_v_filtersize);
+  __pyx_r = __pyx_pf_9em_segLib_8seg_eval_PrincetonEvaluate(__pyx_self, __pyx_v_segmentation, __pyx_v_gold, __pyx_v_dilate_ground_truth, __pyx_v_mask_ground_truth, __pyx_v_filtersize);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize) {
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize) {
   PyArrayObject *__pyx_v_cpp_segmentation = 0;
   PyArrayObject *__pyx_v_cpp_gold = 0;
   PyObject *__pyx_v_zres = NULL;
@@ -2084,7 +2084,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
   __pyx_pybuffernd_cpp_gold.data = NULL;
   __pyx_pybuffernd_cpp_gold.rcbuffer = &__pyx_pybuffer_cpp_gold;
 
-  /* "segLib/seg_eval.pyx":16
+  /* "em_segLib/seg_eval.pyx":16
  * def PrincetonEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):
  *     # make sure these elements are the same size
  *     assert (segmentation.shape == gold.shape)             # <<<<<<<<<<<<<<
@@ -2109,7 +2109,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
   }
   #endif
 
-  /* "segLib/seg_eval.pyx":19
+  /* "em_segLib/seg_eval.pyx":19
  * 
  *     # remove all small connected components
  *     if filtersize > 0:             # <<<<<<<<<<<<<<
@@ -2121,7 +2121,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_4) {
 
-    /* "segLib/seg_eval.pyx":20
+    /* "em_segLib/seg_eval.pyx":20
  *     # remove all small connected components
  *     if filtersize > 0:
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)             # <<<<<<<<<<<<<<
@@ -2178,7 +2178,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
     __Pyx_DECREF_SET(__pyx_v_segmentation, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":21
+    /* "em_segLib/seg_eval.pyx":21
  *     if filtersize > 0:
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)             # <<<<<<<<<<<<<<
@@ -2235,7 +2235,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
     __Pyx_DECREF_SET(__pyx_v_gold, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":19
+    /* "em_segLib/seg_eval.pyx":19
  * 
  *     # remove all small connected components
  *     if filtersize > 0:             # <<<<<<<<<<<<<<
@@ -2244,7 +2244,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
  */
   }
 
-  /* "segLib/seg_eval.pyx":22
+  /* "em_segLib/seg_eval.pyx":22
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)
  *     if dilate_ground_truth > 0:             # <<<<<<<<<<<<<<
@@ -2256,7 +2256,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_4) {
 
-    /* "segLib/seg_eval.pyx":23
+    /* "em_segLib/seg_eval.pyx":23
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)
  *     if dilate_ground_truth > 0:
  *         gold = DilateData(gold, dilate_ground_truth)             # <<<<<<<<<<<<<<
@@ -2313,7 +2313,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
     __Pyx_DECREF_SET(__pyx_v_gold, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":22
+    /* "em_segLib/seg_eval.pyx":22
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)
  *     if dilate_ground_truth > 0:             # <<<<<<<<<<<<<<
@@ -2322,7 +2322,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
  */
   }
 
-  /* "segLib/seg_eval.pyx":27
+  /* "em_segLib/seg_eval.pyx":27
  *     # convert to c++ arrays
  *     cdef np.ndarray[long, ndim=3, mode='c'] cpp_segmentation
  *     cpp_segmentation = np.ascontiguousarray(segmentation, dtype=ctypes.c_int64)             # <<<<<<<<<<<<<<
@@ -2376,7 +2376,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
   __pyx_v_cpp_segmentation = ((PyArrayObject *)__pyx_t_7);
   __pyx_t_7 = 0;
 
-  /* "segLib/seg_eval.pyx":30
+  /* "em_segLib/seg_eval.pyx":30
  * 
  *     cdef np.ndarray[long, ndim=3, mode='c'] cpp_gold
  *     cpp_gold = np.ascontiguousarray(gold, dtype=ctypes.c_int64)             # <<<<<<<<<<<<<<
@@ -2430,7 +2430,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
   __pyx_v_cpp_gold = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "segLib/seg_eval.pyx":32
+  /* "em_segLib/seg_eval.pyx":32
  *     cpp_gold = np.ascontiguousarray(gold, dtype=ctypes.c_int64)
  * 
  *     zres, yres, xres = segmentation.shape             # <<<<<<<<<<<<<<
@@ -2503,7 +2503,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
   __pyx_v_xres = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "segLib/seg_eval.pyx":33
+  /* "em_segLib/seg_eval.pyx":33
  * 
  *     zres, yres, xres = segmentation.shape
  *     CppEvaluate(&(cpp_segmentation[0,0,0]), &(cpp_gold[0,0,0]), [zres, yres, xres], mask_ground_truth)             # <<<<<<<<<<<<<<
@@ -2559,7 +2559,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
   __pyx_t_24 = __Pyx_PyInt_As_unsigned_char(__pyx_v_mask_ground_truth); if (unlikely((__pyx_t_24 == (unsigned char)-1) && PyErr_Occurred())) __PYX_ERR(0, 33, __pyx_L1_error)
   CppEvaluate((&(*__Pyx_BufPtrCContig3d(long *, __pyx_pybuffernd_cpp_segmentation.rcbuffer->pybuffer.buf, __pyx_t_14, __pyx_pybuffernd_cpp_segmentation.diminfo[0].strides, __pyx_t_15, __pyx_pybuffernd_cpp_segmentation.diminfo[1].strides, __pyx_t_16, __pyx_pybuffernd_cpp_segmentation.diminfo[2].strides))), (&(*__Pyx_BufPtrCContig3d(long *, __pyx_pybuffernd_cpp_gold.rcbuffer->pybuffer.buf, __pyx_t_17, __pyx_pybuffernd_cpp_gold.diminfo[0].strides, __pyx_t_18, __pyx_pybuffernd_cpp_gold.diminfo[1].strides, __pyx_t_19, __pyx_pybuffernd_cpp_gold.diminfo[2].strides))), __pyx_t_23, __pyx_t_24);
 
-  /* "segLib/seg_eval.pyx":14
+  /* "em_segLib/seg_eval.pyx":14
  *     void CppEvaluate(long *segmentation, long *gold, long resolution[3], unsigned char mask_ground_truth)
  * 
  * def PrincetonEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
@@ -2583,7 +2583,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_cpp_gold.rcbuffer->pybuffer);
     __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_cpp_segmentation.rcbuffer->pybuffer);
   __Pyx_ErrRestore(__pyx_type, __pyx_value, __pyx_tb);}
-  __Pyx_AddTraceback("segLib.seg_eval.PrincetonEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.PrincetonEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   goto __pyx_L2;
   __pyx_L0:;
@@ -2602,7 +2602,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
   return __pyx_r;
 }
 
-/* "segLib/seg_eval.pyx":36
+/* "em_segLib/seg_eval.pyx":36
  * 
  * 
  * def CremiEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
@@ -2611,9 +2611,9 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_PrincetonEvaluate(CYTHON_UNUSED PyOb
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_8seg_eval_3CremiEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_6segLib_8seg_eval_3CremiEvaluate = {"CremiEvaluate", (PyCFunction)__pyx_pw_6segLib_8seg_eval_3CremiEvaluate, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_6segLib_8seg_eval_3CremiEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_3CremiEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_9em_segLib_8seg_eval_3CremiEvaluate = {"CremiEvaluate", (PyCFunction)__pyx_pw_9em_segLib_8seg_eval_3CremiEvaluate, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_3CremiEvaluate(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_segmentation = 0;
   PyObject *__pyx_v_gold = 0;
   PyObject *__pyx_v_dilate_ground_truth = 0;
@@ -2702,18 +2702,18 @@ static PyObject *__pyx_pw_6segLib_8seg_eval_3CremiEvaluate(PyObject *__pyx_self,
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("CremiEvaluate", 0, 2, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 36, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.seg_eval.CremiEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.CremiEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_8seg_eval_2CremiEvaluate(__pyx_self, __pyx_v_segmentation, __pyx_v_gold, __pyx_v_dilate_ground_truth, __pyx_v_mask_ground_truth, __pyx_v_filtersize);
+  __pyx_r = __pyx_pf_9em_segLib_8seg_eval_2CremiEvaluate(__pyx_self, __pyx_v_segmentation, __pyx_v_gold, __pyx_v_dilate_ground_truth, __pyx_v_mask_ground_truth, __pyx_v_filtersize);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize) {
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_segmentation, PyObject *__pyx_v_gold, PyObject *__pyx_v_dilate_ground_truth, PyObject *__pyx_v_mask_ground_truth, PyObject *__pyx_v_filtersize) {
   PyObject *__pyx_v_vi_split = NULL;
   PyObject *__pyx_v_vi_merge = NULL;
   PyObject *__pyx_r = NULL;
@@ -2731,7 +2731,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
   __Pyx_INCREF(__pyx_v_segmentation);
   __Pyx_INCREF(__pyx_v_gold);
 
-  /* "segLib/seg_eval.pyx":38
+  /* "em_segLib/seg_eval.pyx":38
  * def CremiEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):
  *     # make sure these elements are the same size
  *     assert (segmentation.shape == gold.shape)             # <<<<<<<<<<<<<<
@@ -2756,7 +2756,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
   }
   #endif
 
-  /* "segLib/seg_eval.pyx":41
+  /* "em_segLib/seg_eval.pyx":41
  * 
  *     # remove all small connected components
  *     if filtersize > 0:             # <<<<<<<<<<<<<<
@@ -2768,7 +2768,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_4) {
 
-    /* "segLib/seg_eval.pyx":42
+    /* "em_segLib/seg_eval.pyx":42
  *     # remove all small connected components
  *     if filtersize > 0:
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)             # <<<<<<<<<<<<<<
@@ -2825,7 +2825,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
     __Pyx_DECREF_SET(__pyx_v_segmentation, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":43
+    /* "em_segLib/seg_eval.pyx":43
  *     if filtersize > 0:
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)             # <<<<<<<<<<<<<<
@@ -2882,7 +2882,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
     __Pyx_DECREF_SET(__pyx_v_gold, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":41
+    /* "em_segLib/seg_eval.pyx":41
  * 
  *     # remove all small connected components
  *     if filtersize > 0:             # <<<<<<<<<<<<<<
@@ -2891,7 +2891,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
  */
   }
 
-  /* "segLib/seg_eval.pyx":44
+  /* "em_segLib/seg_eval.pyx":44
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)
  *     if dilate_ground_truth > 0:             # <<<<<<<<<<<<<<
@@ -2903,7 +2903,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   if (__pyx_t_4) {
 
-    /* "segLib/seg_eval.pyx":45
+    /* "em_segLib/seg_eval.pyx":45
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)
  *     if dilate_ground_truth > 0:
  *         gold = DilateData(gold, dilate_ground_truth)             # <<<<<<<<<<<<<<
@@ -2960,7 +2960,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
     __Pyx_DECREF_SET(__pyx_v_gold, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":44
+    /* "em_segLib/seg_eval.pyx":44
  *         segmentation = RemoveSmallConnectedComponents(segmentation, filtersize)
  *         gold = RemoveSmallConnectedComponents(gold, filtersize)
  *     if dilate_ground_truth > 0:             # <<<<<<<<<<<<<<
@@ -2969,7 +2969,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
  */
   }
 
-  /* "segLib/seg_eval.pyx":48
+  /* "em_segLib/seg_eval.pyx":48
  * 
  *     # run the cremi variation of information algorithm
  *     if mask_ground_truth:             # <<<<<<<<<<<<<<
@@ -2979,7 +2979,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
   __pyx_t_4 = __Pyx_PyObject_IsTrue(__pyx_v_mask_ground_truth); if (unlikely(__pyx_t_4 < 0)) __PYX_ERR(0, 48, __pyx_L1_error)
   if (__pyx_t_4) {
 
-    /* "segLib/seg_eval.pyx":49
+    /* "em_segLib/seg_eval.pyx":49
  *     # run the cremi variation of information algorithm
  *     if mask_ground_truth:
  *         vi_split, vi_merge = voi(segmentation, gold, [], [0])             # <<<<<<<<<<<<<<
@@ -3105,7 +3105,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
     __pyx_v_vi_merge = __pyx_t_8;
     __pyx_t_8 = 0;
 
-    /* "segLib/seg_eval.pyx":50
+    /* "em_segLib/seg_eval.pyx":50
  *     if mask_ground_truth:
  *         vi_split, vi_merge = voi(segmentation, gold, [], [0])
  *         print 'Variation of Information Full: {}'.format(vi_split + vi_merge)             # <<<<<<<<<<<<<<
@@ -3165,7 +3165,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
     if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":51
+    /* "em_segLib/seg_eval.pyx":51
  *         vi_split, vi_merge = voi(segmentation, gold, [], [0])
  *         print 'Variation of Information Full: {}'.format(vi_split + vi_merge)
  *         print 'Variation of Information Merge: {}'.format(vi_merge)             # <<<<<<<<<<<<<<
@@ -3220,7 +3220,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
     if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 51, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":52
+    /* "em_segLib/seg_eval.pyx":52
  *         print 'Variation of Information Full: {}'.format(vi_split + vi_merge)
  *         print 'Variation of Information Merge: {}'.format(vi_merge)
  *         print 'Variation of Information Split: {}'.format(vi_split)             # <<<<<<<<<<<<<<
@@ -3275,7 +3275,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
     if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 52, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":48
+    /* "em_segLib/seg_eval.pyx":48
  * 
  *     # run the cremi variation of information algorithm
  *     if mask_ground_truth:             # <<<<<<<<<<<<<<
@@ -3285,7 +3285,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
     goto __pyx_L5;
   }
 
-  /* "segLib/seg_eval.pyx":54
+  /* "em_segLib/seg_eval.pyx":54
  *         print 'Variation of Information Split: {}'.format(vi_split)
  *     else:
  *         vi_split, vi_merge = voi(segmentation, gold, [], [])             # <<<<<<<<<<<<<<
@@ -3409,7 +3409,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
     __pyx_v_vi_merge = __pyx_t_7;
     __pyx_t_7 = 0;
 
-    /* "segLib/seg_eval.pyx":55
+    /* "em_segLib/seg_eval.pyx":55
  *     else:
  *         vi_split, vi_merge = voi(segmentation, gold, [], [])
  *         print 'Variation of Information Full: {}'.format(vi_split + vi_merge)             # <<<<<<<<<<<<<<
@@ -3469,7 +3469,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
     if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 55, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":56
+    /* "em_segLib/seg_eval.pyx":56
  *         vi_split, vi_merge = voi(segmentation, gold, [], [])
  *         print 'Variation of Information Full: {}'.format(vi_split + vi_merge)
  *         print 'Variation of Information Merge: {}'.format(vi_merge)             # <<<<<<<<<<<<<<
@@ -3524,7 +3524,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
     if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 56, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":57
+    /* "em_segLib/seg_eval.pyx":57
  *         print 'Variation of Information Full: {}'.format(vi_split + vi_merge)
  *         print 'Variation of Information Merge: {}'.format(vi_merge)
  *         print 'Variation of Information Split: {}'.format(vi_split)             # <<<<<<<<<<<<<<
@@ -3581,7 +3581,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
   }
   __pyx_L5:;
 
-  /* "segLib/seg_eval.pyx":36
+  /* "em_segLib/seg_eval.pyx":36
  * 
  * 
  * def CremiEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
@@ -3599,7 +3599,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("segLib.seg_eval.CremiEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.CremiEvaluate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_vi_split);
@@ -3611,7 +3611,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
   return __pyx_r;
 }
 
-/* "segLib/seg_eval.pyx":62
+/* "em_segLib/seg_eval.pyx":62
  * # Evaluation code courtesy of Juan Nunez-Iglesias, taken from
  * # https://github.com/janelia-flyem/gala/blob/master/gala/evaluate.py
  * def voi(reconstruction, groundtruth, ignore_reconstruction=[], ignore_groundtruth=[0]):             # <<<<<<<<<<<<<<
@@ -3620,10 +3620,10 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_2CremiEvaluate(CYTHON_UNUSED PyObjec
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_8seg_eval_5voi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_8seg_eval_4voi[] = "Return the conditional entropies of the variation of information metric. [1]\n\n    Let X be a reconstruction, and Y a ground truth labelling. The variation of \n    information between the two is the sum of two conditional entropies:\n\n        VI(X, Y) = H(X|Y) + H(Y|X).\n\n    The first one, H(X|Y), is a measure of oversegmentation, the second one, \n    H(Y|X), a measure of undersegmentation. These measures are referred to as \n    the variation of information split or merge error, respectively.\n\n    Parameters\n    ----------\n    seg : np.ndarray, int type, arbitrary shape\n        A candidate segmentation.\n    gt : np.ndarray, int type, same shape as `seg`\n        The ground truth segmentation.\n    ignore_seg, ignore_gt : list of int, optional\n        Any points having a label in this list are ignored in the evaluation.\n        By default, only the label 0 in the ground truth will be ignored.\n\n    Returns\n    -------\n    (split, merge) : float\n        The variation of information split and merge error, i.e., H(X|Y) and H(Y|X)\n\n    References\n    ----------\n    [1] Meila, M. (2007). Comparing clusterings - an information based \n    distance. Journal of Multivariate Analysis 98, 873-895.\n    ";
-static PyMethodDef __pyx_mdef_6segLib_8seg_eval_5voi = {"voi", (PyCFunction)__pyx_pw_6segLib_8seg_eval_5voi, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_4voi};
-static PyObject *__pyx_pw_6segLib_8seg_eval_5voi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_5voi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_9em_segLib_8seg_eval_4voi[] = "Return the conditional entropies of the variation of information metric. [1]\n\n    Let X be a reconstruction, and Y a ground truth labelling. The variation of \n    information between the two is the sum of two conditional entropies:\n\n        VI(X, Y) = H(X|Y) + H(Y|X).\n\n    The first one, H(X|Y), is a measure of oversegmentation, the second one, \n    H(Y|X), a measure of undersegmentation. These measures are referred to as \n    the variation of information split or merge error, respectively.\n\n    Parameters\n    ----------\n    seg : np.ndarray, int type, arbitrary shape\n        A candidate segmentation.\n    gt : np.ndarray, int type, same shape as `seg`\n        The ground truth segmentation.\n    ignore_seg, ignore_gt : list of int, optional\n        Any points having a label in this list are ignored in the evaluation.\n        By default, only the label 0 in the ground truth will be ignored.\n\n    Returns\n    -------\n    (split, merge) : float\n        The variation of information split and merge error, i.e., H(X|Y) and H(Y|X)\n\n    References\n    ----------\n    [1] Meila, M. (2007). Comparing clusterings - an information based \n    distance. Journal of Multivariate Analysis 98, 873-895.\n    ";
+static PyMethodDef __pyx_mdef_9em_segLib_8seg_eval_5voi = {"voi", (PyCFunction)__pyx_pw_9em_segLib_8seg_eval_5voi, METH_VARARGS|METH_KEYWORDS, __pyx_doc_9em_segLib_8seg_eval_4voi};
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_5voi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_reconstruction = 0;
   PyObject *__pyx_v_groundtruth = 0;
   PyObject *__pyx_v_ignore_reconstruction = 0;
@@ -3699,18 +3699,18 @@ static PyObject *__pyx_pw_6segLib_8seg_eval_5voi(PyObject *__pyx_self, PyObject 
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("voi", 0, 2, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 62, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.seg_eval.voi", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.voi", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_8seg_eval_4voi(__pyx_self, __pyx_v_reconstruction, __pyx_v_groundtruth, __pyx_v_ignore_reconstruction, __pyx_v_ignore_groundtruth);
+  __pyx_r = __pyx_pf_9em_segLib_8seg_eval_4voi(__pyx_self, __pyx_v_reconstruction, __pyx_v_groundtruth, __pyx_v_ignore_reconstruction, __pyx_v_ignore_groundtruth);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_8seg_eval_4voi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_reconstruction, PyObject *__pyx_v_groundtruth, PyObject *__pyx_v_ignore_reconstruction, PyObject *__pyx_v_ignore_groundtruth) {
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_4voi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_reconstruction, PyObject *__pyx_v_groundtruth, PyObject *__pyx_v_ignore_reconstruction, PyObject *__pyx_v_ignore_groundtruth) {
   PyObject *__pyx_v_hyxg = NULL;
   PyObject *__pyx_v_hxgy = NULL;
   PyObject *__pyx_r = NULL;
@@ -3723,7 +3723,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_4voi(CYTHON_UNUSED PyObject *__pyx_s
   PyObject *(*__pyx_t_6)(PyObject *);
   __Pyx_RefNannySetupContext("voi", 0);
 
-  /* "segLib/seg_eval.pyx":94
+  /* "em_segLib/seg_eval.pyx":94
  *     distance. Journal of Multivariate Analysis 98, 873-895.
  *     """
  *     (hyxg, hxgy) = split_vi(reconstruction, groundtruth, ignore_reconstruction, ignore_groundtruth)             # <<<<<<<<<<<<<<
@@ -3838,7 +3838,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_4voi(CYTHON_UNUSED PyObject *__pyx_s
   __pyx_v_hxgy = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "segLib/seg_eval.pyx":95
+  /* "em_segLib/seg_eval.pyx":95
  *     """
  *     (hyxg, hxgy) = split_vi(reconstruction, groundtruth, ignore_reconstruction, ignore_groundtruth)
  *     return (hxgy, hyxg)             # <<<<<<<<<<<<<<
@@ -3858,7 +3858,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_4voi(CYTHON_UNUSED PyObject *__pyx_s
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "segLib/seg_eval.pyx":62
+  /* "em_segLib/seg_eval.pyx":62
  * # Evaluation code courtesy of Juan Nunez-Iglesias, taken from
  * # https://github.com/janelia-flyem/gala/blob/master/gala/evaluate.py
  * def voi(reconstruction, groundtruth, ignore_reconstruction=[], ignore_groundtruth=[0]):             # <<<<<<<<<<<<<<
@@ -3872,7 +3872,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_4voi(CYTHON_UNUSED PyObject *__pyx_s
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_AddTraceback("segLib.seg_eval.voi", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.voi", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_hyxg);
@@ -3882,7 +3882,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_4voi(CYTHON_UNUSED PyObject *__pyx_s
   return __pyx_r;
 }
 
-/* "segLib/seg_eval.pyx":97
+/* "em_segLib/seg_eval.pyx":97
  *     return (hxgy, hyxg)
  * 
  * def split_vi(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -3891,10 +3891,10 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_4voi(CYTHON_UNUSED PyObject *__pyx_s
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_8seg_eval_7split_vi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_8seg_eval_6split_vi[] = "Return the symmetric conditional entropies associated with the VI.\n\n    The variation of information is defined as VI(X,Y) = H(X|Y) + H(Y|X).\n    If Y is the ground-truth segmentation, then H(Y|X) can be interpreted\n    as the amount of under-segmentation of Y and H(X|Y) is then the amount\n    of over-segmentation.  In other words, a perfect over-segmentation\n    will have H(Y|X)=0 and a perfect under-segmentation will have H(X|Y)=0.\n\n    If y is None, x is assumed to be a contingency table.\n\n    Parameters\n    ----------\n    x : np.ndarray\n        Label field (int type) or contingency table (float). `x` is\n        interpreted as a contingency table (summing to 1.0) if and only if `y`\n        is not provided.\n    y : np.ndarray of int, same shape as x, optional\n        A label field to compare to `x`.\n    ignore_x, ignore_y : list of int, optional\n        Any points having a label in this list are ignored in the evaluation.\n        Ignore 0-labeled points by default.\n\n    Returns\n    -------\n    sv : np.ndarray of float, shape (2,)\n        The conditional entropies of Y|X and X|Y.\n\n    See Also\n    --------\n    vi\n    ";
-static PyMethodDef __pyx_mdef_6segLib_8seg_eval_7split_vi = {"split_vi", (PyCFunction)__pyx_pw_6segLib_8seg_eval_7split_vi, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_6split_vi};
-static PyObject *__pyx_pw_6segLib_8seg_eval_7split_vi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_7split_vi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_9em_segLib_8seg_eval_6split_vi[] = "Return the symmetric conditional entropies associated with the VI.\n\n    The variation of information is defined as VI(X,Y) = H(X|Y) + H(Y|X).\n    If Y is the ground-truth segmentation, then H(Y|X) can be interpreted\n    as the amount of under-segmentation of Y and H(X|Y) is then the amount\n    of over-segmentation.  In other words, a perfect over-segmentation\n    will have H(Y|X)=0 and a perfect under-segmentation will have H(X|Y)=0.\n\n    If y is None, x is assumed to be a contingency table.\n\n    Parameters\n    ----------\n    x : np.ndarray\n        Label field (int type) or contingency table (float). `x` is\n        interpreted as a contingency table (summing to 1.0) if and only if `y`\n        is not provided.\n    y : np.ndarray of int, same shape as x, optional\n        A label field to compare to `x`.\n    ignore_x, ignore_y : list of int, optional\n        Any points having a label in this list are ignored in the evaluation.\n        Ignore 0-labeled points by default.\n\n    Returns\n    -------\n    sv : np.ndarray of float, shape (2,)\n        The conditional entropies of Y|X and X|Y.\n\n    See Also\n    --------\n    vi\n    ";
+static PyMethodDef __pyx_mdef_9em_segLib_8seg_eval_7split_vi = {"split_vi", (PyCFunction)__pyx_pw_9em_segLib_8seg_eval_7split_vi, METH_VARARGS|METH_KEYWORDS, __pyx_doc_9em_segLib_8seg_eval_6split_vi};
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_7split_vi(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_x = 0;
   PyObject *__pyx_v_y = 0;
   PyObject *__pyx_v_ignore_x = 0;
@@ -3972,18 +3972,18 @@ static PyObject *__pyx_pw_6segLib_8seg_eval_7split_vi(PyObject *__pyx_self, PyOb
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("split_vi", 0, 1, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 97, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.seg_eval.split_vi", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.split_vi", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_8seg_eval_6split_vi(__pyx_self, __pyx_v_x, __pyx_v_y, __pyx_v_ignore_x, __pyx_v_ignore_y);
+  __pyx_r = __pyx_pf_9em_segLib_8seg_eval_6split_vi(__pyx_self, __pyx_v_x, __pyx_v_y, __pyx_v_ignore_x, __pyx_v_ignore_y);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_8seg_eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y) {
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_6split_vi(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y) {
   CYTHON_UNUSED PyObject *__pyx_v__ = NULL;
   PyObject *__pyx_v_hxgy = NULL;
   PyObject *__pyx_v_hygx = NULL;
@@ -4002,7 +4002,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_6split_vi(CYTHON_UNUSED PyObject *__
   PyObject *(*__pyx_t_11)(PyObject *);
   __Pyx_RefNannySetupContext("split_vi", 0);
 
-  /* "segLib/seg_eval.pyx":129
+  /* "em_segLib/seg_eval.pyx":129
  *     vi
  *     """
  *     _, _, _ , hxgy, hygx, _, _ = vi_tables(x, y, ignore_x, ignore_y)             # <<<<<<<<<<<<<<
@@ -4149,7 +4149,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_6split_vi(CYTHON_UNUSED PyObject *__
   __Pyx_DECREF_SET(__pyx_v__, __pyx_t_9);
   __pyx_t_9 = 0;
 
-  /* "segLib/seg_eval.pyx":131
+  /* "em_segLib/seg_eval.pyx":131
  *     _, _, _ , hxgy, hygx, _, _ = vi_tables(x, y, ignore_x, ignore_y)
  *     # false merges, false splits
  *     return np.array([hygx.sum(), hxgy.sum()])             # <<<<<<<<<<<<<<
@@ -4260,7 +4260,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_6split_vi(CYTHON_UNUSED PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "segLib/seg_eval.pyx":97
+  /* "em_segLib/seg_eval.pyx":97
  *     return (hxgy, hyxg)
  * 
  * def split_vi(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -4279,7 +4279,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_6split_vi(CYTHON_UNUSED PyObject *__
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
-  __Pyx_AddTraceback("segLib.seg_eval.split_vi", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.split_vi", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v__);
@@ -4290,7 +4290,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_6split_vi(CYTHON_UNUSED PyObject *__
   return __pyx_r;
 }
 
-/* "segLib/seg_eval.pyx":133
+/* "em_segLib/seg_eval.pyx":133
  *     return np.array([hygx.sum(), hxgy.sum()])
  * 
  * def vi_tables(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -4299,10 +4299,10 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_6split_vi(CYTHON_UNUSED PyObject *__
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_8seg_eval_9vi_tables(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_8seg_eval_8vi_tables[] = "Return probability tables used for calculating VI.\n\n    If y is None, x is assumed to be a contingency table.\n\n    Parameters\n    ----------\n    x, y : np.ndarray\n        Either x and y are provided as equal-shaped np.ndarray label fields\n        (int type), or y is not provided and x is a contingency table\n        (sparse.csc_matrix) that may or may not sum to 1.\n    ignore_x, ignore_y : list of int, optional\n        Rows and columns (respectively) to ignore in the contingency table.\n        These are labels that are not counted when evaluating VI.\n\n    Returns\n    -------\n    pxy : sparse.csc_matrix of float\n        The normalized contingency table.\n    px, py, hxgy, hygx, lpygx, lpxgy : np.ndarray of float\n        The proportions of each label in `x` and `y` (`px`, `py`), the\n        per-segment conditional entropies of `x` given `y` and vice-versa, the\n        per-segment conditional probability p log p.\n    ";
-static PyMethodDef __pyx_mdef_6segLib_8seg_eval_9vi_tables = {"vi_tables", (PyCFunction)__pyx_pw_6segLib_8seg_eval_9vi_tables, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_8vi_tables};
-static PyObject *__pyx_pw_6segLib_8seg_eval_9vi_tables(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_9vi_tables(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_9em_segLib_8seg_eval_8vi_tables[] = "Return probability tables used for calculating VI.\n\n    If y is None, x is assumed to be a contingency table.\n\n    Parameters\n    ----------\n    x, y : np.ndarray\n        Either x and y are provided as equal-shaped np.ndarray label fields\n        (int type), or y is not provided and x is a contingency table\n        (sparse.csc_matrix) that may or may not sum to 1.\n    ignore_x, ignore_y : list of int, optional\n        Rows and columns (respectively) to ignore in the contingency table.\n        These are labels that are not counted when evaluating VI.\n\n    Returns\n    -------\n    pxy : sparse.csc_matrix of float\n        The normalized contingency table.\n    px, py, hxgy, hygx, lpygx, lpxgy : np.ndarray of float\n        The proportions of each label in `x` and `y` (`px`, `py`), the\n        per-segment conditional entropies of `x` given `y` and vice-versa, the\n        per-segment conditional probability p log p.\n    ";
+static PyMethodDef __pyx_mdef_9em_segLib_8seg_eval_9vi_tables = {"vi_tables", (PyCFunction)__pyx_pw_9em_segLib_8seg_eval_9vi_tables, METH_VARARGS|METH_KEYWORDS, __pyx_doc_9em_segLib_8seg_eval_8vi_tables};
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_9vi_tables(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_x = 0;
   PyObject *__pyx_v_y = 0;
   PyObject *__pyx_v_ignore_x = 0;
@@ -4380,18 +4380,18 @@ static PyObject *__pyx_pw_6segLib_8seg_eval_9vi_tables(PyObject *__pyx_self, PyO
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("vi_tables", 0, 1, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 133, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.seg_eval.vi_tables", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.vi_tables", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_8seg_eval_8vi_tables(__pyx_self, __pyx_v_x, __pyx_v_y, __pyx_v_ignore_x, __pyx_v_ignore_y);
+  __pyx_r = __pyx_pf_9em_segLib_8seg_eval_8vi_tables(__pyx_self, __pyx_v_x, __pyx_v_y, __pyx_v_ignore_x, __pyx_v_ignore_y);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y) {
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_y, PyObject *__pyx_v_ignore_x, PyObject *__pyx_v_ignore_y) {
   PyObject *__pyx_v_pxy = NULL;
   PyObject *__pyx_v_cont = NULL;
   double __pyx_v_total;
@@ -4421,7 +4421,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   PyObject *__pyx_t_11 = NULL;
   __Pyx_RefNannySetupContext("vi_tables", 0);
 
-  /* "segLib/seg_eval.pyx":157
+  /* "em_segLib/seg_eval.pyx":157
  *         per-segment conditional probability p log p.
  *     """
  *     if y is not None:             # <<<<<<<<<<<<<<
@@ -4432,7 +4432,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "segLib/seg_eval.pyx":158
+    /* "em_segLib/seg_eval.pyx":158
  *     """
  *     if y is not None:
  *         pxy = contingency_table(x, y, ignore_x, ignore_y)             # <<<<<<<<<<<<<<
@@ -4495,7 +4495,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
     __pyx_v_pxy = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":157
+    /* "em_segLib/seg_eval.pyx":157
  *         per-segment conditional probability p log p.
  *     """
  *     if y is not None:             # <<<<<<<<<<<<<<
@@ -4505,7 +4505,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
     goto __pyx_L3;
   }
 
-  /* "segLib/seg_eval.pyx":160
+  /* "em_segLib/seg_eval.pyx":160
  *         pxy = contingency_table(x, y, ignore_x, ignore_y)
  *     else:
  *         cont = x             # <<<<<<<<<<<<<<
@@ -4516,7 +4516,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
     __Pyx_INCREF(__pyx_v_x);
     __pyx_v_cont = __pyx_v_x;
 
-    /* "segLib/seg_eval.pyx":161
+    /* "em_segLib/seg_eval.pyx":161
  *     else:
  *         cont = x
  *         total = float(cont.sum())             # <<<<<<<<<<<<<<
@@ -4547,7 +4547,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_v_total = __pyx_t_8;
 
-    /* "segLib/seg_eval.pyx":163
+    /* "em_segLib/seg_eval.pyx":163
  *         total = float(cont.sum())
  *         # normalize, since it is an identity op if already done
  *         pxy = cont / total             # <<<<<<<<<<<<<<
@@ -4564,7 +4564,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   }
   __pyx_L3:;
 
-  /* "segLib/seg_eval.pyx":166
+  /* "em_segLib/seg_eval.pyx":166
  * 
  *     # Calculate probabilities
  *     px = np.array(pxy.sum(axis=1)).ravel()             # <<<<<<<<<<<<<<
@@ -4655,7 +4655,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __pyx_v_px = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "segLib/seg_eval.pyx":167
+  /* "em_segLib/seg_eval.pyx":167
  *     # Calculate probabilities
  *     px = np.array(pxy.sum(axis=1)).ravel()
  *     py = np.array(pxy.sum(axis=0)).ravel()             # <<<<<<<<<<<<<<
@@ -4746,7 +4746,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __pyx_v_py = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "segLib/seg_eval.pyx":169
+  /* "em_segLib/seg_eval.pyx":169
  *     py = np.array(pxy.sum(axis=0)).ravel()
  *     # Remove zero rows/cols
  *     nzx = px.nonzero()[0]             # <<<<<<<<<<<<<<
@@ -4779,7 +4779,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __pyx_v_nzx = __pyx_t_7;
   __pyx_t_7 = 0;
 
-  /* "segLib/seg_eval.pyx":170
+  /* "em_segLib/seg_eval.pyx":170
  *     # Remove zero rows/cols
  *     nzx = px.nonzero()[0]
  *     nzy = py.nonzero()[0]             # <<<<<<<<<<<<<<
@@ -4812,7 +4812,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __pyx_v_nzy = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "segLib/seg_eval.pyx":171
+  /* "em_segLib/seg_eval.pyx":171
  *     nzx = px.nonzero()[0]
  *     nzy = py.nonzero()[0]
  *     nzpx = px[nzx]             # <<<<<<<<<<<<<<
@@ -4824,7 +4824,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __pyx_v_nzpx = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "segLib/seg_eval.pyx":172
+  /* "em_segLib/seg_eval.pyx":172
  *     nzy = py.nonzero()[0]
  *     nzpx = px[nzx]
  *     nzpy = py[nzy]             # <<<<<<<<<<<<<<
@@ -4836,7 +4836,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __pyx_v_nzpy = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "segLib/seg_eval.pyx":173
+  /* "em_segLib/seg_eval.pyx":173
  *     nzpx = px[nzx]
  *     nzpy = py[nzy]
  *     nzpxy = pxy[nzx, :][:, nzy]             # <<<<<<<<<<<<<<
@@ -4869,7 +4869,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __pyx_v_nzpxy = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "segLib/seg_eval.pyx":176
+  /* "em_segLib/seg_eval.pyx":176
  * 
  *     # Calculate log conditional probabilities and entropies
  *     lpygx = np.zeros(np.shape(px))             # <<<<<<<<<<<<<<
@@ -4978,7 +4978,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __pyx_v_lpygx = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "segLib/seg_eval.pyx":177
+  /* "em_segLib/seg_eval.pyx":177
  *     # Calculate log conditional probabilities and entropies
  *     lpygx = np.zeros(np.shape(px))
  *     lpygx[nzx] = xlogx(divide_rows(nzpxy, nzpx)).sum(axis=1).ravel()             # <<<<<<<<<<<<<<
@@ -5114,7 +5114,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   if (unlikely(PyObject_SetItem(__pyx_v_lpygx, __pyx_v_nzx, __pyx_t_5) < 0)) __PYX_ERR(0, 177, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "segLib/seg_eval.pyx":179
+  /* "em_segLib/seg_eval.pyx":179
  *     lpygx[nzx] = xlogx(divide_rows(nzpxy, nzpx)).sum(axis=1).ravel()
  *                         # \sum_x{p_{y|x} \log{p_{y|x}}}
  *     hygx = -(px*lpygx) # \sum_x{p_x H(Y|X=x)} = H(Y|X)             # <<<<<<<<<<<<<<
@@ -5129,7 +5129,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __pyx_v_hygx = __pyx_t_7;
   __pyx_t_7 = 0;
 
-  /* "segLib/seg_eval.pyx":181
+  /* "em_segLib/seg_eval.pyx":181
  *     hygx = -(px*lpygx) # \sum_x{p_x H(Y|X=x)} = H(Y|X)
  * 
  *     lpxgy = np.zeros(np.shape(py))             # <<<<<<<<<<<<<<
@@ -5238,7 +5238,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __pyx_v_lpxgy = __pyx_t_7;
   __pyx_t_7 = 0;
 
-  /* "segLib/seg_eval.pyx":182
+  /* "em_segLib/seg_eval.pyx":182
  * 
  *     lpxgy = np.zeros(np.shape(py))
  *     lpxgy[nzy] = xlogx(divide_columns(nzpxy, nzpy)).sum(axis=0).ravel()             # <<<<<<<<<<<<<<
@@ -5374,7 +5374,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   if (unlikely(PyObject_SetItem(__pyx_v_lpxgy, __pyx_v_nzy, __pyx_t_7) < 0)) __PYX_ERR(0, 182, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "segLib/seg_eval.pyx":183
+  /* "em_segLib/seg_eval.pyx":183
  *     lpxgy = np.zeros(np.shape(py))
  *     lpxgy[nzy] = xlogx(divide_columns(nzpxy, nzpy)).sum(axis=0).ravel()
  *     hxgy = -(py*lpxgy)             # <<<<<<<<<<<<<<
@@ -5389,7 +5389,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __pyx_v_hxgy = __pyx_t_11;
   __pyx_t_11 = 0;
 
-  /* "segLib/seg_eval.pyx":185
+  /* "em_segLib/seg_eval.pyx":185
  *     hxgy = -(py*lpxgy)
  * 
  *     return [pxy] + list(map(np.asarray, [px, py, hxgy, hygx, lpygx, lpxgy]))             # <<<<<<<<<<<<<<
@@ -5449,7 +5449,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __pyx_t_7 = 0;
   goto __pyx_L0;
 
-  /* "segLib/seg_eval.pyx":133
+  /* "em_segLib/seg_eval.pyx":133
  *     return np.array([hygx.sum(), hxgy.sum()])
  * 
  * def vi_tables(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -5466,7 +5466,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   __Pyx_XDECREF(__pyx_t_9);
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_XDECREF(__pyx_t_11);
-  __Pyx_AddTraceback("segLib.seg_eval.vi_tables", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.vi_tables", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_pxy);
@@ -5487,7 +5487,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
   return __pyx_r;
 }
 
-/* "segLib/seg_eval.pyx":187
+/* "em_segLib/seg_eval.pyx":187
  *     return [pxy] + list(map(np.asarray, [px, py, hxgy, hygx, lpygx, lpxgy]))
  * 
  * def contingency_table(seg, gt, ignore_seg=[0], ignore_gt=[0], norm=True):             # <<<<<<<<<<<<<<
@@ -5496,10 +5496,10 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_8vi_tables(CYTHON_UNUSED PyObject *_
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_8seg_eval_11contingency_table(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_8seg_eval_10contingency_table[] = "Return the contingency table for all regions in matched segmentations.\n\n    Parameters\n    ----------\n    seg : np.ndarray, int type, arbitrary shape\n        A candidate segmentation.\n    gt : np.ndarray, int type, same shape as `seg`\n        The ground truth segmentation.\n    ignore_seg : list of int, optional\n        Values to ignore in `seg`. Voxels in `seg` having a value in this list\n        will not contribute to the contingency table. (default: [0])\n    ignore_gt : list of int, optional\n        Values to ignore in `gt`. Voxels in `gt` having a value in this list\n        will not contribute to the contingency table. (default: [0])\n    norm : bool, optional\n        Whether to normalize the table so that it sums to 1.\n\n    Returns\n    -------\n    cont : scipy.sparse.csc_matrix\n        A contingency table. `cont[i, j]` will equal the number of voxels\n        labeled `i` in `seg` and `j` in `gt`. (Or the proportion of such voxels\n        if `norm=True`.)\n    ";
-static PyMethodDef __pyx_mdef_6segLib_8seg_eval_11contingency_table = {"contingency_table", (PyCFunction)__pyx_pw_6segLib_8seg_eval_11contingency_table, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_10contingency_table};
-static PyObject *__pyx_pw_6segLib_8seg_eval_11contingency_table(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_11contingency_table(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_9em_segLib_8seg_eval_10contingency_table[] = "Return the contingency table for all regions in matched segmentations.\n\n    Parameters\n    ----------\n    seg : np.ndarray, int type, arbitrary shape\n        A candidate segmentation.\n    gt : np.ndarray, int type, same shape as `seg`\n        The ground truth segmentation.\n    ignore_seg : list of int, optional\n        Values to ignore in `seg`. Voxels in `seg` having a value in this list\n        will not contribute to the contingency table. (default: [0])\n    ignore_gt : list of int, optional\n        Values to ignore in `gt`. Voxels in `gt` having a value in this list\n        will not contribute to the contingency table. (default: [0])\n    norm : bool, optional\n        Whether to normalize the table so that it sums to 1.\n\n    Returns\n    -------\n    cont : scipy.sparse.csc_matrix\n        A contingency table. `cont[i, j]` will equal the number of voxels\n        labeled `i` in `seg` and `j` in `gt`. (Or the proportion of such voxels\n        if `norm=True`.)\n    ";
+static PyMethodDef __pyx_mdef_9em_segLib_8seg_eval_11contingency_table = {"contingency_table", (PyCFunction)__pyx_pw_9em_segLib_8seg_eval_11contingency_table, METH_VARARGS|METH_KEYWORDS, __pyx_doc_9em_segLib_8seg_eval_10contingency_table};
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_11contingency_table(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_seg = 0;
   PyObject *__pyx_v_gt = 0;
   PyObject *__pyx_v_ignore_seg = 0;
@@ -5588,18 +5588,18 @@ static PyObject *__pyx_pw_6segLib_8seg_eval_11contingency_table(PyObject *__pyx_
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("contingency_table", 0, 2, 5, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 187, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.seg_eval.contingency_table", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.contingency_table", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_8seg_eval_10contingency_table(__pyx_self, __pyx_v_seg, __pyx_v_gt, __pyx_v_ignore_seg, __pyx_v_ignore_gt, __pyx_v_norm);
+  __pyx_r = __pyx_pf_9em_segLib_8seg_eval_10contingency_table(__pyx_self, __pyx_v_seg, __pyx_v_gt, __pyx_v_ignore_seg, __pyx_v_ignore_gt, __pyx_v_norm);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_seg, PyObject *__pyx_v_gt, PyObject *__pyx_v_ignore_seg, PyObject *__pyx_v_ignore_gt, PyObject *__pyx_v_norm) {
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_10contingency_table(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_seg, PyObject *__pyx_v_gt, PyObject *__pyx_v_ignore_seg, PyObject *__pyx_v_ignore_gt, PyObject *__pyx_v_norm) {
   PyObject *__pyx_v_segr = NULL;
   PyObject *__pyx_v_gtr = NULL;
   PyObject *__pyx_v_ignored = NULL;
@@ -5621,7 +5621,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
   int __pyx_t_10;
   __Pyx_RefNannySetupContext("contingency_table", 0);
 
-  /* "segLib/seg_eval.pyx":212
+  /* "em_segLib/seg_eval.pyx":212
  *         if `norm=True`.)
  *     """
  *     segr = seg.ravel()             # <<<<<<<<<<<<<<
@@ -5651,7 +5651,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
   __pyx_v_segr = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "segLib/seg_eval.pyx":213
+  /* "em_segLib/seg_eval.pyx":213
  *     """
  *     segr = seg.ravel()
  *     gtr = gt.ravel()             # <<<<<<<<<<<<<<
@@ -5681,7 +5681,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
   __pyx_v_gtr = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "segLib/seg_eval.pyx":214
+  /* "em_segLib/seg_eval.pyx":214
  *     segr = seg.ravel()
  *     gtr = gt.ravel()
  *     ignored = np.zeros(segr.shape, np.bool)             # <<<<<<<<<<<<<<
@@ -5752,7 +5752,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
   __pyx_v_ignored = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "segLib/seg_eval.pyx":215
+  /* "em_segLib/seg_eval.pyx":215
  *     gtr = gt.ravel()
  *     ignored = np.zeros(segr.shape, np.bool)
  *     data = np.ones(len(gtr))             # <<<<<<<<<<<<<<
@@ -5816,7 +5816,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
   __pyx_v_data = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "segLib/seg_eval.pyx":216
+  /* "em_segLib/seg_eval.pyx":216
  *     ignored = np.zeros(segr.shape, np.bool)
  *     data = np.ones(len(gtr))
  *     for i in ignore_seg:             # <<<<<<<<<<<<<<
@@ -5865,7 +5865,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
     __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_7);
     __pyx_t_7 = 0;
 
-    /* "segLib/seg_eval.pyx":217
+    /* "em_segLib/seg_eval.pyx":217
  *     data = np.ones(len(gtr))
  *     for i in ignore_seg:
  *         ignored[segr == i] = True             # <<<<<<<<<<<<<<
@@ -5876,7 +5876,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
     if (unlikely(PyObject_SetItem(__pyx_v_ignored, __pyx_t_7, Py_True) < 0)) __PYX_ERR(0, 217, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "segLib/seg_eval.pyx":216
+    /* "em_segLib/seg_eval.pyx":216
  *     ignored = np.zeros(segr.shape, np.bool)
  *     data = np.ones(len(gtr))
  *     for i in ignore_seg:             # <<<<<<<<<<<<<<
@@ -5886,7 +5886,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "segLib/seg_eval.pyx":218
+  /* "em_segLib/seg_eval.pyx":218
  *     for i in ignore_seg:
  *         ignored[segr == i] = True
  *     for j in ignore_gt:             # <<<<<<<<<<<<<<
@@ -5935,7 +5935,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
     __Pyx_XDECREF_SET(__pyx_v_j, __pyx_t_7);
     __pyx_t_7 = 0;
 
-    /* "segLib/seg_eval.pyx":219
+    /* "em_segLib/seg_eval.pyx":219
  *         ignored[segr == i] = True
  *     for j in ignore_gt:
  *         ignored[gtr == j] = True             # <<<<<<<<<<<<<<
@@ -5946,7 +5946,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
     if (unlikely(PyObject_SetItem(__pyx_v_ignored, __pyx_t_7, Py_True) < 0)) __PYX_ERR(0, 219, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "segLib/seg_eval.pyx":218
+    /* "em_segLib/seg_eval.pyx":218
  *     for i in ignore_seg:
  *         ignored[segr == i] = True
  *     for j in ignore_gt:             # <<<<<<<<<<<<<<
@@ -5956,7 +5956,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "segLib/seg_eval.pyx":220
+  /* "em_segLib/seg_eval.pyx":220
  *     for j in ignore_gt:
  *         ignored[gtr == j] = True
  *     data[ignored] = 0             # <<<<<<<<<<<<<<
@@ -5965,7 +5965,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
  */
   if (unlikely(PyObject_SetItem(__pyx_v_data, __pyx_v_ignored, __pyx_int_0) < 0)) __PYX_ERR(0, 220, __pyx_L1_error)
 
-  /* "segLib/seg_eval.pyx":221
+  /* "em_segLib/seg_eval.pyx":221
  *         ignored[gtr == j] = True
  *     data[ignored] = 0
  *     cont = sparse.coo_matrix((data, (segr, gtr))).tocsc()             # <<<<<<<<<<<<<<
@@ -6063,7 +6063,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
   __pyx_v_cont = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "segLib/seg_eval.pyx":222
+  /* "em_segLib/seg_eval.pyx":222
  *     data[ignored] = 0
  *     cont = sparse.coo_matrix((data, (segr, gtr))).tocsc()
  *     if norm:             # <<<<<<<<<<<<<<
@@ -6073,7 +6073,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
   __pyx_t_10 = __Pyx_PyObject_IsTrue(__pyx_v_norm); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(0, 222, __pyx_L1_error)
   if (__pyx_t_10) {
 
-    /* "segLib/seg_eval.pyx":223
+    /* "em_segLib/seg_eval.pyx":223
  *     cont = sparse.coo_matrix((data, (segr, gtr))).tocsc()
  *     if norm:
  *         cont /= float(cont.sum())             # <<<<<<<<<<<<<<
@@ -6109,7 +6109,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
     __Pyx_DECREF_SET(__pyx_v_cont, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "segLib/seg_eval.pyx":222
+    /* "em_segLib/seg_eval.pyx":222
  *     data[ignored] = 0
  *     cont = sparse.coo_matrix((data, (segr, gtr))).tocsc()
  *     if norm:             # <<<<<<<<<<<<<<
@@ -6118,7 +6118,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
  */
   }
 
-  /* "segLib/seg_eval.pyx":224
+  /* "em_segLib/seg_eval.pyx":224
  *     if norm:
  *         cont /= float(cont.sum())
  *     return cont             # <<<<<<<<<<<<<<
@@ -6130,7 +6130,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
   __pyx_r = __pyx_v_cont;
   goto __pyx_L0;
 
-  /* "segLib/seg_eval.pyx":187
+  /* "em_segLib/seg_eval.pyx":187
  *     return [pxy] + list(map(np.asarray, [px, py, hxgy, hygx, lpygx, lpxgy]))
  * 
  * def contingency_table(seg, gt, ignore_seg=[0], ignore_gt=[0], norm=True):             # <<<<<<<<<<<<<<
@@ -6146,7 +6146,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("segLib.seg_eval.contingency_table", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.contingency_table", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_segr);
@@ -6161,7 +6161,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
   return __pyx_r;
 }
 
-/* "segLib/seg_eval.pyx":226
+/* "em_segLib/seg_eval.pyx":226
  *     return cont
  * 
  * def divide_columns(matrix, row, in_place=False):             # <<<<<<<<<<<<<<
@@ -6170,10 +6170,10 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_10contingency_table(CYTHON_UNUSED Py
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_8seg_eval_13divide_columns(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_8seg_eval_12divide_columns[] = "Divide each column of `matrix` by the corresponding element in `row`.\n\n    The result is as follows: out[i, j] = matrix[i, j] / row[j]\n\n    Parameters\n    ----------\n    matrix : np.ndarray, scipy.sparse.csc_matrix or csr_matrix, shape (M, N)\n        The input matrix.\n    column : a 1D np.ndarray, shape (N,)\n        The row dividing `matrix`.\n    in_place : bool (optional, default False)\n        Do the computation in-place.\n\n    Returns\n    -------\n    out : same type as `matrix`\n        The result of the row-wise division.\n    ";
-static PyMethodDef __pyx_mdef_6segLib_8seg_eval_13divide_columns = {"divide_columns", (PyCFunction)__pyx_pw_6segLib_8seg_eval_13divide_columns, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_12divide_columns};
-static PyObject *__pyx_pw_6segLib_8seg_eval_13divide_columns(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_13divide_columns(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_9em_segLib_8seg_eval_12divide_columns[] = "Divide each column of `matrix` by the corresponding element in `row`.\n\n    The result is as follows: out[i, j] = matrix[i, j] / row[j]\n\n    Parameters\n    ----------\n    matrix : np.ndarray, scipy.sparse.csc_matrix or csr_matrix, shape (M, N)\n        The input matrix.\n    column : a 1D np.ndarray, shape (N,)\n        The row dividing `matrix`.\n    in_place : bool (optional, default False)\n        Do the computation in-place.\n\n    Returns\n    -------\n    out : same type as `matrix`\n        The result of the row-wise division.\n    ";
+static PyMethodDef __pyx_mdef_9em_segLib_8seg_eval_13divide_columns = {"divide_columns", (PyCFunction)__pyx_pw_9em_segLib_8seg_eval_13divide_columns, METH_VARARGS|METH_KEYWORDS, __pyx_doc_9em_segLib_8seg_eval_12divide_columns};
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_13divide_columns(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_matrix = 0;
   PyObject *__pyx_v_row = 0;
   PyObject *__pyx_v_in_place = 0;
@@ -6236,18 +6236,18 @@ static PyObject *__pyx_pw_6segLib_8seg_eval_13divide_columns(PyObject *__pyx_sel
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("divide_columns", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 226, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.seg_eval.divide_columns", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.divide_columns", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_8seg_eval_12divide_columns(__pyx_self, __pyx_v_matrix, __pyx_v_row, __pyx_v_in_place);
+  __pyx_r = __pyx_pf_9em_segLib_8seg_eval_12divide_columns(__pyx_self, __pyx_v_matrix, __pyx_v_row, __pyx_v_in_place);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_row, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_row, PyObject *__pyx_v_in_place) {
   PyObject *__pyx_v_out = NULL;
   int __pyx_v_convert_to_csc;
   PyObject *__pyx_v_row_repeated = NULL;
@@ -6264,7 +6264,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("divide_columns", 0);
 
-  /* "segLib/seg_eval.pyx":245
+  /* "em_segLib/seg_eval.pyx":245
  *         The result of the row-wise division.
  *     """
  *     if in_place:             # <<<<<<<<<<<<<<
@@ -6274,7 +6274,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
   __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 245, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "segLib/seg_eval.pyx":246
+    /* "em_segLib/seg_eval.pyx":246
  *     """
  *     if in_place:
  *         out = matrix             # <<<<<<<<<<<<<<
@@ -6284,7 +6284,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
     __Pyx_INCREF(__pyx_v_matrix);
     __pyx_v_out = __pyx_v_matrix;
 
-    /* "segLib/seg_eval.pyx":245
+    /* "em_segLib/seg_eval.pyx":245
  *         The result of the row-wise division.
  *     """
  *     if in_place:             # <<<<<<<<<<<<<<
@@ -6294,7 +6294,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
     goto __pyx_L3;
   }
 
-  /* "segLib/seg_eval.pyx":248
+  /* "em_segLib/seg_eval.pyx":248
  *         out = matrix
  *     else:
  *         out = matrix.copy()             # <<<<<<<<<<<<<<
@@ -6327,7 +6327,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
   }
   __pyx_L3:;
 
-  /* "segLib/seg_eval.pyx":249
+  /* "em_segLib/seg_eval.pyx":249
  *     else:
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:             # <<<<<<<<<<<<<<
@@ -6365,7 +6365,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
   __pyx_t_5 = (__pyx_t_1 != 0);
   if (__pyx_t_5) {
 
-    /* "segLib/seg_eval.pyx":250
+    /* "em_segLib/seg_eval.pyx":250
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         if type(out) == sparse.csc_matrix:             # <<<<<<<<<<<<<<
@@ -6383,7 +6383,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (__pyx_t_5) {
 
-      /* "segLib/seg_eval.pyx":251
+      /* "em_segLib/seg_eval.pyx":251
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         if type(out) == sparse.csc_matrix:
  *             convert_to_csc = True             # <<<<<<<<<<<<<<
@@ -6392,7 +6392,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
  */
       __pyx_v_convert_to_csc = 1;
 
-      /* "segLib/seg_eval.pyx":252
+      /* "em_segLib/seg_eval.pyx":252
  *         if type(out) == sparse.csc_matrix:
  *             convert_to_csc = True
  *             out = out.tocsr()             # <<<<<<<<<<<<<<
@@ -6422,7 +6422,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
       __Pyx_DECREF_SET(__pyx_v_out, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "segLib/seg_eval.pyx":250
+      /* "em_segLib/seg_eval.pyx":250
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         if type(out) == sparse.csc_matrix:             # <<<<<<<<<<<<<<
@@ -6432,7 +6432,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
       goto __pyx_L7;
     }
 
-    /* "segLib/seg_eval.pyx":254
+    /* "em_segLib/seg_eval.pyx":254
  *             out = out.tocsr()
  *         else:
  *             convert_to_csc = False             # <<<<<<<<<<<<<<
@@ -6444,7 +6444,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
     }
     __pyx_L7:;
 
-    /* "segLib/seg_eval.pyx":255
+    /* "em_segLib/seg_eval.pyx":255
  *         else:
  *             convert_to_csc = False
  *         row_repeated = np.take(row, out.indices)             # <<<<<<<<<<<<<<
@@ -6508,7 +6508,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
     __pyx_v_row_repeated = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "segLib/seg_eval.pyx":256
+    /* "em_segLib/seg_eval.pyx":256
  *             convert_to_csc = False
  *         row_repeated = np.take(row, out.indices)
  *         nz = out.data.nonzero()             # <<<<<<<<<<<<<<
@@ -6541,7 +6541,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
     __pyx_v_nz = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "segLib/seg_eval.pyx":257
+    /* "em_segLib/seg_eval.pyx":257
  *         row_repeated = np.take(row, out.indices)
  *         nz = out.data.nonzero()
  *         out.data[nz] /= row_repeated[nz]             # <<<<<<<<<<<<<<
@@ -6565,7 +6565,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "segLib/seg_eval.pyx":258
+    /* "em_segLib/seg_eval.pyx":258
  *         nz = out.data.nonzero()
  *         out.data[nz] /= row_repeated[nz]
  *         if convert_to_csc:             # <<<<<<<<<<<<<<
@@ -6575,7 +6575,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
     __pyx_t_5 = (__pyx_v_convert_to_csc != 0);
     if (__pyx_t_5) {
 
-      /* "segLib/seg_eval.pyx":259
+      /* "em_segLib/seg_eval.pyx":259
  *         out.data[nz] /= row_repeated[nz]
  *         if convert_to_csc:
  *             out = out.tocsc()             # <<<<<<<<<<<<<<
@@ -6605,7 +6605,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
       __Pyx_DECREF_SET(__pyx_v_out, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "segLib/seg_eval.pyx":258
+      /* "em_segLib/seg_eval.pyx":258
  *         nz = out.data.nonzero()
  *         out.data[nz] /= row_repeated[nz]
  *         if convert_to_csc:             # <<<<<<<<<<<<<<
@@ -6614,7 +6614,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
  */
     }
 
-    /* "segLib/seg_eval.pyx":249
+    /* "em_segLib/seg_eval.pyx":249
  *     else:
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:             # <<<<<<<<<<<<<<
@@ -6624,7 +6624,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
     goto __pyx_L4;
   }
 
-  /* "segLib/seg_eval.pyx":261
+  /* "em_segLib/seg_eval.pyx":261
  *             out = out.tocsc()
  *     else:
  *         out /= row[np.newaxis, :]             # <<<<<<<<<<<<<<
@@ -6656,7 +6656,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
   }
   __pyx_L4:;
 
-  /* "segLib/seg_eval.pyx":262
+  /* "em_segLib/seg_eval.pyx":262
  *     else:
  *         out /= row[np.newaxis, :]
  *     return out             # <<<<<<<<<<<<<<
@@ -6668,7 +6668,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
   __pyx_r = __pyx_v_out;
   goto __pyx_L0;
 
-  /* "segLib/seg_eval.pyx":226
+  /* "em_segLib/seg_eval.pyx":226
  *     return cont
  * 
  * def divide_columns(matrix, row, in_place=False):             # <<<<<<<<<<<<<<
@@ -6683,7 +6683,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("segLib.seg_eval.divide_columns", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.divide_columns", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_out);
@@ -6694,7 +6694,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
   return __pyx_r;
 }
 
-/* "segLib/seg_eval.pyx":264
+/* "em_segLib/seg_eval.pyx":264
  *     return out
  * 
  * def divide_rows(matrix, column, in_place=False):             # <<<<<<<<<<<<<<
@@ -6703,10 +6703,10 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_12divide_columns(CYTHON_UNUSED PyObj
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_8seg_eval_15divide_rows(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_8seg_eval_14divide_rows[] = "Divide each row of `matrix` by the corresponding element in `column`.\n\n    The result is as follows: out[i, j] = matrix[i, j] / column[i]\n\n    Parameters\n    ----------\n    matrix : np.ndarray, scipy.sparse.csc_matrix or csr_matrix, shape (M, N)\n        The input matrix.\n    column : a 1D np.ndarray, shape (M,)\n        The column dividing `matrix`.\n    in_place : bool (optional, default False)\n        Do the computation in-place.\n\n    Returns\n    -------\n    out : same type as `matrix`\n        The result of the row-wise division.\n    ";
-static PyMethodDef __pyx_mdef_6segLib_8seg_eval_15divide_rows = {"divide_rows", (PyCFunction)__pyx_pw_6segLib_8seg_eval_15divide_rows, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_14divide_rows};
-static PyObject *__pyx_pw_6segLib_8seg_eval_15divide_rows(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_15divide_rows(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_9em_segLib_8seg_eval_14divide_rows[] = "Divide each row of `matrix` by the corresponding element in `column`.\n\n    The result is as follows: out[i, j] = matrix[i, j] / column[i]\n\n    Parameters\n    ----------\n    matrix : np.ndarray, scipy.sparse.csc_matrix or csr_matrix, shape (M, N)\n        The input matrix.\n    column : a 1D np.ndarray, shape (M,)\n        The column dividing `matrix`.\n    in_place : bool (optional, default False)\n        Do the computation in-place.\n\n    Returns\n    -------\n    out : same type as `matrix`\n        The result of the row-wise division.\n    ";
+static PyMethodDef __pyx_mdef_9em_segLib_8seg_eval_15divide_rows = {"divide_rows", (PyCFunction)__pyx_pw_9em_segLib_8seg_eval_15divide_rows, METH_VARARGS|METH_KEYWORDS, __pyx_doc_9em_segLib_8seg_eval_14divide_rows};
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_15divide_rows(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_matrix = 0;
   PyObject *__pyx_v_column = 0;
   PyObject *__pyx_v_in_place = 0;
@@ -6769,18 +6769,18 @@ static PyObject *__pyx_pw_6segLib_8seg_eval_15divide_rows(PyObject *__pyx_self, 
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("divide_rows", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 264, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.seg_eval.divide_rows", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.divide_rows", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_8seg_eval_14divide_rows(__pyx_self, __pyx_v_matrix, __pyx_v_column, __pyx_v_in_place);
+  __pyx_r = __pyx_pf_9em_segLib_8seg_eval_14divide_rows(__pyx_self, __pyx_v_matrix, __pyx_v_column, __pyx_v_in_place);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_column, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_matrix, PyObject *__pyx_v_column, PyObject *__pyx_v_in_place) {
   PyObject *__pyx_v_out = NULL;
   int __pyx_v_convert_to_csr;
   PyObject *__pyx_v_column_repeated = NULL;
@@ -6797,7 +6797,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("divide_rows", 0);
 
-  /* "segLib/seg_eval.pyx":283
+  /* "em_segLib/seg_eval.pyx":283
  *         The result of the row-wise division.
  *     """
  *     if in_place:             # <<<<<<<<<<<<<<
@@ -6807,7 +6807,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
   __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 283, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "segLib/seg_eval.pyx":284
+    /* "em_segLib/seg_eval.pyx":284
  *     """
  *     if in_place:
  *         out = matrix             # <<<<<<<<<<<<<<
@@ -6817,7 +6817,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
     __Pyx_INCREF(__pyx_v_matrix);
     __pyx_v_out = __pyx_v_matrix;
 
-    /* "segLib/seg_eval.pyx":283
+    /* "em_segLib/seg_eval.pyx":283
  *         The result of the row-wise division.
  *     """
  *     if in_place:             # <<<<<<<<<<<<<<
@@ -6827,7 +6827,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
     goto __pyx_L3;
   }
 
-  /* "segLib/seg_eval.pyx":286
+  /* "em_segLib/seg_eval.pyx":286
  *         out = matrix
  *     else:
  *         out = matrix.copy()             # <<<<<<<<<<<<<<
@@ -6860,7 +6860,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
   }
   __pyx_L3:;
 
-  /* "segLib/seg_eval.pyx":287
+  /* "em_segLib/seg_eval.pyx":287
  *     else:
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:             # <<<<<<<<<<<<<<
@@ -6898,7 +6898,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
   __pyx_t_5 = (__pyx_t_1 != 0);
   if (__pyx_t_5) {
 
-    /* "segLib/seg_eval.pyx":288
+    /* "em_segLib/seg_eval.pyx":288
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         if type(out) == sparse.csr_matrix:             # <<<<<<<<<<<<<<
@@ -6916,7 +6916,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (__pyx_t_5) {
 
-      /* "segLib/seg_eval.pyx":289
+      /* "em_segLib/seg_eval.pyx":289
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         if type(out) == sparse.csr_matrix:
  *             convert_to_csr = True             # <<<<<<<<<<<<<<
@@ -6925,7 +6925,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
  */
       __pyx_v_convert_to_csr = 1;
 
-      /* "segLib/seg_eval.pyx":290
+      /* "em_segLib/seg_eval.pyx":290
  *         if type(out) == sparse.csr_matrix:
  *             convert_to_csr = True
  *             out = out.tocsc()             # <<<<<<<<<<<<<<
@@ -6955,7 +6955,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
       __Pyx_DECREF_SET(__pyx_v_out, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "segLib/seg_eval.pyx":288
+      /* "em_segLib/seg_eval.pyx":288
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         if type(out) == sparse.csr_matrix:             # <<<<<<<<<<<<<<
@@ -6965,7 +6965,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
       goto __pyx_L7;
     }
 
-    /* "segLib/seg_eval.pyx":292
+    /* "em_segLib/seg_eval.pyx":292
  *             out = out.tocsc()
  *         else:
  *             convert_to_csr = False             # <<<<<<<<<<<<<<
@@ -6977,7 +6977,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
     }
     __pyx_L7:;
 
-    /* "segLib/seg_eval.pyx":293
+    /* "em_segLib/seg_eval.pyx":293
  *         else:
  *             convert_to_csr = False
  *         column_repeated = np.take(column, out.indices)             # <<<<<<<<<<<<<<
@@ -7041,7 +7041,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
     __pyx_v_column_repeated = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "segLib/seg_eval.pyx":294
+    /* "em_segLib/seg_eval.pyx":294
  *             convert_to_csr = False
  *         column_repeated = np.take(column, out.indices)
  *         nz = out.data.nonzero()             # <<<<<<<<<<<<<<
@@ -7074,7 +7074,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
     __pyx_v_nz = __pyx_t_2;
     __pyx_t_2 = 0;
 
-    /* "segLib/seg_eval.pyx":295
+    /* "em_segLib/seg_eval.pyx":295
  *         column_repeated = np.take(column, out.indices)
  *         nz = out.data.nonzero()
  *         out.data[nz] /= column_repeated[nz]             # <<<<<<<<<<<<<<
@@ -7098,7 +7098,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "segLib/seg_eval.pyx":296
+    /* "em_segLib/seg_eval.pyx":296
  *         nz = out.data.nonzero()
  *         out.data[nz] /= column_repeated[nz]
  *         if convert_to_csr:             # <<<<<<<<<<<<<<
@@ -7108,7 +7108,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
     __pyx_t_5 = (__pyx_v_convert_to_csr != 0);
     if (__pyx_t_5) {
 
-      /* "segLib/seg_eval.pyx":297
+      /* "em_segLib/seg_eval.pyx":297
  *         out.data[nz] /= column_repeated[nz]
  *         if convert_to_csr:
  *             out = out.tocsr()             # <<<<<<<<<<<<<<
@@ -7138,7 +7138,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
       __Pyx_DECREF_SET(__pyx_v_out, __pyx_t_2);
       __pyx_t_2 = 0;
 
-      /* "segLib/seg_eval.pyx":296
+      /* "em_segLib/seg_eval.pyx":296
  *         nz = out.data.nonzero()
  *         out.data[nz] /= column_repeated[nz]
  *         if convert_to_csr:             # <<<<<<<<<<<<<<
@@ -7147,7 +7147,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
  */
     }
 
-    /* "segLib/seg_eval.pyx":287
+    /* "em_segLib/seg_eval.pyx":287
  *     else:
  *         out = matrix.copy()
  *     if type(out) in [sparse.csc_matrix, sparse.csr_matrix]:             # <<<<<<<<<<<<<<
@@ -7157,7 +7157,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
     goto __pyx_L4;
   }
 
-  /* "segLib/seg_eval.pyx":299
+  /* "em_segLib/seg_eval.pyx":299
  *             out = out.tocsr()
  *     else:
  *         out /= column[:, np.newaxis]             # <<<<<<<<<<<<<<
@@ -7189,7 +7189,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
   }
   __pyx_L4:;
 
-  /* "segLib/seg_eval.pyx":300
+  /* "em_segLib/seg_eval.pyx":300
  *     else:
  *         out /= column[:, np.newaxis]
  *     return out             # <<<<<<<<<<<<<<
@@ -7201,7 +7201,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
   __pyx_r = __pyx_v_out;
   goto __pyx_L0;
 
-  /* "segLib/seg_eval.pyx":264
+  /* "em_segLib/seg_eval.pyx":264
  *     return out
  * 
  * def divide_rows(matrix, column, in_place=False):             # <<<<<<<<<<<<<<
@@ -7216,7 +7216,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
   __Pyx_XDECREF(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_8);
-  __Pyx_AddTraceback("segLib.seg_eval.divide_rows", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.divide_rows", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_out);
@@ -7227,7 +7227,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
   return __pyx_r;
 }
 
-/* "segLib/seg_eval.pyx":302
+/* "em_segLib/seg_eval.pyx":302
  *     return out
  * 
  * def xlogx(x, out=None, in_place=False):             # <<<<<<<<<<<<<<
@@ -7236,10 +7236,10 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_14divide_rows(CYTHON_UNUSED PyObject
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_6segLib_8seg_eval_17xlogx(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static char __pyx_doc_6segLib_8seg_eval_16xlogx[] = "Compute x * log_2(x).\n\n    We define 0 * log_2(0) = 0\n\n    Parameters\n    ----------\n    x : np.ndarray or scipy.sparse.csc_matrix or csr_matrix\n        The input array.\n    out : same type as x (optional)\n        If provided, use this array/matrix for the result.\n    in_place : bool (optional, default False)\n        Operate directly on x.\n\n    Returns\n    -------\n    y : same type as x\n        Result of x * log_2(x).\n    ";
-static PyMethodDef __pyx_mdef_6segLib_8seg_eval_17xlogx = {"xlogx", (PyCFunction)__pyx_pw_6segLib_8seg_eval_17xlogx, METH_VARARGS|METH_KEYWORDS, __pyx_doc_6segLib_8seg_eval_16xlogx};
-static PyObject *__pyx_pw_6segLib_8seg_eval_17xlogx(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_17xlogx(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static char __pyx_doc_9em_segLib_8seg_eval_16xlogx[] = "Compute x * log_2(x).\n\n    We define 0 * log_2(0) = 0\n\n    Parameters\n    ----------\n    x : np.ndarray or scipy.sparse.csc_matrix or csr_matrix\n        The input array.\n    out : same type as x (optional)\n        If provided, use this array/matrix for the result.\n    in_place : bool (optional, default False)\n        Operate directly on x.\n\n    Returns\n    -------\n    y : same type as x\n        Result of x * log_2(x).\n    ";
+static PyMethodDef __pyx_mdef_9em_segLib_8seg_eval_17xlogx = {"xlogx", (PyCFunction)__pyx_pw_9em_segLib_8seg_eval_17xlogx, METH_VARARGS|METH_KEYWORDS, __pyx_doc_9em_segLib_8seg_eval_16xlogx};
+static PyObject *__pyx_pw_9em_segLib_8seg_eval_17xlogx(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
   PyObject *__pyx_v_x = 0;
   PyObject *__pyx_v_out = 0;
   PyObject *__pyx_v_in_place = 0;
@@ -7304,18 +7304,18 @@ static PyObject *__pyx_pw_6segLib_8seg_eval_17xlogx(PyObject *__pyx_self, PyObje
   __pyx_L5_argtuple_error:;
   __Pyx_RaiseArgtupleInvalid("xlogx", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 302, __pyx_L3_error)
   __pyx_L3_error:;
-  __Pyx_AddTraceback("segLib.seg_eval.xlogx", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.xlogx", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_6segLib_8seg_eval_16xlogx(__pyx_self, __pyx_v_x, __pyx_v_out, __pyx_v_in_place);
+  __pyx_r = __pyx_pf_9em_segLib_8seg_eval_16xlogx(__pyx_self, __pyx_v_x, __pyx_v_out, __pyx_v_in_place);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_out, PyObject *__pyx_v_in_place) {
+static PyObject *__pyx_pf_9em_segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x, PyObject *__pyx_v_out, PyObject *__pyx_v_in_place) {
   PyObject *__pyx_v_y = NULL;
   PyObject *__pyx_v_z = NULL;
   PyObject *__pyx_v_nz = NULL;
@@ -7332,7 +7332,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
   PyObject *__pyx_t_9 = NULL;
   __Pyx_RefNannySetupContext("xlogx", 0);
 
-  /* "segLib/seg_eval.pyx":321
+  /* "em_segLib/seg_eval.pyx":321
  *         Result of x * log_2(x).
  *     """
  *     if in_place:             # <<<<<<<<<<<<<<
@@ -7342,7 +7342,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
   __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_in_place); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(0, 321, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "segLib/seg_eval.pyx":322
+    /* "em_segLib/seg_eval.pyx":322
  *     """
  *     if in_place:
  *         y = x             # <<<<<<<<<<<<<<
@@ -7352,7 +7352,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
     __Pyx_INCREF(__pyx_v_x);
     __pyx_v_y = __pyx_v_x;
 
-    /* "segLib/seg_eval.pyx":321
+    /* "em_segLib/seg_eval.pyx":321
  *         Result of x * log_2(x).
  *     """
  *     if in_place:             # <<<<<<<<<<<<<<
@@ -7362,7 +7362,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
     goto __pyx_L3;
   }
 
-  /* "segLib/seg_eval.pyx":323
+  /* "em_segLib/seg_eval.pyx":323
  *     if in_place:
  *         y = x
  *     elif out is None:             # <<<<<<<<<<<<<<
@@ -7373,7 +7373,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "segLib/seg_eval.pyx":324
+    /* "em_segLib/seg_eval.pyx":324
  *         y = x
  *     elif out is None:
  *         y = x.copy()             # <<<<<<<<<<<<<<
@@ -7403,7 +7403,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
     __pyx_v_y = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":323
+    /* "em_segLib/seg_eval.pyx":323
  *     if in_place:
  *         y = x
  *     elif out is None:             # <<<<<<<<<<<<<<
@@ -7413,7 +7413,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
     goto __pyx_L3;
   }
 
-  /* "segLib/seg_eval.pyx":326
+  /* "em_segLib/seg_eval.pyx":326
  *         y = x.copy()
  *     else:
  *         y = out             # <<<<<<<<<<<<<<
@@ -7426,7 +7426,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
   }
   __pyx_L3:;
 
-  /* "segLib/seg_eval.pyx":327
+  /* "em_segLib/seg_eval.pyx":327
  *     else:
  *         y = out
  *     if type(y) in [sparse.csc_matrix, sparse.csr_matrix]:             # <<<<<<<<<<<<<<
@@ -7464,7 +7464,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "segLib/seg_eval.pyx":328
+    /* "em_segLib/seg_eval.pyx":328
  *         y = out
  *     if type(y) in [sparse.csc_matrix, sparse.csr_matrix]:
  *         z = y.data             # <<<<<<<<<<<<<<
@@ -7476,7 +7476,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
     __pyx_v_z = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "segLib/seg_eval.pyx":327
+    /* "em_segLib/seg_eval.pyx":327
  *     else:
  *         y = out
  *     if type(y) in [sparse.csc_matrix, sparse.csr_matrix]:             # <<<<<<<<<<<<<<
@@ -7486,7 +7486,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
     goto __pyx_L4;
   }
 
-  /* "segLib/seg_eval.pyx":330
+  /* "em_segLib/seg_eval.pyx":330
  *         z = y.data
  *     else:
  *         z = y             # <<<<<<<<<<<<<<
@@ -7499,7 +7499,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
   }
   __pyx_L4:;
 
-  /* "segLib/seg_eval.pyx":331
+  /* "em_segLib/seg_eval.pyx":331
  *     else:
  *         z = y
  *     nz = z.nonzero()             # <<<<<<<<<<<<<<
@@ -7529,7 +7529,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
   __pyx_v_nz = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "segLib/seg_eval.pyx":332
+  /* "em_segLib/seg_eval.pyx":332
  *         z = y
  *     nz = z.nonzero()
  *     z[nz] *= np.log2(z[nz])             # <<<<<<<<<<<<<<
@@ -7600,7 +7600,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "segLib/seg_eval.pyx":333
+  /* "em_segLib/seg_eval.pyx":333
  *     nz = z.nonzero()
  *     z[nz] *= np.log2(z[nz])
  *     return y             # <<<<<<<<<<<<<<
@@ -7610,7 +7610,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
   __pyx_r = __pyx_v_y;
   goto __pyx_L0;
 
-  /* "segLib/seg_eval.pyx":302
+  /* "em_segLib/seg_eval.pyx":302
  *     return out
  * 
  * def xlogx(x, out=None, in_place=False):             # <<<<<<<<<<<<<<
@@ -7627,7 +7627,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
   __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_9);
-  __Pyx_AddTraceback("segLib.seg_eval.xlogx", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("em_segLib.seg_eval.xlogx", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_y);
@@ -7638,7 +7638,7 @@ static PyObject *__pyx_pf_6segLib_8seg_eval_16xlogx(CYTHON_UNUSED PyObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":214
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":214
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -7685,7 +7685,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_GIVEREF(__pyx_v_info->obj);
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":220
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":220
  *             # of flags
  * 
  *             if info == NULL: return             # <<<<<<<<<<<<<<
@@ -7698,7 +7698,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":223
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":223
  * 
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -7707,7 +7707,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":224
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":224
  *             cdef int copy_shape, i, ndim
  *             cdef int endian_detector = 1
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -7716,7 +7716,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":226
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":226
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
  * 
  *             ndim = PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -7725,7 +7725,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_ndim = PyArray_NDIM(__pyx_v_self);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":228
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":228
  *             ndim = PyArray_NDIM(self)
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -7735,7 +7735,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":229
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":229
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 copy_shape = 1             # <<<<<<<<<<<<<<
@@ -7744,7 +7744,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_copy_shape = 1;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":228
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":228
  *             ndim = PyArray_NDIM(self)
  * 
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -7754,7 +7754,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L4;
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":231
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":231
  *                 copy_shape = 1
  *             else:
  *                 copy_shape = 0             # <<<<<<<<<<<<<<
@@ -7766,7 +7766,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L4:;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":233
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":233
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -7780,7 +7780,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L6_bool_binop_done;
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":234
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":234
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -7791,7 +7791,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L6_bool_binop_done:;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":233
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":233
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -7800,7 +7800,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":235
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":235
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -7813,7 +7813,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(1, 235, __pyx_L1_error)
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":233
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":233
  *                 copy_shape = 0
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -7822,7 +7822,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":237
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":237
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -7836,7 +7836,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L9_bool_binop_done;
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":238
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":238
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -7847,7 +7847,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L9_bool_binop_done:;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":237
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":237
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -7856,7 +7856,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":239
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":239
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -7869,7 +7869,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(1, 239, __pyx_L1_error)
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":237
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":237
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -7878,7 +7878,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":241
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":241
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
  * 
  *             info.buf = PyArray_DATA(self)             # <<<<<<<<<<<<<<
@@ -7887,7 +7887,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->buf = PyArray_DATA(__pyx_v_self);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":242
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":242
  * 
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim             # <<<<<<<<<<<<<<
@@ -7896,7 +7896,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->ndim = __pyx_v_ndim;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":243
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":243
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if copy_shape:             # <<<<<<<<<<<<<<
@@ -7906,7 +7906,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (__pyx_v_copy_shape != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":246
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":246
  *                 # Allocate new buffer for strides and shape info.
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)             # <<<<<<<<<<<<<<
@@ -7915,7 +7915,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)PyObject_Malloc((((sizeof(Py_ssize_t)) * 2) * ((size_t)__pyx_v_ndim))));
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":247
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":247
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim             # <<<<<<<<<<<<<<
@@ -7924,7 +7924,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->shape = (__pyx_v_info->strides + __pyx_v_ndim);
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":248
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":248
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):             # <<<<<<<<<<<<<<
@@ -7935,7 +7935,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     for (__pyx_t_5 = 0; __pyx_t_5 < __pyx_t_4; __pyx_t_5+=1) {
       __pyx_v_i = __pyx_t_5;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":249
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":249
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]             # <<<<<<<<<<<<<<
@@ -7944,7 +7944,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
       (__pyx_v_info->strides[__pyx_v_i]) = (PyArray_STRIDES(__pyx_v_self)[__pyx_v_i]);
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":250
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":250
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]
  *                     info.shape[i] = PyArray_DIMS(self)[i]             # <<<<<<<<<<<<<<
@@ -7954,7 +7954,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       (__pyx_v_info->shape[__pyx_v_i]) = (PyArray_DIMS(__pyx_v_self)[__pyx_v_i]);
     }
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":243
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":243
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if copy_shape:             # <<<<<<<<<<<<<<
@@ -7964,7 +7964,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L11;
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":252
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":252
  *                     info.shape[i] = PyArray_DIMS(self)[i]
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -7974,7 +7974,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->strides = ((Py_ssize_t *)PyArray_STRIDES(__pyx_v_self));
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":253
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":253
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -7985,7 +7985,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L11:;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":254
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":254
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL             # <<<<<<<<<<<<<<
@@ -7994,7 +7994,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->suboffsets = NULL;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":255
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":255
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)             # <<<<<<<<<<<<<<
@@ -8003,7 +8003,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->itemsize = PyArray_ITEMSIZE(__pyx_v_self);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":256
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":256
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)
  *             info.readonly = not PyArray_ISWRITEABLE(self)             # <<<<<<<<<<<<<<
@@ -8012,7 +8012,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->readonly = (!(PyArray_ISWRITEABLE(__pyx_v_self) != 0));
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":259
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":259
  * 
  *             cdef int t
  *             cdef char* f = NULL             # <<<<<<<<<<<<<<
@@ -8021,7 +8021,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_f = NULL;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":260
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":260
  *             cdef int t
  *             cdef char* f = NULL
  *             cdef dtype descr = self.descr             # <<<<<<<<<<<<<<
@@ -8033,7 +8033,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_descr = ((PyArray_Descr *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":263
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":263
  *             cdef int offset
  * 
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)             # <<<<<<<<<<<<<<
@@ -8042,7 +8042,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_hasfields = PyDataType_HASFIELDS(__pyx_v_descr);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":265
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":265
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
  * 
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
@@ -8060,7 +8060,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_L15_bool_binop_done:;
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":267
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":267
  *             if not hasfields and not copy_shape:
  *                 # do not call releasebuffer
  *                 info.obj = None             # <<<<<<<<<<<<<<
@@ -8073,7 +8073,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __Pyx_DECREF(__pyx_v_info->obj);
     __pyx_v_info->obj = Py_None;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":265
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":265
  *             cdef bint hasfields = PyDataType_HASFIELDS(descr)
  * 
  *             if not hasfields and not copy_shape:             # <<<<<<<<<<<<<<
@@ -8083,7 +8083,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L14;
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *             else:
  *                 # need to call releasebuffer
  *                 info.obj = self             # <<<<<<<<<<<<<<
@@ -8099,7 +8099,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L14:;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *                 info.obj = self
  * 
  *             if not hasfields:             # <<<<<<<<<<<<<<
@@ -8109,7 +8109,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = ((!(__pyx_v_hasfields != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":273
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":273
  * 
  *             if not hasfields:
  *                 t = descr.type_num             # <<<<<<<<<<<<<<
@@ -8119,7 +8119,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_4 = __pyx_v_descr->type_num;
     __pyx_v_t = __pyx_t_4;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -8139,7 +8139,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     }
     __pyx_L20_next_or:;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":275
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":275
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -8156,7 +8156,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_1 = __pyx_t_2;
     __pyx_L19_bool_binop_done:;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -8165,7 +8165,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     if (__pyx_t_1) {
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -8178,7 +8178,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(1, 276, __pyx_L1_error)
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *             if not hasfields:
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -8187,7 +8187,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     }
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":277
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":277
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"             # <<<<<<<<<<<<<<
@@ -8199,7 +8199,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"b");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":278
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":278
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"             # <<<<<<<<<<<<<<
@@ -8210,7 +8210,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"B");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":279
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":279
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"             # <<<<<<<<<<<<<<
@@ -8221,7 +8221,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"h");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"             # <<<<<<<<<<<<<<
@@ -8232,7 +8232,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"H");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":281
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":281
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"             # <<<<<<<<<<<<<<
@@ -8243,7 +8243,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"i");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":282
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":282
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"             # <<<<<<<<<<<<<<
@@ -8254,7 +8254,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"I");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":283
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":283
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"             # <<<<<<<<<<<<<<
@@ -8265,7 +8265,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"l");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":284
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":284
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"             # <<<<<<<<<<<<<<
@@ -8276,7 +8276,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"L");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":285
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":285
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"             # <<<<<<<<<<<<<<
@@ -8287,7 +8287,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"q");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":286
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":286
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"             # <<<<<<<<<<<<<<
@@ -8298,7 +8298,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Q");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":287
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":287
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"             # <<<<<<<<<<<<<<
@@ -8309,7 +8309,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"f");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":288
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":288
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"             # <<<<<<<<<<<<<<
@@ -8320,7 +8320,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"d");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":289
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":289
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"             # <<<<<<<<<<<<<<
@@ -8331,7 +8331,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"g");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":290
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":290
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"             # <<<<<<<<<<<<<<
@@ -8342,7 +8342,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zf");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":291
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":291
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"             # <<<<<<<<<<<<<<
@@ -8353,7 +8353,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zd");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":292
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":292
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"             # <<<<<<<<<<<<<<
@@ -8364,7 +8364,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       __pyx_v_f = ((char *)"Zg");
       break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":293
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":293
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -8376,7 +8376,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       default:
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":295
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":295
  *                 elif t == NPY_OBJECT:      f = "O"
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -8402,7 +8402,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
     }
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":296
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":296
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f             # <<<<<<<<<<<<<<
@@ -8411,7 +8411,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = __pyx_v_f;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":297
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":297
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f
  *                 return             # <<<<<<<<<<<<<<
@@ -8421,7 +8421,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_r = 0;
     goto __pyx_L0;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *                 info.obj = self
  * 
  *             if not hasfields:             # <<<<<<<<<<<<<<
@@ -8430,7 +8430,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":299
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":299
  *                 return
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)             # <<<<<<<<<<<<<<
@@ -8440,7 +8440,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->format = ((char *)PyObject_Malloc(0xFF));
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":300
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":300
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment             # <<<<<<<<<<<<<<
@@ -8449,7 +8449,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     (__pyx_v_info->format[0]) = '^';
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":301
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":301
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0             # <<<<<<<<<<<<<<
@@ -8458,7 +8458,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_offset = 0;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0
  *                 f = _util_dtypestring(descr, info.format + 1,             # <<<<<<<<<<<<<<
@@ -8468,7 +8468,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_7 = __pyx_f_5numpy__util_dtypestring(__pyx_v_descr, (__pyx_v_info->format + 1), (__pyx_v_info->format + 0xFF), (&__pyx_v_offset)); if (unlikely(__pyx_t_7 == ((char *)NULL))) __PYX_ERR(1, 302, __pyx_L1_error)
     __pyx_v_f = __pyx_t_7;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":305
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":305
  *                                       info.format + _buffer_format_string_len,
  *                                       &offset)
  *                 f[0] = c'\0' # Terminate format string             # <<<<<<<<<<<<<<
@@ -8478,7 +8478,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     (__pyx_v_f[0]) = '\x00';
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":214
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":214
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -8510,7 +8510,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":307
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":307
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -8534,7 +8534,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__releasebuffer__", 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":308
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":308
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -8544,7 +8544,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (PyArray_HASFIELDS(__pyx_v_self) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":309
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":309
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)             # <<<<<<<<<<<<<<
@@ -8553,7 +8553,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->format);
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":308
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":308
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -8562,7 +8562,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":310
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":310
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -8572,7 +8572,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":311
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":311
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 PyObject_Free(info.strides)             # <<<<<<<<<<<<<<
@@ -8581,7 +8581,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->strides);
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":310
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":310
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -8590,7 +8590,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":307
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":307
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -8602,7 +8602,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":788
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":788
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -8616,7 +8616,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":789
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":789
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -8630,7 +8630,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":788
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":788
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -8649,7 +8649,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":791
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":791
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -8663,7 +8663,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":792
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":792
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -8677,7 +8677,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":791
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":791
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -8696,7 +8696,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":794
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":794
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -8710,7 +8710,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":795
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":795
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -8724,7 +8724,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":794
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":794
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -8743,7 +8743,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":797
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":797
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -8757,7 +8757,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":798
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":798
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -8771,7 +8771,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":797
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":797
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -8790,7 +8790,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":800
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":800
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -8804,7 +8804,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":801
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":801
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -8818,7 +8818,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":800
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":800
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -8837,7 +8837,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":803
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":803
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -8851,7 +8851,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":804
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":804
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -8861,7 +8861,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":805
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":805
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -8873,7 +8873,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":804
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":804
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -8882,7 +8882,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":807
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":807
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -8896,7 +8896,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":803
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":803
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -8911,7 +8911,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":809
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":809
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -8940,7 +8940,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   char *__pyx_t_9;
   __Pyx_RefNannySetupContext("_util_dtypestring", 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":814
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":814
  * 
  *     cdef dtype child
  *     cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -8949,7 +8949,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":815
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":815
  *     cdef dtype child
  *     cdef int endian_detector = 1
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -8958,7 +8958,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":818
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":818
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -8981,7 +8981,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_childname, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":819
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":819
  * 
  *     for childname in descr.names:
  *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
@@ -8998,7 +8998,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_fields, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":820
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":820
  *     for childname in descr.names:
  *         fields = descr.fields[childname]
  *         child, new_offset = fields             # <<<<<<<<<<<<<<
@@ -9037,7 +9037,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_new_offset, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":822
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":822
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -9054,7 +9054,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((((__pyx_v_end - __pyx_v_f) - ((int)__pyx_t_5)) < 15) != 0);
     if (__pyx_t_6) {
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":823
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":823
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -9067,7 +9067,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(1, 823, __pyx_L1_error)
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":822
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":822
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -9076,7 +9076,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":825
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":825
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -9096,7 +9096,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L8_next_or:;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":826
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":826
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -9113,7 +9113,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = __pyx_t_7;
     __pyx_L7_bool_binop_done:;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":825
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":825
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -9122,7 +9122,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     if (__pyx_t_6) {
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -9135,7 +9135,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(1, 827, __pyx_L1_error)
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":825
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":825
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -9144,7 +9144,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
  * 
  *         # Output padding bytes
  *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
@@ -9160,7 +9160,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (!__pyx_t_6) break;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":838
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":838
  *         # Output padding bytes
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte             # <<<<<<<<<<<<<<
@@ -9169,7 +9169,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       (__pyx_v_f[0]) = 0x78;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":839
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":839
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte
  *             f += 1             # <<<<<<<<<<<<<<
@@ -9178,7 +9178,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":840
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":840
  *             f[0] = 120 # "x"; pad byte
  *             f += 1
  *             offset[0] += 1             # <<<<<<<<<<<<<<
@@ -9189,7 +9189,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + 1);
     }
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
  *             offset[0] += 1
  * 
  *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
@@ -9199,7 +9199,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_8 = 0;
     (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + __pyx_v_child->elsize);
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":844
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":844
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -9209,7 +9209,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((!(PyDataType_HASFIELDS(__pyx_v_child) != 0)) != 0);
     if (__pyx_t_6) {
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":845
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":845
  * 
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num             # <<<<<<<<<<<<<<
@@ -9221,7 +9221,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_XDECREF_SET(__pyx_v_t, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":846
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":846
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -9231,7 +9231,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
       if (__pyx_t_6) {
 
-        /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":847
+        /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":847
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -9244,7 +9244,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __PYX_ERR(1, 847, __pyx_L1_error)
 
-        /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":846
+        /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":846
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -9253,7 +9253,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":850
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":850
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
@@ -9271,7 +9271,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"             # <<<<<<<<<<<<<<
@@ -9289,7 +9289,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":852
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":852
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"             # <<<<<<<<<<<<<<
@@ -9307,7 +9307,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":853
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":853
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"             # <<<<<<<<<<<<<<
@@ -9325,7 +9325,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":854
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":854
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"             # <<<<<<<<<<<<<<
@@ -9343,7 +9343,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"             # <<<<<<<<<<<<<<
@@ -9361,7 +9361,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"             # <<<<<<<<<<<<<<
@@ -9379,7 +9379,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":857
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":857
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"             # <<<<<<<<<<<<<<
@@ -9397,7 +9397,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"             # <<<<<<<<<<<<<<
@@ -9415,7 +9415,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":859
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":859
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"             # <<<<<<<<<<<<<<
@@ -9433,7 +9433,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":860
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":860
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"             # <<<<<<<<<<<<<<
@@ -9451,7 +9451,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":861
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":861
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"             # <<<<<<<<<<<<<<
@@ -9469,7 +9469,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":862
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":862
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"             # <<<<<<<<<<<<<<
@@ -9487,7 +9487,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":863
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":863
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf             # <<<<<<<<<<<<<<
@@ -9507,7 +9507,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":864
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":864
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd             # <<<<<<<<<<<<<<
@@ -9527,7 +9527,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":865
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":865
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg             # <<<<<<<<<<<<<<
@@ -9547,7 +9547,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":866
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":866
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"             # <<<<<<<<<<<<<<
@@ -9565,7 +9565,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":868
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":868
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -9589,7 +9589,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       __pyx_L15:;
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":869
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":869
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *             f += 1             # <<<<<<<<<<<<<<
@@ -9598,7 +9598,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":844
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":844
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -9608,7 +9608,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       goto __pyx_L13;
     }
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":873
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":873
  *             # Cython ignores struct boundary information ("T{...}"),
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
@@ -9621,7 +9621,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L13:;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":818
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":818
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -9631,7 +9631,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":874
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":874
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)
  *     return f             # <<<<<<<<<<<<<<
@@ -9641,7 +9641,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   __pyx_r = __pyx_v_f;
   goto __pyx_L0;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":809
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":809
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -9666,7 +9666,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":990
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":990
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -9681,7 +9681,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   int __pyx_t_2;
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":992
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":992
  * cdef inline void set_array_base(ndarray arr, object base):
  *      cdef PyObject* baseptr
  *      if base is None:             # <<<<<<<<<<<<<<
@@ -9692,7 +9692,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":993
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":993
  *      cdef PyObject* baseptr
  *      if base is None:
  *          baseptr = NULL             # <<<<<<<<<<<<<<
@@ -9701,7 +9701,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
     __pyx_v_baseptr = NULL;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":992
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":992
  * cdef inline void set_array_base(ndarray arr, object base):
  *      cdef PyObject* baseptr
  *      if base is None:             # <<<<<<<<<<<<<<
@@ -9711,7 +9711,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
     goto __pyx_L3;
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":995
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":995
  *          baseptr = NULL
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!             # <<<<<<<<<<<<<<
@@ -9721,7 +9721,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   /*else*/ {
     Py_INCREF(__pyx_v_base);
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":996
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":996
  *      else:
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base             # <<<<<<<<<<<<<<
@@ -9732,7 +9732,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   }
   __pyx_L3:;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":997
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":997
  *          Py_INCREF(base) # important to do this before decref below!
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)             # <<<<<<<<<<<<<<
@@ -9741,7 +9741,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_XDECREF(__pyx_v_arr->base);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":998
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":998
  *          baseptr = <PyObject*>base
  *      Py_XDECREF(arr.base)
  *      arr.base = baseptr             # <<<<<<<<<<<<<<
@@ -9750,7 +9750,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   __pyx_v_arr->base = __pyx_v_baseptr;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":990
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":990
  * 
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -9762,7 +9762,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1000
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1000
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -9776,7 +9776,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1001
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1001
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
@@ -9786,7 +9786,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_arr->base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1002
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1002
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -9798,7 +9798,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None;
     goto __pyx_L0;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1001
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1001
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     if arr.base is NULL:             # <<<<<<<<<<<<<<
@@ -9807,7 +9807,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1004
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1004
  *         return None
  *     else:
  *         return <object>arr.base             # <<<<<<<<<<<<<<
@@ -9821,7 +9821,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1000
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1000
  *      arr.base = baseptr
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -9836,7 +9836,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1009
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1009
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -9857,7 +9857,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1010
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1010
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -9873,7 +9873,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1011
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1011
  * cdef inline int import_array() except -1:
  *     try:
  *         _import_array()             # <<<<<<<<<<<<<<
@@ -9882,7 +9882,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 1011, __pyx_L3_error)
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1010
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1010
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -9896,7 +9896,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1012
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1012
  *     try:
  *         _import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -9911,7 +9911,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1013
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1013
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -9927,7 +9927,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1010
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1010
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -9942,7 +9942,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1009
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1009
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -9965,7 +9965,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1015
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1015
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -9986,7 +9986,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1016
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1016
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10002,7 +10002,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1017
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1017
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -10011,7 +10011,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 1017, __pyx_L3_error)
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1016
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1016
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10025,7 +10025,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1018
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1018
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -10040,7 +10040,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1019
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1019
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -10056,7 +10056,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1016
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1016
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10071,7 +10071,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1015
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1015
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -10094,7 +10094,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1021
+/* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1021
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -10115,7 +10115,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10131,7 +10131,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1023
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1023
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -10140,7 +10140,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(1, 1023, __pyx_L3_error)
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10154,7 +10154,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1024
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1024
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -10168,7 +10168,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1025
+      /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1025
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -10182,7 +10182,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+    /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -10197,7 +10197,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1021
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1021
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -10297,6 +10297,10 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_divide_columns, __pyx_k_divide_columns, sizeof(__pyx_k_divide_columns), 0, 0, 1, 1},
   {&__pyx_n_s_divide_rows, __pyx_k_divide_rows, sizeof(__pyx_k_divide_rows), 0, 0, 1, 1},
   {&__pyx_n_s_dtype, __pyx_k_dtype, sizeof(__pyx_k_dtype), 0, 0, 1, 1},
+  {&__pyx_n_s_em_segLib_seg_core, __pyx_k_em_segLib_seg_core, sizeof(__pyx_k_em_segLib_seg_core), 0, 0, 1, 1},
+  {&__pyx_n_s_em_segLib_seg_dist, __pyx_k_em_segLib_seg_dist, sizeof(__pyx_k_em_segLib_seg_dist), 0, 0, 1, 1},
+  {&__pyx_n_s_em_segLib_seg_eval, __pyx_k_em_segLib_seg_eval, sizeof(__pyx_k_em_segLib_seg_eval), 0, 0, 1, 1},
+  {&__pyx_kp_s_em_segLib_seg_eval_pyx, __pyx_k_em_segLib_seg_eval_pyx, sizeof(__pyx_k_em_segLib_seg_eval_pyx), 0, 0, 1, 0},
   {&__pyx_n_s_end, __pyx_k_end, sizeof(__pyx_k_end), 0, 0, 1, 1},
   {&__pyx_n_s_file, __pyx_k_file, sizeof(__pyx_k_file), 0, 0, 1, 1},
   {&__pyx_n_s_filtersize, __pyx_k_filtersize, sizeof(__pyx_k_filtersize), 0, 0, 1, 1},
@@ -10355,10 +10359,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_row_repeated, __pyx_k_row_repeated, sizeof(__pyx_k_row_repeated), 0, 0, 1, 1},
   {&__pyx_n_s_scipy_sparse, __pyx_k_scipy_sparse, sizeof(__pyx_k_scipy_sparse), 0, 0, 1, 1},
   {&__pyx_n_s_seg, __pyx_k_seg, sizeof(__pyx_k_seg), 0, 0, 1, 1},
-  {&__pyx_n_s_segLib_seg_core, __pyx_k_segLib_seg_core, sizeof(__pyx_k_segLib_seg_core), 0, 0, 1, 1},
-  {&__pyx_n_s_segLib_seg_dist, __pyx_k_segLib_seg_dist, sizeof(__pyx_k_segLib_seg_dist), 0, 0, 1, 1},
-  {&__pyx_n_s_segLib_seg_eval, __pyx_k_segLib_seg_eval, sizeof(__pyx_k_segLib_seg_eval), 0, 0, 1, 1},
-  {&__pyx_kp_s_segLib_seg_eval_pyx, __pyx_k_segLib_seg_eval_pyx, sizeof(__pyx_k_segLib_seg_eval_pyx), 0, 0, 1, 0},
   {&__pyx_n_s_segmentation, __pyx_k_segmentation, sizeof(__pyx_k_segmentation), 0, 0, 1, 1},
   {&__pyx_n_s_segr, __pyx_k_segr, sizeof(__pyx_k_segr), 0, 0, 1, 1},
   {&__pyx_n_s_shape, __pyx_k_shape, sizeof(__pyx_k_shape), 0, 0, 1, 1},
@@ -10400,7 +10400,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "segLib/seg_eval.pyx":173
+  /* "em_segLib/seg_eval.pyx":173
  *     nzpx = px[nzx]
  *     nzpy = py[nzy]
  *     nzpxy = pxy[nzx, :][:, nzy]             # <<<<<<<<<<<<<<
@@ -10414,7 +10414,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__8);
   __Pyx_GIVEREF(__pyx_slice__8);
 
-  /* "segLib/seg_eval.pyx":261
+  /* "em_segLib/seg_eval.pyx":261
  *             out = out.tocsc()
  *     else:
  *         out /= row[np.newaxis, :]             # <<<<<<<<<<<<<<
@@ -10425,7 +10425,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__11);
   __Pyx_GIVEREF(__pyx_slice__11);
 
-  /* "segLib/seg_eval.pyx":299
+  /* "em_segLib/seg_eval.pyx":299
  *             out = out.tocsr()
  *     else:
  *         out /= column[:, np.newaxis]             # <<<<<<<<<<<<<<
@@ -10436,7 +10436,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_slice__12);
   __Pyx_GIVEREF(__pyx_slice__12);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":235
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":235
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
@@ -10447,7 +10447,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":239
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":239
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
@@ -10458,7 +10458,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -10469,7 +10469,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__15);
   __Pyx_GIVEREF(__pyx_tuple__15);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":823
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":823
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
@@ -10480,7 +10480,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__16);
   __Pyx_GIVEREF(__pyx_tuple__16);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
@@ -10491,7 +10491,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":847
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":847
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
@@ -10502,7 +10502,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__18);
   __Pyx_GIVEREF(__pyx_tuple__18);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1013
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1013
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -10513,7 +10513,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1019
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1019
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -10524,7 +10524,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__20);
   __Pyx_GIVEREF(__pyx_tuple__20);
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1025
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1025
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -10533,7 +10533,7 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__21);
   __Pyx_GIVEREF(__pyx_tuple__21);
 
-  /* "segLib/seg_eval.pyx":14
+  /* "em_segLib/seg_eval.pyx":14
  *     void CppEvaluate(long *segmentation, long *gold, long resolution[3], unsigned char mask_ground_truth)
  * 
  * def PrincetonEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
@@ -10543,9 +10543,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__23 = PyTuple_Pack(10, __pyx_n_s_segmentation, __pyx_n_s_gold, __pyx_n_s_dilate_ground_truth, __pyx_n_s_mask_ground_truth, __pyx_n_s_filtersize, __pyx_n_s_cpp_segmentation, __pyx_n_s_cpp_gold, __pyx_n_s_zres, __pyx_n_s_yres, __pyx_n_s_xres); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__23);
   __Pyx_GIVEREF(__pyx_tuple__23);
-  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(5, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_PrincetonEvaluate, 14, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(5, 0, 10, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_em_segLib_seg_eval_pyx, __pyx_n_s_PrincetonEvaluate, 14, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) __PYX_ERR(0, 14, __pyx_L1_error)
 
-  /* "segLib/seg_eval.pyx":36
+  /* "em_segLib/seg_eval.pyx":36
  * 
  * 
  * def CremiEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
@@ -10555,9 +10555,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__25 = PyTuple_Pack(7, __pyx_n_s_segmentation, __pyx_n_s_gold, __pyx_n_s_dilate_ground_truth, __pyx_n_s_mask_ground_truth, __pyx_n_s_filtersize, __pyx_n_s_vi_split, __pyx_n_s_vi_merge); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__25);
   __Pyx_GIVEREF(__pyx_tuple__25);
-  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(5, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_CremiEvaluate, 36, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) __PYX_ERR(0, 36, __pyx_L1_error)
+  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(5, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_em_segLib_seg_eval_pyx, __pyx_n_s_CremiEvaluate, 36, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) __PYX_ERR(0, 36, __pyx_L1_error)
 
-  /* "segLib/seg_eval.pyx":62
+  /* "em_segLib/seg_eval.pyx":62
  * # Evaluation code courtesy of Juan Nunez-Iglesias, taken from
  * # https://github.com/janelia-flyem/gala/blob/master/gala/evaluate.py
  * def voi(reconstruction, groundtruth, ignore_reconstruction=[], ignore_groundtruth=[0]):             # <<<<<<<<<<<<<<
@@ -10567,9 +10567,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__27 = PyTuple_Pack(6, __pyx_n_s_reconstruction, __pyx_n_s_groundtruth, __pyx_n_s_ignore_reconstruction, __pyx_n_s_ignore_groundtruth, __pyx_n_s_hyxg, __pyx_n_s_hxgy); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(0, 62, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__27);
   __Pyx_GIVEREF(__pyx_tuple__27);
-  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(4, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__27, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_voi, 62, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 62, __pyx_L1_error)
+  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(4, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__27, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_em_segLib_seg_eval_pyx, __pyx_n_s_voi, 62, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 62, __pyx_L1_error)
 
-  /* "segLib/seg_eval.pyx":97
+  /* "em_segLib/seg_eval.pyx":97
  *     return (hxgy, hyxg)
  * 
  * def split_vi(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -10579,9 +10579,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__30 = PyTuple_Pack(7, __pyx_n_s_x, __pyx_n_s_y, __pyx_n_s_ignore_x, __pyx_n_s_ignore_y, __pyx_n_s__29, __pyx_n_s_hxgy, __pyx_n_s_hygx); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__30);
   __Pyx_GIVEREF(__pyx_tuple__30);
-  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(4, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_split_vi, 97, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) __PYX_ERR(0, 97, __pyx_L1_error)
+  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(4, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_em_segLib_seg_eval_pyx, __pyx_n_s_split_vi, 97, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) __PYX_ERR(0, 97, __pyx_L1_error)
 
-  /* "segLib/seg_eval.pyx":133
+  /* "em_segLib/seg_eval.pyx":133
  *     return np.array([hygx.sum(), hxgy.sum()])
  * 
  * def vi_tables(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -10591,9 +10591,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__32 = PyTuple_Pack(18, __pyx_n_s_x, __pyx_n_s_y, __pyx_n_s_ignore_x, __pyx_n_s_ignore_y, __pyx_n_s_pxy, __pyx_n_s_cont, __pyx_n_s_total, __pyx_n_s_px, __pyx_n_s_py, __pyx_n_s_nzx, __pyx_n_s_nzy, __pyx_n_s_nzpx, __pyx_n_s_nzpy, __pyx_n_s_nzpxy, __pyx_n_s_lpygx, __pyx_n_s_hygx, __pyx_n_s_lpxgy, __pyx_n_s_hxgy); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(0, 133, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__32);
   __Pyx_GIVEREF(__pyx_tuple__32);
-  __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(4, 0, 18, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_vi_tables, 133, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(4, 0, 18, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_em_segLib_seg_eval_pyx, __pyx_n_s_vi_tables, 133, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) __PYX_ERR(0, 133, __pyx_L1_error)
 
-  /* "segLib/seg_eval.pyx":187
+  /* "em_segLib/seg_eval.pyx":187
  *     return [pxy] + list(map(np.asarray, [px, py, hxgy, hygx, lpygx, lpxgy]))
  * 
  * def contingency_table(seg, gt, ignore_seg=[0], ignore_gt=[0], norm=True):             # <<<<<<<<<<<<<<
@@ -10603,9 +10603,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__34 = PyTuple_Pack(12, __pyx_n_s_seg, __pyx_n_s_gt, __pyx_n_s_ignore_seg, __pyx_n_s_ignore_gt, __pyx_n_s_norm, __pyx_n_s_segr, __pyx_n_s_gtr, __pyx_n_s_ignored, __pyx_n_s_data, __pyx_n_s_i, __pyx_n_s_j, __pyx_n_s_cont); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 187, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__34);
   __Pyx_GIVEREF(__pyx_tuple__34);
-  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(5, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_contingency_table, 187, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) __PYX_ERR(0, 187, __pyx_L1_error)
+  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(5, 0, 12, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_em_segLib_seg_eval_pyx, __pyx_n_s_contingency_table, 187, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) __PYX_ERR(0, 187, __pyx_L1_error)
 
-  /* "segLib/seg_eval.pyx":226
+  /* "em_segLib/seg_eval.pyx":226
  *     return cont
  * 
  * def divide_columns(matrix, row, in_place=False):             # <<<<<<<<<<<<<<
@@ -10615,9 +10615,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__36 = PyTuple_Pack(7, __pyx_n_s_matrix, __pyx_n_s_row, __pyx_n_s_in_place, __pyx_n_s_out, __pyx_n_s_convert_to_csc, __pyx_n_s_row_repeated, __pyx_n_s_nz); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(0, 226, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__36);
   __Pyx_GIVEREF(__pyx_tuple__36);
-  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(3, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_divide_columns, 226, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) __PYX_ERR(0, 226, __pyx_L1_error)
+  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(3, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_em_segLib_seg_eval_pyx, __pyx_n_s_divide_columns, 226, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) __PYX_ERR(0, 226, __pyx_L1_error)
 
-  /* "segLib/seg_eval.pyx":264
+  /* "em_segLib/seg_eval.pyx":264
  *     return out
  * 
  * def divide_rows(matrix, column, in_place=False):             # <<<<<<<<<<<<<<
@@ -10627,9 +10627,9 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__38 = PyTuple_Pack(7, __pyx_n_s_matrix, __pyx_n_s_column, __pyx_n_s_in_place, __pyx_n_s_out, __pyx_n_s_convert_to_csr, __pyx_n_s_column_repeated, __pyx_n_s_nz); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 264, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__38);
   __Pyx_GIVEREF(__pyx_tuple__38);
-  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(3, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_divide_rows, 264, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 264, __pyx_L1_error)
+  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(3, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_em_segLib_seg_eval_pyx, __pyx_n_s_divide_rows, 264, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) __PYX_ERR(0, 264, __pyx_L1_error)
 
-  /* "segLib/seg_eval.pyx":302
+  /* "em_segLib/seg_eval.pyx":302
  *     return out
  * 
  * def xlogx(x, out=None, in_place=False):             # <<<<<<<<<<<<<<
@@ -10639,7 +10639,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__40 = PyTuple_Pack(6, __pyx_n_s_x, __pyx_n_s_out, __pyx_n_s_in_place, __pyx_n_s_y, __pyx_n_s_z, __pyx_n_s_nz); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(0, 302, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__40);
   __Pyx_GIVEREF(__pyx_tuple__40);
-  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(3, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_segLib_seg_eval_pyx, __pyx_n_s_xlogx, 302, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 302, __pyx_L1_error)
+  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(3, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_em_segLib_seg_eval_pyx, __pyx_n_s_xlogx, 302, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) __PYX_ERR(0, 302, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -10775,14 +10775,14 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_segLib__seg_eval) {
+  if (__pyx_module_is_main_em_segLib__seg_eval) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "segLib.seg_eval")) {
-      if (unlikely(PyDict_SetItemString(modules, "segLib.seg_eval", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "em_segLib.seg_eval")) {
+      if (unlikely(PyDict_SetItemString(modules, "em_segLib.seg_eval", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -10814,7 +10814,7 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "segLib/seg_eval.pyx":4
+  /* "em_segLib/seg_eval.pyx":4
  * cimport numpy as np
  * 
  * import numpy as np             # <<<<<<<<<<<<<<
@@ -10826,7 +10826,7 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_np, __pyx_t_1) < 0) __PYX_ERR(0, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "segLib/seg_eval.pyx":5
+  /* "em_segLib/seg_eval.pyx":5
  * 
  * import numpy as np
  * import ctypes             # <<<<<<<<<<<<<<
@@ -10838,12 +10838,12 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_ctypes, __pyx_t_1) < 0) __PYX_ERR(0, 5, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "segLib/seg_eval.pyx":6
+  /* "em_segLib/seg_eval.pyx":6
  * import numpy as np
  * import ctypes
  * import scipy.sparse as sparse             # <<<<<<<<<<<<<<
  * 
- * from segLib.seg_dist import DilateData
+ * from em_segLib.seg_dist import DilateData
  */
   __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -10856,11 +10856,11 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_sparse, __pyx_t_2) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/seg_eval.pyx":8
+  /* "em_segLib/seg_eval.pyx":8
  * import scipy.sparse as sparse
  * 
- * from segLib.seg_dist import DilateData             # <<<<<<<<<<<<<<
- * from segLib.seg_core import RemoveSmallConnectedComponents
+ * from em_segLib.seg_dist import DilateData             # <<<<<<<<<<<<<<
+ * from em_segLib.seg_core import RemoveSmallConnectedComponents
  * 
  */
   __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 8, __pyx_L1_error)
@@ -10868,7 +10868,7 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   __Pyx_INCREF(__pyx_n_s_DilateData);
   __Pyx_GIVEREF(__pyx_n_s_DilateData);
   PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_DilateData);
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_segLib_seg_dist, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_em_segLib_seg_dist, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 8, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_DilateData); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 8, __pyx_L1_error)
@@ -10877,10 +10877,10 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "segLib/seg_eval.pyx":9
+  /* "em_segLib/seg_eval.pyx":9
  * 
- * from segLib.seg_dist import DilateData
- * from segLib.seg_core import RemoveSmallConnectedComponents             # <<<<<<<<<<<<<<
+ * from em_segLib.seg_dist import DilateData
+ * from em_segLib.seg_core import RemoveSmallConnectedComponents             # <<<<<<<<<<<<<<
  * 
  * cdef extern from 'cpp/seg_eval/cpp-comparestacks.h':
  */
@@ -10889,7 +10889,7 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   __Pyx_INCREF(__pyx_n_s_RemoveSmallConnectedComponents);
   __Pyx_GIVEREF(__pyx_n_s_RemoveSmallConnectedComponents);
   PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_RemoveSmallConnectedComponents);
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_segLib_seg_core, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 9, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_em_segLib_seg_core, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 9, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_RemoveSmallConnectedComponents); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 9, __pyx_L1_error)
@@ -10898,31 +10898,31 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/seg_eval.pyx":14
+  /* "em_segLib/seg_eval.pyx":14
  *     void CppEvaluate(long *segmentation, long *gold, long resolution[3], unsigned char mask_ground_truth)
  * 
  * def PrincetonEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
  *     # make sure these elements are the same size
  *     assert (segmentation.shape == gold.shape)
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_1PrincetonEvaluate, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 14, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_9em_segLib_8seg_eval_1PrincetonEvaluate, NULL, __pyx_n_s_em_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_PrincetonEvaluate, __pyx_t_2) < 0) __PYX_ERR(0, 14, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/seg_eval.pyx":36
+  /* "em_segLib/seg_eval.pyx":36
  * 
  * 
  * def CremiEvaluate(segmentation, gold, dilate_ground_truth=1, mask_ground_truth=True, filtersize=0):             # <<<<<<<<<<<<<<
  *     # make sure these elements are the same size
  *     assert (segmentation.shape == gold.shape)
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_3CremiEvaluate, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 36, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_9em_segLib_8seg_eval_3CremiEvaluate, NULL, __pyx_n_s_em_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_CremiEvaluate, __pyx_t_2) < 0) __PYX_ERR(0, 36, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/seg_eval.pyx":62
+  /* "em_segLib/seg_eval.pyx":62
  * # Evaluation code courtesy of Juan Nunez-Iglesias, taken from
  * # https://github.com/janelia-flyem/gala/blob/master/gala/evaluate.py
  * def voi(reconstruction, groundtruth, ignore_reconstruction=[], ignore_groundtruth=[0]):             # <<<<<<<<<<<<<<
@@ -10942,12 +10942,12 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   __pyx_k__2 = __pyx_t_2;
   __Pyx_GIVEREF(__pyx_t_2);
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_5voi, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 62, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_9em_segLib_8seg_eval_5voi, NULL, __pyx_n_s_em_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 62, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_voi, __pyx_t_2) < 0) __PYX_ERR(0, 62, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/seg_eval.pyx":97
+  /* "em_segLib/seg_eval.pyx":97
  *     return (hxgy, hyxg)
  * 
  * def split_vi(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -10970,12 +10970,12 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   __pyx_k__4 = __pyx_t_2;
   __Pyx_GIVEREF(__pyx_t_2);
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_7split_vi, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 97, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_9em_segLib_8seg_eval_7split_vi, NULL, __pyx_n_s_em_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_split_vi, __pyx_t_2) < 0) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/seg_eval.pyx":133
+  /* "em_segLib/seg_eval.pyx":133
  *     return np.array([hygx.sum(), hxgy.sum()])
  * 
  * def vi_tables(x, y=None, ignore_x=[0], ignore_y=[0]):             # <<<<<<<<<<<<<<
@@ -10998,12 +10998,12 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   __pyx_k__6 = __pyx_t_2;
   __Pyx_GIVEREF(__pyx_t_2);
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_9vi_tables, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_9em_segLib_8seg_eval_9vi_tables, NULL, __pyx_n_s_em_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 133, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_vi_tables, __pyx_t_2) < 0) __PYX_ERR(0, 133, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/seg_eval.pyx":187
+  /* "em_segLib/seg_eval.pyx":187
  *     return [pxy] + list(map(np.asarray, [px, py, hxgy, hygx, lpygx, lpxgy]))
  * 
  * def contingency_table(seg, gt, ignore_seg=[0], ignore_gt=[0], norm=True):             # <<<<<<<<<<<<<<
@@ -11026,48 +11026,48 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   __pyx_k__10 = __pyx_t_2;
   __Pyx_GIVEREF(__pyx_t_2);
   __pyx_t_2 = 0;
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_11contingency_table, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 187, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_9em_segLib_8seg_eval_11contingency_table, NULL, __pyx_n_s_em_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 187, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_contingency_table, __pyx_t_2) < 0) __PYX_ERR(0, 187, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/seg_eval.pyx":226
+  /* "em_segLib/seg_eval.pyx":226
  *     return cont
  * 
  * def divide_columns(matrix, row, in_place=False):             # <<<<<<<<<<<<<<
  *     """Divide each column of `matrix` by the corresponding element in `row`.
  * 
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_13divide_columns, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 226, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_9em_segLib_8seg_eval_13divide_columns, NULL, __pyx_n_s_em_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 226, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_divide_columns, __pyx_t_2) < 0) __PYX_ERR(0, 226, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/seg_eval.pyx":264
+  /* "em_segLib/seg_eval.pyx":264
  *     return out
  * 
  * def divide_rows(matrix, column, in_place=False):             # <<<<<<<<<<<<<<
  *     """Divide each row of `matrix` by the corresponding element in `column`.
  * 
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_15divide_rows, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 264, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_9em_segLib_8seg_eval_15divide_rows, NULL, __pyx_n_s_em_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 264, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_divide_rows, __pyx_t_2) < 0) __PYX_ERR(0, 264, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/seg_eval.pyx":302
+  /* "em_segLib/seg_eval.pyx":302
  *     return out
  * 
  * def xlogx(x, out=None, in_place=False):             # <<<<<<<<<<<<<<
  *     """Compute x * log_2(x).
  * 
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6segLib_8seg_eval_17xlogx, NULL, __pyx_n_s_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 302, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_9em_segLib_8seg_eval_17xlogx, NULL, __pyx_n_s_em_segLib_seg_eval); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 302, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_xlogx, __pyx_t_2) < 0) __PYX_ERR(0, 302, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "segLib/seg_eval.pyx":1
+  /* "em_segLib/seg_eval.pyx":1
  * cimport cython             # <<<<<<<<<<<<<<
  * cimport numpy as np
  * 
@@ -11077,7 +11077,7 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_test, __pyx_t_2) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "../../../../../../../../../../n/home04/donglai/.conda/envs/zwatershed/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1021
+  /* "../../../../../../../../../../n/coxfs01/donglai/lib/miniconda2/envs/pth_v2/lib/python2.7/site-packages/Cython/Includes/numpy/__init__.pxd":1021
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -11093,11 +11093,11 @@ static int __pyx_pymod_exec_seg_eval(PyObject *__pyx_pyinit_module)
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init segLib.seg_eval", 0, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init em_segLib.seg_eval", 0, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init segLib.seg_eval");
+    PyErr_SetString(PyExc_ImportError, "init em_segLib.seg_eval");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();

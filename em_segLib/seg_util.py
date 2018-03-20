@@ -1,5 +1,11 @@
+import numpy as np
+from scipy.sparse import coo_matrix
+
+def countVolume(data_sz, vol_sz, stride):
+    return 1+np.ceil((data_sz - vol_sz) / stride.astype(np.float32)).astype(int)
+
 def mk_cont_table(seg1,seg2):
-    cont_table = scipy.sparse.coo_matrix((np.ones(seg1.shape),(seg1,seg2))).toarray()
+    cont_table = coo_matrix((np.ones(seg1.shape),(seg1,seg2))).toarray()
     return cont_table
 
 def mknhood2d(radius=1):

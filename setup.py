@@ -46,6 +46,7 @@ if __name__=='__main__':
 
     setup(name='em_segLib',
        version='1.0',
+       install_requires=['cython','scipy','boost'],
        cmdclass = {'build_ext': build_ext}, 
        include_dirs = getInclude(), 
        packages=['em_segLib'],
