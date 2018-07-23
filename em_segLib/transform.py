@@ -1,7 +1,7 @@
 import numpy as np
 
-def flip(data, rule, mode='seg'):
-    # data: copy of the original input 
+def flip(data, rule, modality='img', rot_pad=False, rot_st=None):
+    # Kisuk's version: minor bug at the boundary
     """Flip data according to a specified rule.
     Args:
         data:   4D numpy array to be transformed.
@@ -10,30 +10,43 @@ def flip(data, rule, mode='seg'):
     Returns:
         Transformed data.
     """
-    assert np.size(rule)==4 and data.ndim == 4
+    if max(rule)>0:
+        assert np.size(rule)==4 and data.ndim == 4
+        # z reflection.
+        if rule[0]:
+            data = data[:,::-1,:,:]
+        # y reflection.
+        if rule[1]:
+            data = data[:,:,::-1,:]
+        # x reflection.
+        if rule[2]:
+            data = data[:,:,:,::-1]
 
-    # z reflection.
-    if rule[0]:
-        data = data[:,::-1,:,:]
-    # y reflection.
-    if rule[1]:
-        data = data[:,:,::-1,:]
-    # x reflection.
-    if rule[2]:
-        data = data[:,:,:,::-1]
-    # Transpose in xy.
-    if rule[3]:
-        data = data.transpose(0,1,3,2)
-        if mode=='aff': # need to swap x,y affinity
-            data[[2,1],...] = data[[1,2],...]
+        if rot_pad: # pad 1 to top-left during volume sampling 
+            if modality=='aff':
+                # dw: fix the image-aff alignment bug
+                if rot_st is None: 
+                    rot_st = np.ones((3,3), dtype=int)
+                    for i in range(3):
+                        rot_st[i,i] = 0 if rule[i]==1 else 1 
+                data = crop(data, np.array(data.shape[1:])-np.array(rule[:3]), rot_st)
+            else: # img/seg: crop the top-left corner
+                # print np.array(data.shape[1:]),np.array(rule[:3])
+                data = crop(data, np.array(data.shape[1:])-np.array(rule[:3]))
+
+        # Transpose in xy.
+        if rule[3]:
+            data = data.transpose(0,1,3,2)
+            if modality=='aff': # need to swap x,y affinity
+                data[[2,1],...] = data[[1,2],...]
     return data
 
-def revert_flip(data, rule, mode='seg'):
+def revert_flip(data, rule, modality='seg'):
     assert np.size(rule)==4 and data.ndim == 4
 
     # Special treat for affinity.
     is_affinity = False if dst is None else True
-    if mode=='aff':
+    if modality=='aff':
         (dz,dy,dx) = dst
         assert data.shape[-4]==3
         assert dx and abs(dx) < data.shape[-1]
@@ -44,13 +57,13 @@ def revert_flip(data, rule, mode='seg'):
     if rule[3]:
         data = data.transpose(0,1,3,2)
         # Swap x/y-affinity maps.
-        if mode=='aff':
+        if modality=='aff':
             data[[0,1],...] = data[[1,2],...]
     # x reflection
     if rule[2]:
         data = data[:,:,:,::-1]
         # Special treatment for x-affinity.
-        if mode == 'aff':
+        if modality == 'aff':
             if dx > 0:
                 data[2,:,:,dx:] = data[0,:,:,:-dx]
                 data[2,:,:,:dx].fill(0)
@@ -62,7 +75,7 @@ def revert_flip(data, rule, mode='seg'):
     if rule[1]:
         data = data[:,:,::-1,:]
         # Special treatment for y-affinity.
-        if mode == 'aff':
+        if modality == 'aff':
             if dy > 0:
                 data[1,:,dy:,:] = data[1,:,:-dy,:]
                 data[1,:,:dy,:].fill(0)
@@ -82,7 +95,6 @@ def revert_flip(data, rule, mode='seg'):
                 dz = abs(dz)
                 data[0,:-dz,:,:] = data[2,dz:,:,:]
                 data[0,-dz:,:,:].fill(0)
-
     return data
 
 def crop(data, sz, st=np.array([0,0,0])): # C*D*W*H                                            
@@ -91,7 +103,7 @@ def crop(data, sz, st=np.array([0,0,0])): # C*D*W*H
                 st[2]:st[2]+sz[2]]
     else: # need to create new tensor for channel wise crop
         out = np.zeros([st.shape[0]]+list(sz)).astype(data.dtype)
-        print('cc,',out.shape,data.shape,st,sz)
+        #print('cc,',out.shape,data.shape,st,sz)
         for i in range(st.shape[0]):
             out[i] = data[i, st[i,0]:st[i,0]+sz[0],st[i,1]:st[i,1]+sz[1],\
                           st[i,2]:st[i,2]+sz[2]]

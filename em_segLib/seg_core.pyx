@@ -82,30 +82,7 @@ def RemoveSmallConnectedComponents(segmentation, threshold=64):
     thresholded_segmentation = np.reshape(np.asarray(tmp_segmentation), (zres, yres, xres))	
     return np.copy(thresholded_segmentation)
 
-# reduce the labeling
-def ReduceLabels(segmentation):
-    # get the unique labels
-    unique = np.unique(segmentation)
-    # get the maximum label for the segment
-    maximum_label = np.amax(segmentation) + 1
 
-    # create an array from original segment id to reduced id
-    mapping = np.zeros(maximum_label, dtype=np.int64) - 1
-    # extraceullar maps to extracellular
-    mapping[0] = 0
-
-    # nothing else should map to zero
-    index = 1
-    for label in unique:
-        # prevent extracellular material
-        if label == 0: continue
-
-        # set the mapping to this index and increment
-        mapping[label] = index
-        index += 1
-
-    # return the forward and reverse mapping
-    return mapping, unique
 
 def ForceConnectivity(segmentation):
     # transform into c array

@@ -1,6 +1,17 @@
 import numpy as np
 from scipy.sparse import coo_matrix
 
+# reduce the labeling
+def relabel(segmentation):
+    # get the unique labels
+    uid = np.unique(segmentation)
+    # get the maximum label for the segment
+    mid = int(uid.max()) + 1
+
+    # create an array from original segment id to reduced id
+    mapping = np.zeros(mid, dtype=segmentation.dtype)
+    mapping[uid] = np.arange(len(uid), dtype=segmentation.dtype)
+    return mapping[segmentation]
 def countVolume(data_sz, vol_sz, stride):
     return 1+np.ceil((data_sz - vol_sz) / stride.astype(np.float32)).astype(int)
 
