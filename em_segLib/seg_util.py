@@ -49,7 +49,7 @@ def mknhood3d(radius=1):
 
     idxkeep = (i**2+j**2+k**2)<=radius**2
     i=i[idxkeep].ravel(); j=j[idxkeep].ravel(); k=k[idxkeep].ravel();
-    zeroIdx = np.ceil(len(i)/2).astype(np.int32);
+    zeroIdx = np.array(len(i) // 2).astype(np.int32);
 
     nhood = np.vstack((k[:zeroIdx],i[:zeroIdx],j[:zeroIdx])).T.astype(np.int32)
     return np.ascontiguousarray(np.flipud(nhood))
