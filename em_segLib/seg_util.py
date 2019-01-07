@@ -1,5 +1,6 @@
 import numpy as np
 from scipy.sparse import coo_matrix
+from scipy.ndimage.morphology import binary_erosion,binary_dilation
 
 # reduce the labeling
 def relabel(segmentation):
@@ -12,6 +13,14 @@ def relabel(segmentation):
     mapping = np.zeros(mid, dtype=segmentation.dtype)
     mapping[uid] = np.arange(len(uid), dtype=segmentation.dtype)
     return mapping[segmentation]
+
+def remove_small(seg, thres=100):                                                                    
+    sz = seg.shape                                                                                   
+    seg = seg.reshape(-1)                                                                            
+    uid, uc = np.unique(seg, return_counts=True)                                                     
+    seg[np.in1d(seg,uid[uc<thres])] = 0                                                              
+    return seg.reshape(sz)
+
 def countVolume(data_sz, vol_sz, stride):
     return 1+np.ceil((data_sz - vol_sz) / stride.astype(np.float32)).astype(int)
 
@@ -147,24 +156,39 @@ def fill_data(shape, filler={'type':'zero'}, dtype='float32'):
         raise RuntimeError('invalid filler type [%s]' % filler['type'])
     return data
 
-def genSegMalis(gg3,iter_num): # given input seg map, widen the seg border                           
-    from scipy.ndimage import morphology as skmorph                                                  
-    #from skimage import morphology as skmorph                                                       
-    gg3_dz = np.zeros(gg3.shape).astype(np.uint32)                                                   
-    gg3_dz[1:,:,:] = (np.diff(gg3,axis=0))                                                           
-    gg3_dy = np.zeros(gg3.shape).astype(np.uint32)                                                   
-    gg3_dy[:,1:,:] = (np.diff(gg3,axis=1))                                                           
-    gg3_dx = np.zeros(gg3.shape).astype(np.uint32)                                                   
-    gg3_dx[:,:,1:] = (np.diff(gg3,axis=2))                                                           
-                                                                                                     
-    gg3g = ((gg3_dx+gg3_dy)>0)                                                                       
-    #stel=np.array([[1, 1],[1,1]]).astype(bool)                                                      
-    #stel=np.array([[0, 1, 0],[1,1,1], [0,1,0]]).astype(bool)                                        
-    stel=np.array([[1, 1, 1],[1,1,1], [1,1,1]]).astype(bool)                                         
-    #stel=np.array([[1,1,1,1],[1, 1, 1, 1],[1,1,1,1],[1,1,1,1]]).astype(bool)                        
-    gg3gd=np.zeros(gg3g.shape)                                                                       
-    for i in range(gg3g.shape[0]):                                                                   
-        gg3gd[i,:,:]=skmorph.binary_dilation(gg3g[i,:,:],structure=stel,iterations=iter_num)         
-    out = gg3.copy()                                                                                 
-    out[gg3gd==1]=0                                                                                     #out[0,:,:]=0 # for malis                                                                            return out
+def genSegMalis(gg3,iter_num): # given input seg map, widen the seg border
+    gg3_dz = np.zeros(gg3.shape).astype(np.uint32)
+    gg3_dz[1:,:,:] = (np.diff(gg3,axis=0))
+    gg3_dy = np.zeros(gg3.shape).astype(np.uint32)
+    gg3_dy[:,1:,:] = (np.diff(gg3,axis=1))
+    gg3_dx = np.zeros(gg3.shape).astype(np.uint32)
+    gg3_dx[:,:,1:] = (np.diff(gg3,axis=2))
+    gg3g = ((gg3_dx+gg3_dy)>0)
+    #stel=np.array([[1, 1],[1,1]]).astype(bool)
+    stel=np.array([[1,1,1], [1,1,1], [1,1,1]]).astype(bool)
+    #stel=np.array([[1,1,1,1],[1, 1, 1, 1],[1,1,1,1],[1,1,1,1]]).astype(bool)
+    gg3gd=np.zeros(gg3g.shape)
+    for i in range(gg3g.shape[0]):
+        gg3gd[i,:,:]=binary_dilation(gg3g[i,:,:],structure=stel,iterations=iter_num)
+    out = gg3.copy()
+    out[gg3gd==1]=0
     return out
+
+def markInvalid(seg, iter_num=2, do_2d=True):
+    # find invalid 
+    # if do erosion(seg==0), then miss the border
+    if do_2d:
+        stel=np.array([[1,1,1], [1,1,1]]).astype(bool)
+        if len(seg.shape)==2:
+            out = binary_dilation(seg==0, structure=stel, iterations=iter_num)
+            seg[out==0] = -1
+        else: # save memory
+            for z in range(seg.shape[0]):
+                tmp = seg[z] # by reference
+                out = binary_dilation(tmp==0, structure=stel, iterations=iter_num)
+                tmp[out==0] = -1
+    else:
+        stel=np.array([[1,1,1], [1,1,1], [1,1,1]]).astype(bool)
+        out = binary_dilation(seg>0, structure=stel, iterations=iter_num)
+        seg[out==0] = -1
+    return seg
