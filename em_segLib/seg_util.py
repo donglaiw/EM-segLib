@@ -180,12 +180,12 @@ def markInvalid(seg, iter_num=2, do_2d=True):
     if do_2d:
         stel=np.array([[1,1,1], [1,1,1]]).astype(bool)
         if len(seg.shape)==2:
-            out = binary_dilation(seg==0, structure=stel, iterations=iter_num)
+            out = binary_dilation(seg>0, structure=stel, iterations=iter_num)
             seg[out==0] = -1
         else: # save memory
             for z in range(seg.shape[0]):
                 tmp = seg[z] # by reference
-                out = binary_dilation(tmp==0, structure=stel, iterations=iter_num)
+                out = binary_dilation(tmp>0, structure=stel, iterations=iter_num)
                 tmp[out==0] = -1
     else:
         stel=np.array([[1,1,1], [1,1,1], [1,1,1]]).astype(bool)
