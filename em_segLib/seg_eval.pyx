@@ -95,7 +95,7 @@ def adapted_rand(seg, gt, all_stats=False):
     n_labels_A = np.amax(segA) + 1
     n_labels_B = np.amax(segB) + 1
 
-    ones_data = np.ones(n)
+    ones_data = np.ones(n,int)
 
     p_ij = sparse.csr_matrix((ones_data, (segA[:], segB[:])), shape=(n_labels_A, n_labels_B))
 
